@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: sulfur-shortage
-Step: 2a
+Step: 2b
 Since: 2026-10-08
 
 ## Steps
@@ -39,3 +39,4 @@ None.
 - 2026-10-08 Step 2a confirmed by Eric. Next: 2b, when Eric has edited POST.md and written the closing.
 - 2026-10-08 Eric's closing placed verbatim in POST.md. Look-over items sent as a numbered list, none applied.
 - 2026-10-08 Closing edits: Eric accepted all. 1 to 6 applied; 7 not needed because 1 replaced that phrase.
+- 2026-10-08 Step 2b opened at Eric's request.
