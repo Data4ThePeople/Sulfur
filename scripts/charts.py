@@ -116,7 +116,7 @@ def chart_since_war():
     ax.set_xlim(0, max(r[1] for r in rows) * 1.12)
     titleblock(fig, 'Since the war began, sulfur has risen more than diesel',
                f'Percent change in price from {mname(BASE_WAR)}, the last full month before the strikes,\nto the latest full month each source has published.')
-    credit(fig, 'Sources: U.S. Census Bureau (sulfur export value per ton), BLS (sulfuric acid and wholesale diesel indexes),\nWorld Bank (DAP, urea, Brent), EIA (retail diesel).')
+    credit(fig, 'Sources: U.S. Census Bureau (sulfur export value per ton), BLS (sulfuric acid and wholesale diesel indexes),\nWorld Bank (DAP, Brent), EIA (retail diesel).')
     fig.savefig(OUT / '04-prices-since-war.png'); plt.close(fig)
 
 
@@ -165,7 +165,7 @@ def chart_days():
     ax.text(dt.date(2024, 2, 1), 9.3, 'Sulfur at refineries and gas plants', color=SULFUR, fontsize=11, fontweight='bold', va='center')
     ax.annotate(f'USGS data stops\nin {mname(sd[-1][0])}', (mid(sd[-1][0]), sd[-1][1]), xytext=(14, 30), textcoords='offset points',
                 color=INK_DIM, fontsize=9.5, va='center', arrowprops=dict(arrowstyle='-', color=MUTED, lw=0.8))
-    titleblock(fig, 'U.S. sulfur producers hold about a week of stock',
+    titleblock(fig, 'U.S. sulfur producers hold about six days of stock',
                f'Days of supply on hand. Sulfur: {n["sulfur_days_min"]:.0f} to {n["sulfur_days_max"]:.0f} days since January 2024. '
                f'Diesel: {n["distillate_days_min"]:.0f} to {n["distillate_days_max"]:.0f} days.\n'
                'We found no public count of sulfur held by buyers, such as fertilizer plants.')

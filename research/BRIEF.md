@@ -35,7 +35,7 @@ PDFs at `bcinsight.crugroup.com`; the issue number is given.
    February 2026, and then to $1,030 in August 2026.
 5. The visible stockpiles tell different stories. China's port stocks fell by
    about two-thirds. Alberta's 11-million-ton stockpile barely moved. U.S.
-   producers hold about a week of shipments and that did not change through
+   producers hold about six days of shipments and that did not change through
    March 2026.
 6. Prices posted by Gulf sellers have fallen for two months. Buyers are
    cutting use. The shortage is real, but by October it is easing at the
@@ -304,7 +304,7 @@ Three ways to say it that the data supports:
 
 1. **By price, sulfur has moved more**, in the war months and far more over
    two years.
-2. **By cushion, sulfur has less.** A week at U.S. producers against four
+2. **By cushion, sulfur has less.** About six days at U.S. producers against four
    weeks for diesel. But the sulfur figure leaves out buyers' stocks, so the
    two are not the same measure, and the U.S. producer number did not fall.
 3. **By reach, diesel is the larger problem.** Diesel is in the cost of

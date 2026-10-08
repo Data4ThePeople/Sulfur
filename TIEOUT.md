@@ -1,6 +1,6 @@
 # Tie-out
 
-Run October 08, 2026 07:13. Every number below is recomputed from the raw files in `data/raw/` by
+Run October 08, 2026 07:23. Every number below is recomputed from the raw files in `data/raw/` by
 `scripts/tieout.py`, which shares no code with the pipeline, and compared with the number the chart or page used.
 
 **85 of 85 match.**

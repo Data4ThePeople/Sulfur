@@ -54,13 +54,28 @@ annual revision. We refresh the whole series on every pull.
 **Units and rounding.** Value in whole dollars, quantity in metric tons (`T`).
 
 **Known quirks.**
-- **Sulfur import values before October 2024 are wrong.** Census shows crude
-  sulfur imports at about $335 per ton in January 2024; USGS, which publishes
-  the same trade "adjusted by U.S. Geological Survey and Acuity Commodities",
-  shows $78. From October 2024 the two agree closely. We do not use the Census
-  import unit value before October 2024.
+- **Sulfur import values do not agree with USGS before October 2024, and we
+  cannot say which is right.** Census shows crude sulfur imports at $301 to
+  $365 per ton in January to September 2024; USGS, which publishes the same
+  trade "adjusted by U.S. Geological Survey and Acuity Commodities", shows $65
+  to $151. From October 2024 the median gap is 9%, though single months differ
+  by up to 70%. The October 2024 break is where a USGS restatement begins (its
+  October 2025 workbook raised October 2024 import value from $9.0 million to
+  $51.6 million), so the later agreement reflects USGS moving toward Census.
+  The Census import value stayed at $288 to $365 from January 2024 to March
+  2025 while the export value rose from $66 to $195, which is not believable
+  as a market price. We chart no import unit value. (Found by the independent
+  tie-out, October 8, 2026.)
+- **USGS "sulfur" trade is two Census codes added together**, crude
+  (2503.00.0010) and refined (2503.00.0090). Summed, Census reproduces USGS
+  almost exactly from mid-2025 (January 2026: 168,556 tons at $429 against
+  USGS 169 thousand at $428). Our charts use the crude code alone. Crude was
+  61% of sulfur export tons in August 2026 but only 12% in December 2025.
+  Both codes together give $77 in January 2024, $503 in February 2026 and
+  $956 in August 2026. OPEN: which series the post should use.
 - **Export unit value is the usable one.** Census and USGS export values per
-  ton differ by a median of 8% across January 2024 to March 2026.
+  ton differ by a median of 8% across January 2024 to March 2026. Single months
+  differ by as much as 39%.
 - **A unit value is not a price quote.** It is the average of what cleared
   customs that month: a mix of contract and spot cargoes, molten and solid,
   priced on different dates. It lags the market and it jumps when the mix
