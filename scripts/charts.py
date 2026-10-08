@@ -13,6 +13,8 @@ OUT = ROOT / 'charts'
 S = json.load(open(PROCESSED / 'series.json'))
 M = {k: dict(v) for k, v in S['monthly'].items()}
 WAR = dt.date.fromisoformat(S['war_start'])
+THIN = set(S['sulfur_thin_months'])
+THIN_NOTE = 'Open circles: months with under a third of the usual export tonnage.'
 BASE_LONG, BASE_WAR = '2024-01', '2026-02'    # start of the run-up; last full month before the strikes
 S_PER_DAP = 0.4                               # metric tons of sulfur to make one metric ton of DAP (editorial input, see DATASETS.md)
 NUM = {}
@@ -52,6 +54,11 @@ def war_line(ax, label=True):
                 fontsize=9, ha='right', va='top', linespacing=1.3)
 
 
+def thin_marks(ax, pts, color):
+    t = [(mid(m), v) for m, v in pts if m in THIN]
+    ax.plot([d for d, _ in t], [v for _, v in t], ls='', marker='o', ms=7, mfc=SURFACE, mec=color, mew=1.8, zorder=5)
+
+
 def frame(h, top, bottom=0.13, left=0.08, right=0.84):
     fig = plt.figure(figsize=(10.5, h))
     ax = fig.add_axes([left, bottom, right - left, top - bottom])
@@ -76,6 +83,8 @@ def chart_run_up():
     for key, label, color, dashed in LINES:
         p = pct(key, BASE_LONG)
         ax.plot([mid(m) for m, _ in p], [v for _, v in p], color=color, lw=2.2, ls=(0, (4, 2)) if dashed else '-')
+        if key == 'sulfur_export_uv':
+            thin_marks(ax, p, color)
         ends.append((mid(p[-1][0]), p[-1][1], label, color))
         NUM['run_up'][key] = {'base': M[key][BASE_LONG], 'last_month': p[-1][0], 'last': M[key][p[-1][0]], 'pct': p[-1][1],
                               'pct_at_war_base': dict(p)[BASE_WAR]}
@@ -88,8 +97,8 @@ def chart_run_up():
     titleblock(fig, 'Sulfur was already climbing before the war',
                f'Percent change in price since {mname(BASE_LONG)}. U.S. sulfur exports averaged ${r["base"]:,.0f} a metric ton then,\n'
                f'${M["sulfur_export_uv"][BASE_WAR]:,.0f} in {mname(BASE_WAR)} and ${r["last"]:,.0f} in {mname(r["last_month"])}.')
-    credit(fig, 'Sulfur: U.S. Census Bureau, average value of crude sulfur exports. Sulfuric acid: BLS Producer Price Index.\n'
-                'DAP: World Bank, U.S. Gulf. Diesel: EIA, U.S. retail. Each line ends at its latest full month.')
+    credit(fig, 'Sulfur: U.S. Census Bureau, average value of sulfur exports. Sulfuric acid: BLS Producer Price Index.\n'
+                'DAP: World Bank, U.S. Gulf. Diesel: EIA, U.S. retail. Each line ends at its latest full month. ' + THIN_NOTE)
     fig.savefig(OUT / '03-prices-since-2024.png'); plt.close(fig)
 
 
@@ -197,7 +206,7 @@ def chart_dap_cost():
     titleblock(fig, 'The sulfur in a ton of fertilizer now costs about half the fertilizer’s price',
                f'Sulfur needed for one metric ton of DAP cost about ${s[0]:,.0f} in {mname(months[0])}, {n["share_first_pct"]:.0f}% of the DAP price.\n'
                f'In {mname(months[-1])} it cost about ${s[-1]:,.0f}, {n["share_last_pct"]:.0f}% of the DAP price.')
-    credit(fig, f'Our calculation: {S_PER_DAP} metric tons of sulfur per metric ton of DAP, times the average value of U.S. crude sulfur exports\n(Census Bureau). DAP price: World Bank, U.S. Gulf. Fertilizer makers on contracts pay less than this when prices are rising.')
+    credit(fig, f'Our calculation: {S_PER_DAP} metric tons of sulfur per metric ton of DAP, times the average value of U.S. sulfur exports\n(Census Bureau). DAP price: World Bank, U.S. Gulf. Fertilizer makers on contracts pay less than this when prices are rising.')
     fig.savefig(OUT / '06-sulfur-in-dap.png'); plt.close(fig)
 
 
@@ -212,6 +221,7 @@ def chart_posted():
     n = NUM['posted']
     fig, ax = frame(6.0, 0.78)
     ax.plot([mid(m) for m, _ in e], [v for _, v in e], color=ACID, lw=2, ls=(0, (4, 2)))
+    thin_marks(ax, e, ACID)
     ax.step([dt.date(int(m[:4]), int(m[5:]), 1) for m, _ in a] + [dt.date(2026, 11, 1)], [v for _, v in a] + [a[-1][1]], where='post', color=SULFUR, lw=2.4)
     war_line(ax)
     ax.set_ylim(0, 1150); ax.yaxis.set_major_formatter(lambda v, _: f'${v:,.0f}')
@@ -223,7 +233,7 @@ def chart_posted():
     titleblock(fig, 'Posted sulfur prices have fallen for two months',
                f'Dollars per metric ton. Abu Dhabi’s state oil company posted ${n["adnoc_war_base"]:,.0f} for {mname(BASE_WAR)}, ${peak:,.0f} for {mname(peak_m[0])}\n'
                f'and {mname(peak_m[-1])}, and ${n["adnoc_last"]:,.0f} for {mname(a[-1][0])}. U.S. export data stops in {mname(e[-1][0])}.')
-    credit(fig, 'Posted price: Adnoc official selling price, free on board Ruwais, as reported by Argus, CRU and World Fertilizer (our compilation).\nU.S. exports: Census Bureau, crude sulfur.')
+    credit(fig, 'Posted price: Adnoc official selling price, free on board Ruwais, as reported by Argus, CRU and World Fertilizer (our compilation).\nU.S. exports: Census Bureau, crude and refined sulfur together. ' + THIN_NOTE + '')
     fig.savefig(OUT / '07-posted-prices.png'); plt.close(fig)
 
 

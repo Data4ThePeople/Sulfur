@@ -31,8 +31,8 @@ PDFs at `bcinsight.crugroup.com`; the issue number is given.
    ship close to half of what moves by sea. The Strait of Hormuz is where the
    trade is exposed.
 4. The price was already rising steeply before the war. The average value of
-   U.S. sulfur exports went from $66 a metric ton in January 2024 to $512 in
-   February 2026, and then to $1,030 in August 2026.
+   U.S. sulfur exports went from $77 a metric ton in January 2024 to $503 in
+   February 2026, and then to $956 in August 2026 ($1,041 in July).
 5. The visible stockpiles tell different stories. China's port stocks fell by
    about two-thirds. Alberta's 11-million-ton stockpile barely moved. U.S.
    producers hold about six days of shipments and that did not change through
@@ -143,9 +143,9 @@ DAP, and pricing sulfur at the U.S. export average:
 
 | Month | Sulfur cost per ton of DAP | DAP price | Share |
 |---|---|---|---|
-| January 2024 | $26 | $596 | 4% |
-| February 2026 | $205 | $627 | 33% |
-| August 2026 | $412 | $794 | 52% |
+| January 2024 | $31 | $596 | 5% |
+| February 2026 | $201 | $627 | 32% |
+| August 2026 | $382 | $794 | 48% |
 
 This overstates what a producer on contract paid while prices were rising.
 Mosaic's average sulfur cost in the second quarter of 2026 was $522 a long
@@ -154,16 +154,16 @@ ton, when export spot was far higher. (Read, Mosaic 8-K, August 4, 2026.)
 ## 5. Prices
 
 There is no free market price for sulfur. We use the average value of U.S.
-crude sulfur exports from customs records. It lines up with the published
-benchmarks: $512 in February 2026 against Middle East spot of $494 to $496 on
-February 26; $1,030 in August against U.S. Gulf export spot of $1,100 to
-$1,150 on July 9. (Data and Read, Argus 2796768 and 2851577.)
+sulfur exports from customs records, crude and refined codes together, which
+is how USGS counts sulfur. It lines up with the published benchmarks: $503 in
+February 2026 against Middle East spot of $494 to $496 on February 26; $1,041
+in July against U.S. Gulf export spot of $1,100 to $1,150 on July 9. (Data and Read, Argus 2796768 and 2851577.)
 
 **The run-up came first (chart 03, Data).**
 
 | | Jan 2024 | Feb 2026 | Latest | Jan 2024 to Feb 2026 | Feb 2026 to latest |
 |---|---|---|---|---|---|
-| Sulfur, U.S. export average, per metric ton | $66 | $512 | $1,030 (Aug) | +673% | +101% |
+| Sulfur, U.S. export average, per metric ton | $77 | $503 | $956 (Aug) | +556% | +90% |
 | Sulfuric acid, producer price index | 194.8 | 246.2 | 307.2 (Aug) | +26% | +25% |
 | DAP, U.S. Gulf, per metric ton | $596 | $627 | $801 (Sep) | +5% | +28% |
 | Diesel, U.S. retail, per gallon | $3.85 | $3.72 | $6.29 (Sep) | -3% | +69% |
@@ -197,6 +197,63 @@ Illinois, per short ton: DAP $828 in mid-February, $929 in the week of
 September 28, up 12%. MAP $859 to $936, up 9%. Farm diesel $3.14 to $5.63 a
 gallon, up 79%. Retail fertilizer has moved less than wholesale so far. These
 figures are not yet in a chart or in the tie-out.
+
+## 5a. Why acid and fertilizer have not kept up with sulfur
+
+Sulfur is up 1,146% since January 2024. The sulfuric acid index is up 58%
+and DAP 34%. Five things explain most of the gap. The first three are
+arithmetic from our data; the last two rest on what producers and trade
+publishers have said.
+
+1. **Sulfur started as a tiny share of the cost.** In January 2024 the sulfur
+   in a ton of DAP cost about $31 of a $596 product. A cost that small can
+   rise many times over before it moves the total much. (Ours, chart 06.)
+2. **In dollars, DAP has moved about as much as its sulfur.** From February
+   to August 2026 the sulfur in a ton of DAP went up by about $181 at the
+   export average, and DAP went up by $167. The percent changes look far
+   apart (90% against 27%) because DAP started from a much larger number.
+   (Ours.)
+3. **Before the war, DAP fell while sulfur rose.** DAP went from $795 in
+   August 2025 to $619 in January 2026 while the sulfur in it went from about
+   $103 to $171. What was left over for everything else (rock, ammonia,
+   energy, labor, profit) dropped from about $693 a ton to $448, and was $411
+   in August 2026. The gap came out of producers' margins. (Ours, using the
+   export average, which overstates a contract buyer's cost.)
+4. **Producers pay contract prices, which trail spot.** The Tampa contract
+   was $496 a long ton in the first quarter of 2026 and $705 in the third,
+   when export spot was $1,100 to $1,150. Mosaic's average cost in the second
+   quarter was $522. At $705, the sulfur in a ton of DAP costs about $282,
+   not $382. (Read, Argus 2851577, Mosaic 8-K.)
+5. **Buyers have a limit, so makers cut output.** DAP is sold to farmers who
+   can skip or reduce phosphate for a season. Mosaic idled plants "as a
+   result of sulfur affordability and availability" rather than raise prices
+   further, and Chinese DAP plants ran at about 30% of capacity. (Read,
+   Mosaic 8-K; SMM.) Lower output is how the sulfur shock has shown up, more
+   than higher fertilizer prices.
+
+**Sulfuric acid is a separate case.**
+
+- **Much acid is never sold.** Phosphate producers burn their own sulfur and
+  use the acid on site. That acid has no market price, so it is in no index.
+  The producer price index covers acid that is sold.
+- **Much of the acid that is sold was not made from sulfur.** Smelters make
+  acid as a byproduct of copper and zinc. Worldwide, "about two-fifths is
+  made by burning sulphur, while between one-third to two-fifths is recovered
+  as a by-product of smelting." (Read, UTS / East Asia Forum.) A smelter's
+  acid costs the same to make whatever sulfur costs.
+- **Our trade data shows it.** U.S. acid imports, mostly smelter acid from
+  Canada and Mexico on contracts, averaged $127 a ton in January 2024 and
+  $128 in August 2026. Over the same period the sulfur needed to make a ton
+  of acid went from about $25 to about $312. Imported acid now costs less
+  than half of the sulfur it would take to make it. (Ours, Census.)
+- So the acid index is a mix of contract smelter acid that has barely moved
+  and sulfur-based acid that has. It rose 25% since February. The index is
+  also flat in July and August 2026, which may be a missing report.
+
+**What this does not tell us.** We have no data on fertilizer makers' actual
+margins, on how much phosphate farmers skipped, or on spot acid prices, which
+trade publishers report rose much faster than the index (Chile delivered
+price up 100% from late February to mid-April, a snippet we could not open).
 
 ## 6. Inventories: what is visible and what is not
 
@@ -278,8 +335,8 @@ China's imports show the effect: 2.65 million tons in January to July 2026,
 "down 59%" and "the lowest level since 2002." (Read, CRU 426.)
 
 **The U.S. shipped more, not less (Data, Census; not yet in the tie-out).**
-U.S. crude sulfur exports were 933,000 tons in March to August 2026 against
-550,000 in the same months of 2025, up 70%. Argus noted that U.S. Gulf Coast
+U.S. sulfur exports were 1.60 million tons in March to August 2026 against
+0.82 million in the same months of 2025, up 95%. Argus noted that U.S. Gulf Coast
 refinery use "has averaged over 95pc since the week ending 6 March", and more
 refining means more sulfur. American refiners gained from the same closure
 that cut off Mosaic's imported supply.
@@ -291,13 +348,13 @@ ours, built from the data, and Eric should treat it as a starting point.
 
 | | Sulfur | Diesel |
 |---|---|---|
-| Price change, Feb 2026 to latest | +101% to August (U.S. export average). Posted Gulf price +68% to October. | +69% to September (U.S. retail) |
-| Price change, Jan 2024 to latest | +1,456% | +63% |
+| Price change, Feb 2026 to latest | +90% to August (U.S. export average). Posted Gulf price +68% to October. | +69% to September (U.S. retail) |
+| Price change, Jan 2024 to latest | +1,146% | +63% |
 | Stock on hand, U.S. | About 6 days at producers (March 2026). Buyers' stocks unknown. | 27.9 days of distillate (October 2). Stocks are 13% below February 27. |
 | Share exposed to Hormuz | Close to half of seaborne trade | Not sourced here; needs an EIA figure |
 | Can supply rise when price rises? | No. Output follows fuel processing. | Partly. Refiners can shift yields and run harder. |
 | Substitute | USGS: "not satisfactory" | Limited |
-| U.S. exposure | Net import reliance 14%. The U.S. is a net exporter of crude sulfur by tonnage this year. | The U.S. exports distillate |
+| U.S. exposure | Net import reliance 14%. The U.S. exported more sulfur than it imported in January to August 2026 (1.86 against 1.21 million tons). | The U.S. exports distillate |
 | Who feels it | Fertilizer makers, then farmers, then food prices, with a lag of a season or more. Copper and nickel processors. | Every trucker, railroad and farm, within weeks |
 
 Three ways to say it that the data supports:
@@ -310,7 +367,7 @@ Three ways to say it that the data supports:
 3. **By reach, diesel is the larger problem.** Diesel is in the cost of
    moving every good. Sulfur reaches households through fertilizer and then
    food, which is slower and smaller, and DAP is up 28% wholesale and 12% at
-   Illinois retail, not 101%.
+   Illinois retail, not 90%.
 
 In our view the fairest framing is that sulfur is a sharper shock to a
 narrower part of the economy, and that the U.S. is less exposed than the

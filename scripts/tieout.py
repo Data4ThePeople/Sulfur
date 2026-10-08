@@ -23,13 +23,16 @@ def check(section, item, recomputed, used, tol=1e-6):
 
 
 # ---- raw readers, written separately from process.py ----
-def census_uv(flow, code):
-    out = {}
+def census_uv(flow, codes):
+    """Dollars per tonne by month, summing the codes given: total value over total quantity."""
+    val, qty, seen = {}, {}, set()
     for r in csv.DictReader(open(RAW / 'census' / f'{flow}.csv')):
-        if r['commodity'] == code and r['cty_name'] == 'TOTAL FOR ALL COUNTRIES' and float(r['quantity']) > 0:
-            assert r['month'] not in out
-            out[r['month']] = float(r['value_usd']) / float(r['quantity'])
-    return out
+        if r['commodity'] in codes and r['cty_name'] == 'TOTAL FOR ALL COUNTRIES':
+            assert (r['commodity'], r['month']) not in seen
+            seen.add((r['commodity'], r['month']))
+            val[r['month']] = val.get(r['month'], 0) + float(r['value_usd'])
+            qty[r['month']] = qty.get(r['month'], 0) + float(r['quantity'])
+    return {m: val[m] / qty[m] for m in val if qty[m] > 0}
 
 
 def fred(sid):
@@ -66,7 +69,7 @@ def usgs_t1():
     return out
 
 
-sulfur, acid, dap, diesel = census_uv('exports', '2503000010'), fred('WPU0613020T1'), pink('DAP'), diesel_monthly()
+sulfur, acid, dap, diesel = census_uv('exports', ('2503000010', '2503000090')), fred('WPU0613020T1'), pink('DAP'), diesel_monthly()
 SER = {'sulfur_export_uv': sulfur, 'ppi_sulfuric_acid': acid, 'wb_dap': dap, 'diesel_retail': diesel,
        'ppi_diesel': fred('WPU057303'), 'wb_brent': pink('Crude oil, Brent')}
 last = lambda d: max(m for m in d if m < THIS)

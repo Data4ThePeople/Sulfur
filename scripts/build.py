@@ -19,7 +19,7 @@ for k, src in KEYS.items():
     assert len({m for m, _ in rows}) == len(rows), f'duplicate months in {src}'
     assert rows[0][0] == START and any(m == BASE_WAR for m, _ in rows), f'{src} is missing a base month'
     series[k] = rows
-data = json.dumps({'warBase': BASE_WAR, 'series': series}, separators=(',', ':'))
+data = json.dumps({'warBase': BASE_WAR, 'thin': [m for m in S['sulfur_thin_months'] if m >= START], 'series': series}, separators=(',', ':'))
 (PROCESSED / 'page_data.json').write_text(data)
 
 t = (SRC / 'template.html').read_text()

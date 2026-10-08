@@ -57,7 +57,7 @@ th:first-child,td:first-child{text-align:left} th{position:sticky;top:0;backgrou
   <div id="plotwrap"><svg id="plot" role="img"></svg><div id="tip"></div></div>
   <div id="tablewrap"><table id="table"></table></div>
   <div id="foot">
-    <span>Sulfur: U.S. Census Bureau, average value per metric ton of crude sulfur exports, a customs average and not a market quote. Sulfuric acid: BLS Producer Price Index. DAP: World Bank, U.S. Gulf. Diesel: EIA, U.S. retail, monthly average. Each line ends at the latest full month its source has published. Free to use with credit.</span>
+    <span>Sulfur: U.S. Census Bureau, average value per metric ton of sulfur exports (crude and refined together), a customs average and not a market quote. Sulfuric acid: BLS Producer Price Index. DAP: World Bank, U.S. Gulf. Diesel: EIA, U.S. retail, monthly average. Open circles mark months with under a third of the usual export tonnage. Each line ends at the latest full month its source has published. Free to use with credit.</span>
     <span id="credit">Built by Data 4 The People</span>
   </div>
 </div>
@@ -125,6 +125,7 @@ function render(){
   for(const l of L){
     const d = l.pts.map((p,i)=>(i?'L':'M')+X(mIndex(p.m)).toFixed(1)+' '+Y(p.p).toFixed(1)).join('');
     svg.append(el('path',{d,fill:'none',stroke:`var(${l.color})`,'stroke-width':2.2,'stroke-linejoin':'round','stroke-linecap':'round',...(l.dash?{'stroke-dasharray':'6 4'}:{})}));
+    if(l.key==='sulfur') for(const p of l.pts) if(DATA.thin.includes(p.m)) svg.append(el('circle',{cx:X(mIndex(p.m)),cy:Y(p.p),r:4.5,fill:'var(--surface)',stroke:`var(${l.color})`,'stroke-width':2}));
     const e=l.pts[l.pts.length-1]; ends.push({l,e,y:Y(e.p)});
   }
   ends.sort((a,b)=>a.y-b.y); for(let i=1;i<ends.length;i++) ends[i].y=Math.max(ends[i].y,ends[i-1].y+15);
@@ -141,7 +142,7 @@ function render(){
     tip.replaceChildren(); const h=document.createElement('b'); h.textContent=monthName(m); tip.append(h);
     for(const l of L){ const p=l.pts.find(q=>q.m===m); const r=document.createElement('div'); r.className='row';
       const a=document.createElement('span'); a.textContent=l.label; a.style.color=`var(${l.color})`;
-      const b=document.createElement('span'); b.textContent = p ? pctText(p.p)+' · '+l.unit(p.v) : 'not yet published'; r.append(a,b); tip.append(r); }
+      const b=document.createElement('span'); b.textContent = p ? pctText(p.p)+' · '+l.unit(p.v)+(l.key==='sulfur'&&DATA.thin.includes(m)?' (few cargoes)':'') : 'not yet published'; r.append(a,b); tip.append(r); }
     tip.style.display='block'; const tw=tip.offsetWidth; tip.style.left=Math.min(W-tw-4,Math.max(4,X(cur)+(X(cur)>W/2?-tw-12:12)))+'px'; tip.style.top=(mg.t+4)+'px'; };
   const hide = () => { tip.style.display='none'; cross.setAttribute('visibility','hidden'); };
   hit.addEventListener('pointermove',ev=>{ const r=svg.getBoundingClientRect(); show(Math.round(x0+(x1-x0)*((ev.clientX-r.left)*(W/r.width)-mg.l)/(W-mg.l-mg.r))); });

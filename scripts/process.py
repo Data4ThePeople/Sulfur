@@ -113,6 +113,15 @@ def census(flow):
     return out
 
 
+def sulfur(flow):
+    """Crude plus refined sulfur by month: (month, dollars, tonnes)."""
+    tot = defaultdict(lambda: [0.0, 0.0])
+    for code in ('2503000010', '2503000090'):
+        for m, v, q, _ in flow[code]:
+            tot[m][0] += v; tot[m][1] += q
+    return [(m, v, q) for m, (v, q) in sorted(tot.items())]
+
+
 def usda():
     rows = json.load(open(RAW / 'usda' / 'ams_3195_prices.json'))
     want = {'DAP (Diammonium Phosphate 18-46-0)': 'dap', 'MAP (Monoammonium Phosphate 11-52-0)': 'map',
@@ -161,7 +170,11 @@ if __name__ == '__main__':
     us = {r['item']: {k: float(v) for k, v in r.items() if k != 'item'} for r in read_csv(ROOT / 'data' / 'manual' / 'usgs_mcs2026_us_salient.csv')}
     aer_inv, aer_prod = aer()
     manual = ROOT / 'data' / 'manual'
+    exp_t = [(m, q) for m, v, q in sulfur(exp) if m >= '2024-01']
+    typical = sorted(q for _, q in exp_t)[len(exp_t) // 2]
     out = {
+        # months when sulfur exports were under a third of the typical month since 2024: the unit value rests on few cargoes
+        'sulfur_thin_months': [m for m, q in exp_t if q < typical / 3],
         'cited': {   # editorial compilations of figures reported in the trade press; see the files' headers
             'adnoc_osp': [(r['month'], float(r['price'])) for r in read_csv(manual / 'adnoc_osp.csv')],
             'china_port_stocks': [(r['date'], float(r['million_t'])) for r in read_csv(manual / 'china_port_stocks.csv')],
@@ -182,11 +195,11 @@ if __name__ == '__main__':
             'ppi_phosphatic_fertilizer_mfg': fred('PCU325312325312'),
             'ppi_diesel': fred('WPU057303'),
             'wb_dap': pink['dap'], 'wb_tsp': pink['tsp'], 'wb_rock': pink['rock'], 'wb_urea': pink['urea'], 'wb_brent': pink['brent'],
-            # Census unit values, $/t: crude or unrefined sulfur (2503.00.0010), sulfuric acid, DAP
-            'sulfur_export_uv': [(m, uv) for m, v, q, uv in exp['2503000010'] if uv],
-            'sulfur_import_uv': [(m, uv) for m, v, q, uv in imp['2503000010'] if uv],
-            'sulfur_export_t': [(m, q) for m, v, q, uv in exp['2503000010']],
-            'sulfur_import_t': [(m, q) for m, v, q, uv in imp['2503000010']],
+            # Census unit values, $/t. Sulfur is crude (2503.00.0010) plus refined (2503.00.0090), the two codes
+            # USGS adds together as "sulfur": total dollars over total tons.
+            'sulfur_export_uv': [(m, v / q) for m, v, q in sulfur(exp)],
+            'sulfur_export_t': [(m, q) for m, v, q in sulfur(exp)],
+            'sulfur_import_t': [(m, q) for m, v, q in sulfur(imp)],
             'acid_import_uv': [(m, uv) for m, v, q, uv in imp['2807000000'] if uv],
             'acid_import_t': [(m, q) for m, v, q, uv in imp['2807000000']],
             'dap_export_uv': [(m, uv) for m, v, q, uv in exp['3105300000'] if uv],

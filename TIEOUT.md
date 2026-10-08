@@ -1,6 +1,6 @@
 # Tie-out
 
-Run October 08, 2026 07:23. Every number below is recomputed from the raw files in `data/raw/` by
+Run October 08, 2026 07:50. Every number below is recomputed from the raw files in `data/raw/` by
 `scripts/tieout.py`, which shares no code with the pipeline, and compared with the number the chart or page used.
 
 **85 of 85 match.**
@@ -10,10 +10,10 @@ Run October 08, 2026 07:23. Every number below is recomputed from the raw files 
 
 | Item | Recomputed from raw | Used on chart or page | |
 |---|---:|---:|---|
-| sulfur_export_uv January 2024 level | 66.2022 | 66.2022 | ok |
-| sulfur_export_uv 2026-08 level | 1,030.1305 | 1,030.1305 | ok |
-| sulfur_export_uv percent change to 2026-08 | 1,456.0374 | 1,456.0374 | ok |
-| sulfur_export_uv percent change to February 2026 | 673.4715 | 673.4715 | ok |
+| sulfur_export_uv January 2024 level | 76.6688 | 76.6688 | ok |
+| sulfur_export_uv 2026-08 level | 955.5053 | 955.5053 | ok |
+| sulfur_export_uv percent change to 2026-08 | 1,146.2767 | 1,146.2767 | ok |
+| sulfur_export_uv percent change to February 2026 | 555.5638 | 555.5638 | ok |
 | ppi_sulfuric_acid January 2024 level | 194.8180 | 194.8180 | ok |
 | ppi_sulfuric_acid 2026-08 level | 307.1760 | 307.1760 | ok |
 | ppi_sulfuric_acid percent change to 2026-08 | 57.6733 | 57.6733 | ok |
@@ -41,8 +41,8 @@ Run October 08, 2026 07:23. Every number below is recomputed from the raw files 
 | diesel_retail percent change to 2026-09 | 69.0040 | 69.0040 | ok |
 | ppi_diesel February 2026 level | 315.9830 | 315.9830 | ok |
 | ppi_diesel percent change to 2026-08 | 72.8052 | 72.8052 | ok |
-| sulfur_export_uv February 2026 level | 512.0549 | 512.0549 | ok |
-| sulfur_export_uv percent change to 2026-08 | 101.1758 | 101.1758 | ok |
+| sulfur_export_uv February 2026 level | 502.6128 | 502.6128 | ok |
+| sulfur_export_uv percent change to 2026-08 | 90.1076 | 90.1076 | ok |
 
 ## World production 2025
 
@@ -87,15 +87,15 @@ Run October 08, 2026 07:23. Every number below is recomputed from the raw files 
 
 | Item | Recomputed from raw | Used on chart or page | |
 |---|---:|---:|---|
-| Sulfur cost 2024-01, $ per t DAP | 26.4809 | 26.4809 | ok |
+| Sulfur cost 2024-01, $ per t DAP | 30.6675 | 30.6675 | ok |
 | DAP price 2024-01, $ per t | 596.3000 | 596.3000 | ok |
-| Sulfur share of DAP price 2024-01, percent | 4.4409 | 4.4409 | ok |
-| Sulfur cost 2026-02, $ per t DAP | 204.8220 | 204.8220 | ok |
+| Sulfur share of DAP price 2024-01, percent | 5.1430 | 5.1430 | ok |
+| Sulfur cost 2026-02, $ per t DAP | 201.0451 | 201.0451 | ok |
 | DAP price 2026-02, $ per t | 626.5000 | 626.5000 | ok |
-| Sulfur share of DAP price 2026-02, percent | 32.6930 | 32.6930 | ok |
-| Sulfur cost 2026-08, $ per t DAP | 412.0522 | 412.0522 | ok |
+| Sulfur share of DAP price 2026-02, percent | 32.0902 | 32.0902 | ok |
+| Sulfur cost 2026-08, $ per t DAP | 382.2021 | 382.2021 | ok |
 | DAP price 2026-08, $ per t | 793.5000 | 793.5000 | ok |
-| Sulfur share of DAP price 2026-08, percent | 51.9284 | 51.9284 | ok |
+| Sulfur share of DAP price 2026-08, percent | 48.1666 | 48.1666 | ok |
 
 ## Posted prices
 

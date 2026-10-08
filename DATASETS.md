@@ -72,17 +72,20 @@ annual revision. We refresh the whole series on every pull.
   USGS 169 thousand at $428). Our charts use the crude code alone. Crude was
   61% of sulfur export tons in August 2026 but only 12% in December 2025.
   Both codes together give $77 in January 2024, $503 in February 2026 and
-  $956 in August 2026. OPEN: which series the post should use.
-- **Export unit value is the usable one.** Census and USGS export values per
-  ton differ by a median of 8% across January 2024 to March 2026. Single months
-  differ by as much as 39%.
+  $956 in August 2026. From October 8, 2026 the charts use both codes.
+- **Export unit value is the usable one.** With both codes added, Census and
+  USGS export values per ton differ by a median of 5% across January 2024 to
+  March 2026. Single months differ by as much as 48%.
 - **A unit value is not a price quote.** It is the average of what cleared
   customs that month: a mix of contract and spot cargoes, molten and solid,
   priced on different dates. It lags the market and it jumps when the mix
-  changes. March 2026 shows $343 per ton on 252,000 tons between $512 in
-  February and $573 in April.
-- **Thin months are noisy.** December 2025 exports were 5,965 tons and January
-  2025 17,402 tons, against a typical 100,000. Mark thin months on any chart.
+  changes. On both codes, March 2026 shows $351 per ton on 259,000 tons
+  between $503 in February and $536 in April, and July 2026 ($1,041) is above
+  August ($956).
+- **Thin months are noisy.** On the crude code alone December 2025 was 5,965
+  tons and January 2025 17,402. On both codes they are 50,733 and 38,484,
+  still the two thinnest months. They are marked on the line charts and the
+  tracker.
 - **DAP export unit value has a bad month.** April 2026 shows $221 per ton
   against $682 in March and $759 in May. We do not chart this series; the
   World Bank DAP price carries the fertilizer line.
@@ -517,8 +520,14 @@ tons, the size of the disagreements above.
 These are our calculations, not published series. Each is labeled as ours on
 its chart.
 
-- **Sulfur price.** Census exports of code 2503.00.0010, all-country total:
-  dollars divided by metric tons, by month.
+- **Sulfur price.** Census exports of codes 2503.00.0010 (crude) and
+  2503.00.0090 (refined), all-country totals added together: total dollars
+  divided by total metric tons, by month. These are the two codes USGS counts
+  as "sulfur". Chosen by Eric on October 8, 2026 over the crude code alone.
+- **Thin months.** A month is marked with an open circle when its sulfur
+  export tonnage is under a third of the median month since January 2024.
+  That marks January 2025 (38,484 tons) and December 2025 (50,733 tons)
+  against a median of 165,626.
 - **Monthly diesel.** The mean of the EIA weekly retail prices whose date
   falls in the month. A month still in progress is left out.
 - **Percent change.** Level in the month shown divided by the level in the
