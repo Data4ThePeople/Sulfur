@@ -33,3 +33,4 @@ None.
 - 2026-10-08 Step 1 confirmed by Eric. Sulfur price uses crude plus refined export codes (Eric's decision). Next: 2a, waiting on slug and draft.
 - 2026-10-08 Step 2a opened. Slug: sulfur-shortage. Waiting on Eric's draft.
 - 2026-10-08 2a: Eric's draft placed verbatim in POST.md, both brackets resolved (molecule image; data sections with nine images). Closing left for Eric. Proposed edits sent as a numbered list, none applied.
+- 2026-10-08 2a edits: Eric accepted 3, 4, 5, 6 (applied); rejected 1, 2 (his text stands).

@@ -18,11 +18,11 @@ dividers: false
 
 # Title
 
-Twenty-five years ago, I stepped into my first job out of undergrad, building refinery optimization models for ExxonMobil. Very early on I learned about sulfur, and how important it is to remove it during the refining process. My timing was not a coincidence. A few weeks before I started, the EPA had finalized a rule that would cut the sulfur allowed in highway diesel to 15 parts per million by 2006. A decade earlier, diesel could carry as much as 5,000. Every refiner in the country had five years to figure out how to get there, and that is what the models were for. The reason to care is what sulfur does when it burns. It leaves the tailpipe as a gas, reacts with water and oxygen in the air, and comes back down as sulfuric acid, which has the pesky side effect of being one of the main ingredients in acid rain.
+Twenty-five years ago, I stepped into my first job out of undergrad, building refinery optimization models for ExxonMobil. Very early on I learned about sulfur, and how important it is to remove it during the refining process. My timing was not a coincidence. A few weeks before I started, the EPA had finalized a rule that would cut the sulfur allowed in highway diesel to 15 parts per million by 2006. Less than a decade earlier, diesel could carry as much as 5,000. Every refiner in the country had five years to figure out how to get there, and that is what the models were for. The reason to care is what sulfur does when it burns. It leaves the tailpipe as a gas, reacts with water and oxygen in the air, and comes back down as sulfuric acid, which has the pesky side effect of being one of the main ingredients in acid rain.
 
-And so here I was, building molecular level models to figure out how our refineries were going to meet specs for Ultra Low Sulfur Diesel.
+And so here I was, building molecular-level models to figure out how our refineries were going to meet specs for Ultra Low Sulfur Diesel.
 
-This is when I met my arch-nemesis: dibenzothiophene
+This is when I met my arch-nemesis: dibenzothiophene.
 
 ![Skeletal drawing of the dibenzothiophene molecule. Two six-sided rings of carbon atoms sit on either side of a five-sided ring. The bottom corner of the five-sided ring is a sulfur atom, marked with a yellow letter S. A label reads: the sulfur atom is locked into a ring between two rings of carbon.](images/01-dibenzothiophene.png)
 *Dibenzothiophene. The sulfur atom, marked S, is part of a ring fused between two rings of carbon.*
@@ -33,7 +33,7 @@ Here’s some more context you need for this story. My boss at the time was my f
 
 Last week, my former boss found my work at Data 4 The People, and we chatted. He reminded me of my fight with sulfur, dredging up the trauma from those two years, and suggested I start looking into what’s going on with sulfur right now, as it’s a story about refining that few people know, but need to know… if they, you know, eat food.
 
-And so, we come full circle. The models I built to remove far more sulfur from crude oil drove up the amount of sulfur we produce from refineries. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my former boss warned, the same issues facing refineries that are driving up crack spreads, are having an immense impact on the global supply of sulfur.
+And so, we come full circle. The models I built to remove far more sulfur from crude oil drove up the amount of sulfur we produce from refineries. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my former boss warned, the same issues facing refineries that are driving up crack spreads are having an immense impact on the global supply of sulfur.
 
 I brushed off the cobwebs of my knowledge of sulfur and started researching. Here is what I found.
 
