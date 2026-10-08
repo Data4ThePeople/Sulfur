@@ -162,8 +162,6 @@ I now understand why my former boss urged me to research sulfur. It feels to me 
 
 Here we are, with prices finally declining, not because the situation has resolved itself – there is no putting the toothpaste back in the tube on this one – but rather, as far as I can tell, because companies like Mosaic are just throwing up their hands saying we’re not going to produce as much fertilizer at this price. If you are looking at the chart hoping for the pressure to ease, this may seem like a good development. If you are a person who eats food, not so much. But unlike refineries, which can catch fire quickly when something goes wrong (as one in Venezuela did this week), global supply chains take a very long time to turn into pain and suffering. Less fertilizer today can mean lower yields tomorrow. And lower yields can mean less food and higher prices for that food.
 
-I’ve been told recently that I am a harbinger of bad news. I disagree. I just consult the data, and my experience when I can, to understand how the world works. Not the fairy tale world that we want to believe. The real world driven by physics, chemistry, inordinately complex global supply chains, and decisions that too often get made without understanding any of these things. I try to look these things straight in the eye, not to predict where they will go, but to help illustrate the risk of messing with complexity, and provide hope that if we all put in the work to understand this stuff, maybe we won’t be so complacent next time?
-
 ::: divider
 
 ## What this does not tell you

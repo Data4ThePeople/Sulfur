@@ -66,3 +66,4 @@ None.
 - 2026-10-08 2f: publish and update date set to October 8, 2026, 6:00 pm EDT at Eric's request. Draft updated.
 - 2026-10-08 2f: Eric replaced the "former boss" sentence in the intro (pasted text, applied verbatim). Review page rebuilt and Prismic draft updated.
 - 2026-10-08 2f: China acid paragraph moved from "Then the strait closed" to the end of "Why fertilizer has not kept up with sulfur" at Eric's request, with a new opening line. Review page rebuilt and Prismic draft updated.
+- 2026-10-08 2f: Eric cut the final "harbinger of bad news" paragraph, doing it himself in the Prismic editor. POST.md and the review page were cut to match. No Prismic push from here.
