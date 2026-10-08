@@ -132,6 +132,19 @@ def statcan():
                    if r['GEO'] == 'Canada' and r['Supply of processing plant products'] == 'Sulphur' and r['VALUE']], 'statcan')
 
 
+def aer():
+    """Alberta month-end sulphur inventory and monthly production, tonnes, from the yearly ST3 workbooks."""
+    inv, prod = [], []
+    for f in sorted((RAW / 'aer').glob('st3_sulphur_*.xlsx')):
+        year = int(f.stem[-4:])
+        rows = {str(r[1]).strip(): r[3:15] for r in openpyxl.load_workbook(f, data_only=True)['Data'].iter_rows(values_only=True) if r[1]}
+        for i in range(12):
+            if rows['Closing Inventory'][i]:          # months not yet reported are zero
+                inv.append((f'{year}-{i + 1:02d}', float(rows['Closing Inventory'][i])))
+                prod.append((f'{year}-{i + 1:02d}', float(rows['Total Production'][i])))
+    return unique(inv, 'aer inventory'), unique(prod, 'aer production')
+
+
 def monthly_mean(weekly):
     b = defaultdict(list)
     for d, v in weekly:
@@ -146,7 +159,13 @@ if __name__ == '__main__':
     diesel_w = eia('diesel_retail_weekly')
     world = read_csv(ROOT / 'data' / 'manual' / 'usgs_mcs2026_world_production.csv')
     us = {r['item']: {k: float(v) for k, v in r.items() if k != 'item'} for r in read_csv(ROOT / 'data' / 'manual' / 'usgs_mcs2026_us_salient.csv')}
+    aer_inv, aer_prod = aer()
+    manual = ROOT / 'data' / 'manual'
     out = {
+        'cited': {   # editorial compilations of figures reported in the trade press; see the files' headers
+            'adnoc_osp': [(r['month'], float(r['price'])) for r in read_csv(manual / 'adnoc_osp.csv')],
+            'china_port_stocks': [(r['date'], float(r['million_t'])) for r in read_csv(manual / 'china_port_stocks.csv')],
+        },
         'war_start': WAR_START,
         'pulled': {p.parent.name: p.read_text().strip() for p in sorted(RAW.glob('*/pulled.txt'))},
         'pink_updated': pink_updated, 'usgs_latest_file': usgs_latest,
@@ -172,6 +191,7 @@ if __name__ == '__main__':
             'acid_import_t': [(m, q) for m, v, q, uv in imp['2807000000']],
             'dap_export_uv': [(m, uv) for m, v, q, uv in exp['3105300000'] if uv],
             'canada_gas_plant_sulphur_kt': statcan(),
+            'alberta_inventory_t': aer_inv, 'alberta_production_t': aer_prod,
             **{'usgs_' + k: v for k, v in usgs_m.items()},
         },
         'world_production_kt': [{'country': r['country'], 'y2024': float(r['y2024']), 'y2025': float(r['y2025']), 'gulf': r['gulf'] == '1'} for r in world],

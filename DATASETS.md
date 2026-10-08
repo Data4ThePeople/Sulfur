@@ -13,7 +13,9 @@ something new. The point is to know the traps before they show up in a chart.
 - **Inventory data covers one stage.** USGS publishes U.S. producer stocks of
   recovered sulfur, six months late. We found no free series for China port
   stocks, Gulf producer stocks, sulfuric acid in tanks, or phosphate fertilizer
-  stocks. Alberta block inventory is still being checked.
+  stocks. Two more stages can be seen in part: Alberta's stockpile (Alberta
+  Energy Regulator, monthly) and China's port stocks (trade press reports on
+  irregular dates, compiled by hand).
 - **Latest month differs by source.** As pulled October 8, 2026: diesel to
   October 5, World Bank to September, Census and PPI to August, Statistics
   Canada to July, USGS to March. A chart that lines these up must show where
@@ -392,3 +394,135 @@ refineries is not in this table, so this is not total Canadian production
 
 **License and attribution.** Statistics Canada Open Licence. Credit
 "Statistics Canada, Table 25-10-0036-01".
+
+## ST3 Supply and Disposition of Sulphur (Alberta Energy Regulator)
+
+**What it is.** Monthly tonnes of sulphur in Alberta: opening and closing
+inventory, production by source (gas plants, oil sands facilities,
+refineries), and where it went.
+
+**Where it comes from.** `static.aer.ca/prd/documents/sts/st3/`, one XLSX per
+year plus `Sulphur_current.xlsx`, no login. `scripts/fetch_aer.py`.
+
+**Version and vintage.** Current-year file "Run Date: 28 September 2026".
+Released at the end of each month, one month in arrears. Latest month August
+2026.
+
+**Coverage.** Alberta, January 2024 to August 2026 in our pull. Figures are
+operator filings to the provincial reporting system (Petrinex), so they are
+reported volumes, not estimates.
+
+**Changes over time.** None in the three files.
+
+**Suppressed, censored or masked values.** None.
+
+**Missing data.** Months not yet reported are zero in the current-year file.
+We drop zero inventory months.
+
+**Revisions.** Operators can amend filings. December 2024 closing inventory
+(11,987,148.4) and January 2025 opening inventory (11,987,049.7) differ by 99
+tonnes for that reason. Each year's file is frozen at its run date; we refresh
+the current year on every pull.
+
+**Units and rounding.** Tonnes, one decimal.
+
+**Known quirks.**
+- The row is "Closing Inventory". The file does not separate the large poured
+  blocks from working stock, so we call it "Alberta's stockpile", not "block
+  inventory".
+- An "Adjustments" row moves inventory by as much as 103,000 tonnes in a month
+  (June 2025). Month-to-month changes are not all sales.
+- Having sulphur in a block is not the same as being able to ship it. It must
+  be remelted and railed to Vancouver. CRU put that cost at about $180 to $200
+  a tonne (Sulphur magazine 422, January 2026).
+
+**Uncertainty.** None published.
+
+**License and attribution.** Alberta Energy Regulator, open data. Credit
+"Alberta Energy Regulator, ST3".
+
+## Compiled from trade press: Adnoc posted price and China port stocks (editorial)
+
+**What it is.** Two small tables we built by hand from figures reported in
+news stories and magazine tables: `data/manual/adnoc_osp.csv` (Abu Dhabi
+National Oil Company's monthly official selling price for sulfur, dollars per
+metric ton, free on board Ruwais, June 2024 to October 2026) and
+`data/manual/china_port_stocks.csv` (sulfur held at Chinese ports, 12 dated
+readings from October 2024 to late August 2026).
+
+**Where it comes from.** Argus news stories, the price table and market notes
+in CRU's Sulphur magazine (issues 415 to 426), World Fertilizer, SunSirs, SMM
+and Mysteel. Each row names its source; URLs and the quoted sentences are in
+`research/BRIEF.md`. Each figure was read on the page itself on October 8,
+2026, not taken from a search result.
+
+**Version and vintage.** Compiled October 8, 2026. Not automated.
+
+**Coverage.** Adnoc: every month from June 2024, 29 months, no gaps. China:
+irregular. There is no reading between October 30, 2024 and July 2, 2025, and
+none after late August 2026. The chart draws straight lines between readings,
+which says nothing about what happened in between.
+
+**Changes over time.** China stocks come from three tallies (CRU's unnamed
+source, SunSirs, SMM) plus Mysteel citing OilChem. They may count different
+ports.
+
+**Suppressed, censored or masked values.** None.
+
+**Missing data.** See coverage.
+
+**Revisions.** CRU printed June 2026 China delivered price as 1,185 in one
+issue and 1,100 in the next, so these sources do revise. We do not chart that
+series.
+
+**Units and rounding.** Dollars per metric ton; million metric tons.
+
+**Known quirks.**
+- A posted price is a seller's announced price for the month, not what every
+  cargo traded at. When the strait was shut, few cargoes moved at any price.
+- Sources disagree on early July 2026 China stocks: SMM gives 727,900 tons on
+  July 3 and "790,000" for "early July" in the same article; CRU gives a July
+  low of 730,000. We use the dated SMM figure.
+- Year-end 2025 China stocks: SunSirs 1.9848 million (December 31); CRU 1.95
+  million. We use the dated SunSirs figure.
+- "Early April" and "late August" readings carry approximate dates (April 3,
+  August 27) so they can be placed on a time axis.
+- These are facts reported by publishers who sell the underlying assessments.
+  We cite a small number of published figures with credit; we do not
+  republish their price series.
+
+**Uncertainty.** None published. Treat China stocks as good to roughly 50,000
+tons, the size of the disagreements above.
+
+**License and attribution.** Cite each publisher by name. Label any chart
+"our compilation".
+
+## Method for the derived figures
+
+These are our calculations, not published series. Each is labeled as ours on
+its chart.
+
+- **Sulfur price.** Census exports of code 2503.00.0010, all-country total:
+  dollars divided by metric tons, by month.
+- **Monthly diesel.** The mean of the EIA weekly retail prices whose date
+  falls in the month. A month still in progress is left out.
+- **Percent change.** Level in the month shown divided by the level in the
+  base month, minus one. Base months are January 2024 and February 2026, the
+  last full month before the February 28, 2026 strikes. Each series runs to
+  the latest full month its own source has published, so end months differ.
+- **Days of sulfur stock.** USGS month-end producer stocks divided by that
+  month's shipments per day (shipments divided by days in the month). For each
+  month we use the figure in the latest USGS workbook that carries it.
+- **Days of diesel.** EIA's published days of supply of distillate, weekly,
+  used as is.
+- **Gulf share of production.** Iran, Kuwait, Qatar, Saudi Arabia and the
+  United Arab Emirates, summed, over the USGS printed world total for 2025.
+- **Sulfur cost in a ton of DAP.** 0.4 times the sulfur price above, compared
+  with the World Bank DAP price in the same month. The 0.4 is from Mosaic's
+  2025 annual report ("approximately 0.40 long tons of sulfur" per tonne of
+  DAP; 0.40 long tons is 0.406 metric tons, and we round to 0.4). It prices
+  sulfur at the export average, which is above what a producer on a quarterly
+  contract paid while prices were rising: Mosaic reported an average sulfur
+  cost of $522 a long ton for the second quarter of 2026.
+- **Alberta change.** August 2026 closing inventory minus February 2026
+  closing inventory.

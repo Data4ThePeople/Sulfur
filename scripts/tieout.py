@@ -113,14 +113,46 @@ check('Days of supply', 'Distillate days, lowest week since 2024', min(dd.values
 check('Days of supply', 'Distillate days, highest week since 2024', max(dd.values()), n['distillate_days_max'])
 
 # sulfur cost inside a ton of DAP
-n = NUM['dap_cost']; k = n['s_per_dap']; m = n['last_month']
-assert m == min(last(sulfur), last(dap))
+n = NUM['dap_cost']; k = n['s_per_dap']; dm = n['last_month']
+assert dm == min(last(sulfur), last(dap))
 for label, mm, a, b, c in [('first', '2024-01', 'sulfur_cost_first', 'dap_first', 'share_first_pct'),
                            ('February 2026', '2026-02', 'sulfur_cost_war_base', 'dap_war_base', 'share_war_base_pct'),
-                           ('last', m, 'sulfur_cost_last', 'dap_last', 'share_last_pct')]:
+                           ('last', dm, 'sulfur_cost_last', 'dap_last', 'share_last_pct')]:
     check('Sulfur in a ton of DAP', f'Sulfur cost {mm}, $ per t DAP', k * sulfur[mm], n[a])
     check('Sulfur in a ton of DAP', f'DAP price {mm}, $ per t', dap[mm], n[b])
     check('Sulfur in a ton of DAP', f'Sulfur share of DAP price {mm}, percent', 100 * k * sulfur[mm] / dap[mm], n[c])
+
+# posted prices (hand-compiled table; the independent tie-out re-opens the sources)
+ad = {r['month']: float(r['price']) for r in csv.DictReader(l for l in open(R / 'data' / 'manual' / 'adnoc_osp.csv') if not l.startswith('#'))}
+n = NUM['posted']; lastm = max(ad); peak = max(ad.values())
+check('Posted prices', 'Adnoc February 2026, $ per t', ad['2026-02'], n['adnoc_war_base'])
+check('Posted prices', 'Adnoc peak, $ per t', peak, n['adnoc_peak'])
+check('Posted prices', f'Adnoc {lastm}, $ per t', ad[lastm], n['adnoc_last'])
+check('Posted prices', 'Adnoc percent change, February 2026 to peak', 100 * (peak / ad['2026-02'] - 1), n['pct_war_base_to_peak'])
+check('Posted prices', f'Adnoc percent change, February 2026 to {lastm}', 100 * (ad[lastm] / ad['2026-02'] - 1), n['pct_war_base_to_last'])
+check('Posted prices', f'Adnoc percent change, peak to {lastm}', 100 * (ad[lastm] / peak - 1), n['pct_peak_to_last'])
+
+# stockpiles
+cn = [(r['date'], float(r['million_t'])) for r in csv.DictReader(l for l in open(R / 'data' / 'manual' / 'china_port_stocks.csv') if not l.startswith('#'))]
+n = NUM['stockpiles']; low = min(v for _, v in cn)
+check('Stockpiles', 'China ports, first reading, million t', cn[0][1], n['china_first'])
+check('Stockpiles', 'China ports, lowest reading, million t', low, n['china_low'])
+check('Stockpiles', 'China ports, latest reading, million t', cn[-1][1], n['china_last'])
+check('Stockpiles', 'China ports, percent change first to lowest', 100 * (low / cn[0][1] - 1), n['china_pct_first_to_low'])
+ab = {}
+for f in sorted((RAW / 'aer').glob('st3_sulphur_*.xlsx')):
+    for r in openpyxl.load_workbook(f, data_only=True)['Data'].iter_rows(values_only=True):
+        if r[1] and str(r[1]).strip() == 'Closing Inventory':
+            for i, v in enumerate(r[3:15]):
+                if v:
+                    ab[f'{f.stem[-4:]}-{i + 1:02d}'] = float(v)
+am = max(ab)
+assert am == n['alberta_last_month']
+check('Stockpiles', 'Alberta closing inventory February 2026, million t', ab['2026-02'] / 1e6, n['alberta_war_base'])
+check('Stockpiles', f'Alberta closing inventory {am}, million t', ab[am] / 1e6, n['alberta_last'])
+check('Stockpiles', f'Alberta change February 2026 to {am}, t', ab[am] - ab['2026-02'], n['alberta_change_since_war_base_t'])
+check('Stockpiles', f'Alberta percent change February 2026 to {am}', 100 * (ab[am] / ab['2026-02'] - 1), n['alberta_pct_since_war_base'])
+check('Stockpiles', f'U.S. producer stocks {m}, thousand t', t1[m][1], n['us_last_kt'])
 
 # the page: every point of every series (the page stores four decimals)
 for key, src in [('sulfur', sulfur), ('acid', acid), ('dap', dap), ('diesel', diesel)]:
@@ -139,7 +171,7 @@ for s, item, a, b, st in rows:
         out += ['', f'## {s}', '', '| Item | Recomputed from raw | Used on chart or page | |', '|---|---:|---:|---|']; sec = s
     out.append(f'| {item} | {a:,.4f} | {b:,.4f} | {st} |')
 out += ['', '## Not covered by this script', '',
-        '- The two USGS annual tables are hand-keyed from the PDF. This script reads the hand-keyed file; the independent tie-out re-reads the PDF.',
+        '- The Adnoc price table and the China port stock table are hand-compiled from trade press reports. This script reads the compiled files; the sources are listed in `research/BRIEF.md`.\n- The two USGS annual tables are hand-keyed from the PDF. This script reads the hand-keyed file; the independent tie-out re-reads the PDF.',
         '- The 0.4 metric tons of sulfur per metric ton of DAP is an input, not a measurement. Its source is in `research/BRIEF.md`.',
         '- Whether a source itself is right (for example the Census export unit value as a stand-in for a sulfur price) is covered in `DATASETS.md`, not here.']
 (R / 'TIEOUT.md').write_text('\n'.join(out) + '\n')

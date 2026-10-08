@@ -1,0 +1,33 @@
+# Adnoc monthly official selling price for sulfur, $ per metric ton, FOB Ruwais. An editorial compilation of publicly announced prices
+# as reported in the trade press, not a dataset. source: CRU = "Table 1: Recent sulphur prices, major markets" in CRU Sulphur magazine
+# issue shown (bcinsight.crugroup.com); Argus and World Fertilizer = news story. Full URLs and the quoted sentences are in research/BRIEF.md.
+month,price,source
+2024-06,80,CRU Sulphur 415
+2024-07,82,CRU Sulphur 415
+2024-08,107,CRU Sulphur 415
+2024-09,130,CRU Sulphur 415; Argus 2604685
+2024-10,127,CRU Sulphur 415
+2024-11,135,CRU Sulphur 417
+2024-12,165,CRU Sulphur 417; Argus 2634100
+2025-01,174,CRU Sulphur 417; Argus 2643694
+2025-02,174,CRU Sulphur 417; Argus 2654133
+2025-03,206,CRU Sulphur 419
+2025-04,280,CRU Sulphur 419; Argus 2674497
+2025-05,290,CRU Sulphur 420
+2025-06,290,CRU Sulphur 420
+2025-07,265,CRU Sulphur 420
+2025-08,265,CRU Sulphur 420
+2025-09,285,CRU Sulphur 420
+2025-10,324,CRU Sulphur 422
+2025-11,415,CRU Sulphur 422
+2025-12,495,CRU Sulphur 422
+2026-01,520,Argus 2770964
+2026-02,530,World Fertilizer 2026-02-09
+2026-03,530,Argus 2796768
+2026-04,600,Argus 2808262
+2026-05,760,Argus 2822573
+2026-06,860,Argus 2835918
+2026-07,1000,Argus 2846398
+2026-08,1000,Argus 2860753
+2026-09,960,Argus 2885834
+2026-10,890,Argus 2885834

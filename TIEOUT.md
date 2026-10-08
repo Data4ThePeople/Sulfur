@@ -1,9 +1,9 @@
 # Tie-out
 
-Run October 08, 2026 07:00. Every number below is recomputed from the raw files in `data/raw/` by
+Run October 08, 2026 07:13. Every number below is recomputed from the raw files in `data/raw/` by
 `scripts/tieout.py`, which shares no code with the pipeline, and compared with the number the chart or page used.
 
-**70 of 70 match.**
+**85 of 85 match.**
 
 
 ## Prices since January 2024
@@ -97,6 +97,31 @@ Run October 08, 2026 07:00. Every number below is recomputed from the raw files 
 | DAP price 2026-08, $ per t | 793.5000 | 793.5000 | ok |
 | Sulfur share of DAP price 2026-08, percent | 51.9284 | 51.9284 | ok |
 
+## Posted prices
+
+| Item | Recomputed from raw | Used on chart or page | |
+|---|---:|---:|---|
+| Adnoc February 2026, $ per t | 530.0000 | 530.0000 | ok |
+| Adnoc peak, $ per t | 1,000.0000 | 1,000.0000 | ok |
+| Adnoc 2026-10, $ per t | 890.0000 | 890.0000 | ok |
+| Adnoc percent change, February 2026 to peak | 88.6792 | 88.6792 | ok |
+| Adnoc percent change, February 2026 to 2026-10 | 67.9245 | 67.9245 | ok |
+| Adnoc percent change, peak to 2026-10 | -11.0000 | -11.0000 | ok |
+
+## Stockpiles
+
+| Item | Recomputed from raw | Used on chart or page | |
+|---|---:|---:|---|
+| China ports, first reading, million t | 2.3100 | 2.3100 | ok |
+| China ports, lowest reading, million t | 0.7279 | 0.7279 | ok |
+| China ports, latest reading, million t | 0.9470 | 0.9470 | ok |
+| China ports, percent change first to lowest | -68.4892 | -68.4892 | ok |
+| Alberta closing inventory February 2026, million t | 11.3005 | 11.3005 | ok |
+| Alberta closing inventory 2026-08, million t | 11.0429 | 11.0429 | ok |
+| Alberta change February 2026 to 2026-08, t | -257,627.6000 | -257,627.6000 | ok |
+| Alberta percent change February 2026 to 2026-08 | -2.2798 | -2.2798 | ok |
+| U.S. producer stocks 2026-03, thousand t | 122.0000 | 122.0000 | ok |
+
 ## Interactive page
 
 | Item | Recomputed from raw | Used on chart or page | |
@@ -108,6 +133,7 @@ Run October 08, 2026 07:00. Every number below is recomputed from the raw files 
 
 ## Not covered by this script
 
+- The Adnoc price table and the China port stock table are hand-compiled from trade press reports. This script reads the compiled files; the sources are listed in `research/BRIEF.md`.
 - The two USGS annual tables are hand-keyed from the PDF. This script reads the hand-keyed file; the independent tie-out re-reads the PDF.
 - The 0.4 metric tons of sulfur per metric ton of DAP is an input, not a measurement. Its source is in `research/BRIEF.md`.
 - Whether a source itself is right (for example the Census export unit value as a stand-in for a sulfur price) is covered in `DATASETS.md`, not here.

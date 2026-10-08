@@ -168,7 +168,7 @@ def chart_days():
     titleblock(fig, 'U.S. sulfur producers hold about a week of stock',
                f'Days of supply on hand. Sulfur: {n["sulfur_days_min"]:.0f} to {n["sulfur_days_max"]:.0f} days since January 2024. '
                f'Diesel: {n["distillate_days_min"]:.0f} to {n["distillate_days_max"]:.0f} days.\n'
-               'Sulfur held by buyers, such as fertilizer plants, is not reported anywhere.')
+               'We found no public count of sulfur held by buyers, such as fertilizer plants.')
     credit(fig, 'Sulfur: U.S. Geological Survey, month-end producer stocks divided by that month’s daily shipments (our calculation).\nDiesel: EIA weekly days of supply of distillate fuel oil.')
     fig.savefig(OUT / '05-days-of-supply.png'); plt.close(fig)
 
@@ -201,9 +201,72 @@ def chart_dap_cost():
     fig.savefig(OUT / '06-sulfur-in-dap.png'); plt.close(fig)
 
 
+def chart_posted():
+    a = S['cited']['adnoc_osp']
+    e = [(m, v) for m, v in complete('sulfur_export_uv') if m >= a[0][0]]
+    ad = dict(a); peak = max(v for _, v in a); peak_m = [m for m, v in a if v == peak]
+    NUM['posted'] = {'adnoc_first_month': a[0][0], 'adnoc_first': a[0][1], 'adnoc_war_base': ad[BASE_WAR], 'adnoc_peak': peak,
+                     'adnoc_peak_first_month': peak_m[0], 'adnoc_last_month': a[-1][0], 'adnoc_last': a[-1][1],
+                     'pct_war_base_to_peak': 100 * (peak / ad[BASE_WAR] - 1), 'pct_war_base_to_last': 100 * (a[-1][1] / ad[BASE_WAR] - 1),
+                     'pct_peak_to_last': 100 * (a[-1][1] / peak - 1), 'export_last_month': e[-1][0], 'export_last': e[-1][1]}
+    n = NUM['posted']
+    fig, ax = frame(6.0, 0.78)
+    ax.plot([mid(m) for m, _ in e], [v for _, v in e], color=ACID, lw=2, ls=(0, (4, 2)))
+    ax.step([dt.date(int(m[:4]), int(m[5:]), 1) for m, _ in a] + [dt.date(2026, 11, 1)], [v for _, v in a] + [a[-1][1]], where='post', color=SULFUR, lw=2.4)
+    war_line(ax)
+    ax.set_ylim(0, 1150); ax.yaxis.set_major_formatter(lambda v, _: f'${v:,.0f}')
+    ax.xaxis.set_major_locator(mdates.MonthLocator(bymonth=(1, 7))); ax.xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
+    ax.text(dt.date(2024, 7, 1), 520, 'Abu Dhabi’s posted monthly price', color=SULFUR, fontsize=11, fontweight='bold')
+    ax.text(dt.date(2024, 7, 1), 455, 'Average value of U.S. sulfur exports', color=ACID, fontsize=11, fontweight='bold')
+    ax.annotate(f'${a[-1][1]:,.0f}\nOctober', (dt.date(2026, 11, 1), a[-1][1]), xytext=(8, 0), textcoords='offset points', color=SULFUR,
+                fontsize=11, fontweight='bold', va='center', annotation_clip=False, linespacing=1.3)
+    titleblock(fig, 'Posted sulfur prices have fallen for two months',
+               f'Dollars per metric ton. Abu Dhabi’s state oil company posted ${n["adnoc_war_base"]:,.0f} for {mname(BASE_WAR)}, ${peak:,.0f} for {mname(peak_m[0])}\n'
+               f'and {mname(peak_m[-1])}, and ${n["adnoc_last"]:,.0f} for {mname(a[-1][0])}. U.S. export data stops in {mname(e[-1][0])}.')
+    credit(fig, 'Posted price: Adnoc official selling price, free on board Ruwais, as reported by Argus, CRU and World Fertilizer (our compilation).\nU.S. exports: Census Bureau, crude sulfur.')
+    fig.savefig(OUT / '07-posted-prices.png'); plt.close(fig)
+
+
+def chart_stockpiles():
+    cn = S['cited']['china_port_stocks']
+    ab = [(m, v / 1e6) for m, v in S['monthly']['alberta_inventory_t']]
+    us = S['monthly']['usgs_stocks']
+    cd = dict(cn); abd = dict(ab)
+    lowd, low = min(cn, key=lambda r: r[1])
+    NUM['stockpiles'] = {'china_first_date': cn[0][0], 'china_first': cn[0][1], 'china_low_date': lowd, 'china_low': low,
+                         'china_last_date': cn[-1][0], 'china_last': cn[-1][1], 'china_pct_first_to_low': 100 * (low / cn[0][1] - 1),
+                         'alberta_first_month': ab[0][0], 'alberta_first': ab[0][1], 'alberta_war_base': abd[BASE_WAR],
+                         'alberta_last_month': ab[-1][0], 'alberta_last': ab[-1][1],
+                         'alberta_change_since_war_base_t': 1e6 * (ab[-1][1] - abd[BASE_WAR]),
+                         'alberta_pct_since_war_base': 100 * (ab[-1][1] / abd[BASE_WAR] - 1),
+                         'us_last_month': us[-1][0], 'us_last_kt': us[-1][1]}
+    n = NUM['stockpiles']
+    fig = plt.figure(figsize=(10.5, 6.6))
+    panels = [('China’s ports', 'million metric tons', [(dt.date.fromisoformat(d), v) for d, v in cn], 3.0, True,
+               f'{cn[0][1]:.1f} million in {mname(cn[0][0][:7])}\n{low:.2f} million on July 3, 2026\n{cn[-1][1]:.2f} million in late August'),
+              ('Alberta’s stockpile', 'million metric tons', [(mid(m), v) for m, v in ab], 15.0, False,
+               f'{abd[BASE_WAR]:.1f} million in {mname(BASE_WAR)}\n{ab[-1][1]:.1f} million in {mname(ab[-1][0])}'),
+              ('U.S. producers', 'thousand metric tons', [(mid(m), v) for m, v in us], 160.0, False,
+               f'{us[-1][1]:.0f} thousand in {mname(us[-1][0])},\nthe latest USGS has published')]
+    for i, (name, unit, pts, top, dots, note) in enumerate(panels):
+        ax = fig.add_axes([0.06 + i * 0.315, 0.14, 0.26, 0.5])
+        ax.grid(axis='y'); ax.set_axisbelow(True); ax.tick_params(length=0); ax.tick_params(axis='x', pad=9)
+        ax.plot([d for d, _ in pts], [v for _, v in pts], color=SULFUR, lw=2.2, marker='o' if dots else None, ms=5)
+        ax.set_ylim(0, top); ax.set_xlim(dt.date(2024, 1, 1), dt.date(2026, 11, 1))
+        ax.axvline(WAR, color=MUTED, lw=1, ls=(0, (2, 3)))
+        ax.xaxis.set_major_locator(mdates.YearLocator()); ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+        ax.text(0, 1.42, name, transform=ax.transAxes, color=INK, fontsize=13, fontweight='bold', va='top')
+        ax.text(0, 1.33, unit, transform=ax.transAxes, color=INK_DIM, fontsize=10, va='top')
+        ax.text(0, 1.24, note, transform=ax.transAxes, color=SULFUR, fontsize=10, fontweight='bold', va='top', linespacing=1.4)
+    fig.text(0.06 + 0.26 * (WAR - dt.date(2024, 1, 1)).days / (dt.date(2026, 11, 1) - dt.date(2024, 1, 1)).days, 0.655, 'strikes begin ', color=INK_DIM, fontsize=8.5, ha='right')
+    titleblock(fig, 'Three sulfur stockpiles the public can see', 'Each panel has its own scale. Dotted line: February 28, 2026.', y=0.965)
+    credit(fig, 'China: port stocks reported by CRU, SunSirs, SMM and Mysteel on irregular dates (our compilation). Alberta: Alberta Energy Regulator,\nmonth-end closing inventory. U.S.: Geological Survey, month-end producer stocks. We found no public figure for sulfuric acid in storage.')
+    fig.savefig(OUT / '08-stockpiles.png'); plt.close(fig)
+
+
 if __name__ == '__main__':
     use_house_style()
     OUT.mkdir(exist_ok=True)
-    chart_world(); chart_run_up(); chart_since_war(); chart_days(); chart_dap_cost()
+    chart_world(); chart_run_up(); chart_since_war(); chart_days(); chart_dap_cost(); chart_posted(); chart_stockpiles()
     write_json(OUT / 'numbers.json', NUM)
     print(json.dumps(NUM, indent=1))
