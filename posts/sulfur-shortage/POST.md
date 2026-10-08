@@ -27,13 +27,13 @@ This is when I met my arch-nemesis: dibenzothiophene.
 ![Skeletal drawing of the dibenzothiophene molecule. Two six-sided rings of carbon atoms sit on either side of a five-sided ring. The bottom corner of the five-sided ring is a sulfur atom, marked with a yellow letter S. A label reads: the sulfur atom is locked into a ring between two rings of carbon.](images/01-dibenzothiophene.png)
 *Dibenzothiophene. The sulfur atom, marked S, is part of a ring fused between two rings of carbon.*
 
-You see, what I learned very quickly is this one class of hydrocarbons locked the sulfur up so tightly that no matter what the refinery did throughout processing, we couldn’t crack the sulfur out. And so, we had to measure the concentration of dibenzothiophenes in the crude oil we purchased to ensure that it was low enough for the diesel to meet spec after it worked its way through the refinery. I spent the better part of two years learning about and modeling dibenzothiophenes. Those were the days.
+You see, what I learned very quickly is this one class of hydrocarbons locked the sulfur up so tightly that no matter what the refinery did throughout processing, we could barely crack the sulfur out. And so, we had to measure the concentration of dibenzothiophenes in the crude oil we purchased to ensure that it was low enough for the diesel to meet spec after it worked its way through the refinery. I spent the better part of two years learning about and modeling dibenzothiophenes. Those were the days.
 
 Here’s some more context you need for this story. My boss at the time was my former boss. my former boss went on after his role running our group to a 36-year career with ExxonMobil, through roles that took him all over the company and to the bleeding edge of energy innovation.
 
 Last week, my former boss found my work at Data 4 The People, and we chatted. He reminded me of my fight with sulfur, dredging up the trauma from those two years, and suggested I start looking into what’s going on with sulfur right now, as it’s a story about refining that few people know, but need to know… if they, you know, eat food.
 
-And so, we come full circle. The models I built to remove far more sulfur from crude oil drove up the amount of sulfur we produce from refineries. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my former boss warned, the same issues facing refineries that are driving up crack spreads are having an immense impact on the global supply of sulfur.
+And so, we come full circle. The work refiners did in those years to pull more sulfur out of fuel is the same work that supplies the sulfur for fertilizer today. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my former boss warned, the same issues facing refineries that are driving up crack spreads are having an immense impact on the global supply of sulfur.
 
 I brushed off the cobwebs of my knowledge of sulfur and started researching. Here is what I found.
 
