@@ -52,11 +52,11 @@ The U.S. Geological Survey says about 90% of the sulfur used in the United State
 
 The sulfur does not end up in the fertilizer. It leaves the plant as gypsum waste. It is a processing chemical that gets used once, so fertilizer makers need a steady supply of it.
 
-Fertilizer is not the only thing that needs this acid. Sulfuric acid is also used to pull metals out of ore. The [International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview) lists copper, nickel and cobalt, along with rare earths and the chemicals that go into batteries. The research firm Benchmark Mineral Intelligence says it takes more than 10 tons of sulfur to make one ton of nickel by the acid method used in Indonesia, and that the mines producing 22% of the world’s copper need large amounts of acid. In May, Benchmark estimated that more than half of this year’s lithium, cobalt and rare earth production was exposed to disruptions in sulfur and sulfuric acid, as [Mining.com reported](https://www.mining.com/charts-how-the-sulphuric-acid-crunch-is-driving-up-critical-minerals-costs/).
+Fertilizer is not the only thing that needs this acid. Sulfuric acid is also used to pull copper, nickel and cobalt out of ore, and to make rare earths and battery chemicals, according to the [International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview). In May, the research firm Benchmark Mineral Intelligence estimated that more than half of this year’s lithium, cobalt and rare earth production was exposed to disruptions in sulfur and sulfuric acid, as [Mining.com reported](https://www.mining.com/charts-how-the-sulphuric-acid-crunch-is-driving-up-critical-minerals-costs/).
 
 One more thing sets sulfur apart from most raw materials. Because it is a leftover from cleaning up oil and gas, the amount produced depends on how much fuel is being processed. A higher sulfur price does not bring more of it out of a refinery. This is really important to keep in mind.
 
-It was not always a leftover. For most of the 1900s, the United States mined sulfur directly. Companies drilled wells into sulfur deposits deep under the Gulf Coast, pumped in superheated water to melt the sulfur, and lifted it to the surface with compressed air. This is called the Frasch process. U.S. output from these mines peaked at about 8 million metric tons in 1974, according to a [USGS history](https://pubs.usgs.gov/of/2002/of02-298/of02-298.pdf), close to the 8.1 million tons the country made in 2025. In 1982, sulfur recovered from oil and gas passed mined sulfur for the first time. The last U.S. mine, off the coast of Louisiana, closed in August 2000. The USGS cited low sulfur prices, high fuel costs and technical problems. It wrote that sulfur is still in the ground there and at other sites, but that reopening old mines or building new ones was “highly unlikely.”
+It was not always a leftover. For most of the 1900s, the United States mined sulfur directly, pumping superheated water into deposits deep under the Gulf Coast to melt the sulfur and bring it to the surface. Sulfur recovered from oil and gas passed mined sulfur in 1982, and the last U.S. mine closed in 2000. A [USGS history](https://pubs.usgs.gov/of/2002/of02-298/of02-298.pdf) says sulfur is still in the ground, but that reopening old mines or building new ones was “highly unlikely.”
 
 ## Where the world’s sulfur comes from
 
@@ -67,7 +67,7 @@ The world made about 84 million metric tons of sulfur in 2025, according to the 
 
 Saudi Arabia, the United Arab Emirates, Qatar, Iran and Kuwait made about 20 million tons between them, or 24% of the world total. That share understates how much the rest of the world leans on them. China, the largest producer, uses its own sulfur and still imported 9.6 million tons in 2025. The Gulf countries make far more than they use, so they export it. The trade publishers Argus, CRU and SMM put the Gulf’s share at 45% to almost 50% of all the sulfur that moves by sea, and those cargoes leave through the Strait of Hormuz.
 
-The United States is in a different position. It makes about 8.1 million tons a year. After subtracting what it exports, it relies on imports for about 14% of what it uses, according to the USGS. Canada supplies a little over half of U.S. sulfur imports.
+The United States is in a different position. It makes about 8.1 million tons a year and, after subtracting what it exports, relies on imports for about 14% of what it uses, according to the USGS.
 
 ## The price was climbing long before the war
 
@@ -80,7 +80,7 @@ U.S. sulfur exports averaged $77 a metric ton in January 2024. By February 2026,
 
 Trade publishers point to several reasons. CRU estimated that the world used about 1.9 million tons more sulfur than it made in 2025. Nickel plants in Indonesia, which use sulfuric acid to pull nickel out of ore for batteries, were buying more. Kazakhstan had sold down its stockpile. And at the start of November 2025, Russia put a temporary ban on exports of several kinds of sulfur.
 
-By February 2026 prices in the Gulf had started to slip. Argus reported that the Middle East price fell 7% between late January and late February, to $495 a ton, and that a large cut in Qatar’s posted price had been expected before the attacks.
+By February 2026 prices in the Gulf had started to slip. Argus reported that the Middle East price fell 7% in the four weeks before the strikes.
 
 The tracker below lets you measure all four prices from a different starting month: January 2024, February 2025, or February 2026, the last month before the war. It also has a table of the numbers behind each line.
 
@@ -90,11 +90,11 @@ The tracker below lets you measure all four prices from a different starting mon
 
 ## Then the strait closed
 
-The first strikes on Iran came on February 28, 2026. On March 2, Iran’s Revolutionary Guard announced that the Strait of Hormuz was closed. The same week, QatarEnergy halted sulfur production after a drone attack on its Ras Laffan complex, and Kuwait’s state oil company declared force majeure on its exports, which means it told customers it could not meet its contracts. Kuwait lifted those notices in June.
+The first strikes on Iran came on February 28, 2026. On March 2, Iran’s Revolutionary Guard announced that the Strait of Hormuz was closed. The same week, QatarEnergy halted sulfur production after a drone attack on its Ras Laffan complex, and Kuwait’s state oil company told customers it could not meet its export contracts.
 
 Some sulfur got out during a pause in the fighting in June. By late September, Argus reported that sulfur traffic through the strait had settled at one to three ships a week. China’s sulfur imports for January through July were down 59% from a year earlier, the lowest since 2002, according to CRU.
 
-Sulfuric acid got harder to buy too. [Bloomberg reported](https://www.mining.com/web/china-moves-to-ban-sulfuric-acid-exports-as-iran-war-hits-supply/) in April that China would halt exports of sulfuric acid starting in May, covering the acid made as a byproduct at its copper and zinc smelters. The report was based on notices sent to producers. We did not find a public announcement from China’s government. CRU later described it as a halt on all exports through the end of 2026, and SMM reported that China’s acid exports in August were down 99% from a year earlier. Chile, the world’s largest copper producer, buys more than 1 million tons of Chinese acid a year. We did not find a Chinese limit on exports of sulfur itself.
+Sulfuric acid got harder to buy too. [Bloomberg reported](https://www.mining.com/web/china-moves-to-ban-sulfuric-acid-exports-as-iran-war-hits-supply/) in April that China would halt exports of sulfuric acid starting in May. We did not find a public announcement from China’s government, but SMM reported that China’s acid exports in August were down 99% from a year earlier. Chile, the world’s largest copper producer, buys more than 1 million tons of Chinese acid a year.
 
 The next chart shows what has happened to prices since February.
 
@@ -116,11 +116,11 @@ By August 2026 the sulfur cost about $382 and the DAP sold for $794. At export p
 
 The part left over after sulfur is what has to pay for the phosphate rock, the ammonia, the energy, the workers and the profit. It was about $693 a ton in August 2025. It was $425 in February 2026 and $411 in August. Most of that drop came before the war, over a stretch when the price of DAP fell and the price of sulfur rose.
 
-Two cautions. Mosaic buys sulfur from Gulf Coast refiners on quarterly contracts, and contract prices trailed the market on the way up. It reported an average sulfur cost of $522 a long ton, about $514 a metric ton, in the second quarter of 2026, well below export prices at the time. So the real figures are very likely less severe than the chart. And the other costs in that upper band changed too, so it is not a measure of profit.
+One caution. Producers on contracts paid less than export prices while prices were rising, so the real squeeze is very likely less severe than the chart. The upper band is also not a measure of profit, because the other costs in it changed too.
 
 Producers have responded by making less. Mosaic said in August that its plant in Faustina, Louisiana had been completely idled and that its Bartow, Florida plant was running at 40% of its target rate. Mosaic has cited both the high price of sulfur and its limited availability, with sulfur shipments through the strait still far below normal.
 
-Sulfuric acid is a separate case. A large share of the world’s sulfuric acid is not made by burning sulfur. CRU’s figures for 2025 put acid from metal smelters at about 28% of world supply and acid made by burning sulfur at about 61%. Smelter acid is a byproduct, and it costs the same to make whatever sulfur costs. Much of the acid that is made from sulfur is used inside the fertilizer plant that made it and never has a market price.
+Sulfuric acid is a separate case. More than a quarter of the world’s supply is a byproduct of metal smelting, according to CRU, and it costs the same to make whatever sulfur costs. Much of the acid that is made from sulfur is used inside the fertilizer plant that made it and never has a market price.
 
 ## What is in storage
 
@@ -129,7 +129,7 @@ How much sulfur is on hand? In the United States, not much. The chart below comp
 ![Line chart titled U.S. sulfur producers hold about six days of stock, showing days of supply on hand from January 2024. Sulfur at refineries and gas plants stays between about 5 and 7 days and ends in March 2026, where USGS data stops. Diesel and heating oil at refineries, pipelines and terminals ranges from 26 to 40 days and is near 28 days in October 2026.](images/07-days-of-supply.png)
 *Days of supply on hand. Sulfur is our calculation from USGS data. Diesel is EIA’s published figure.*
 
-U.S. sulfur producers held 122,000 tons at the end of March 2026, the latest month the Geological Survey has published. In early 2025 the agency posted these figures about two months after each month ended. The March 2026 figures were posted on October 7, more than six months later. That March stock is about six days of shipments. Sulfur comes out of a refinery every day and has to leave every day. Diesel and heating oil stocks, by comparison, have covered 26 to 40 days of demand since 2024 and stood at about 28 days in early October.
+U.S. sulfur producers held 122,000 tons at the end of March 2026, the latest month the Geological Survey has published, more than six months ago. That stock is about six days of shipments. Sulfur comes out of a refinery every day and has to leave every day. Diesel and heating oil stocks, by comparison, have covered 26 to 40 days of demand since 2024 and stood at about 28 days in early October.
 
 The two figures do not measure quite the same thing. The sulfur number counts only what producers hold, not what is sitting at the fertilizer plants that buy it.
 
@@ -141,8 +141,6 @@ The public record beyond that is thin. We found three sulfur stockpiles with num
 China’s port stocks fell the most. They were about 2.3 million tons in October 2025, the same as a year earlier, and 0.73 million on July 3, 2026, which the trade publisher SMM called the lowest since 2017. They had recovered to 0.95 million by late August. For scale, China imported about 800,000 tons a month in 2025.
 
 Alberta holds the largest pile we could find: 11.0 million tons at the end of August, built up over decades at gas plants and oil sands sites. It has been shrinking slowly since 2024, and it did not shrink faster after the war began. Sulfur in a block has to be melted and moved by rail to Vancouver before it can be shipped, and CRU put the cost of that at $180 to $200 a ton.
-
-The U.S. producer stock, the third panel, is the same 122,000 tons shown in days in the chart above. It moved little through March 2026.
 
 That is all we could find. We found no public count of the sulfur held at fertilizer plants, no figure for sulfuric acid in storage, and no figure for fertilizer stocks.
 
