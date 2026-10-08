@@ -95,8 +95,6 @@ The first strikes on Iran came on February 28, 2026. On March 2, Iran’s Revolu
 
 Some sulfur got out during a pause in the fighting in June. By late September, Argus reported that sulfur traffic through the strait had settled at one to three ships a week. China’s sulfur imports for January through July were down 59% from a year earlier, the lowest since 2002, according to CRU.
 
-Sulfuric acid got harder to buy too. [Bloomberg reported](https://www.mining.com/web/china-moves-to-ban-sulfuric-acid-exports-as-iran-war-hits-supply/) in April that China would halt exports of sulfuric acid starting in May. We did not find a public announcement from China’s government, but SMM reported that China’s acid exports in August were down 99% from a year earlier. Chile, the world’s largest copper producer, buys more than 1 million tons of Chinese acid a year.
-
 The next chart shows what has happened to prices since February.
 
 ![Bar chart titled Since the war began: sulfur up 90%, diesel up 69%, fertilizer up 28%. Percent change in price from February 2026 to the latest full month each source has published. Sulfur plus 90% to August. Diesel wholesale index plus 73% to August. Diesel retail plus 69% to September. Brent crude oil plus 64% to September. DAP fertilizer plus 28% to September. Sulfuric acid plus 25% to August.](images/05-prices-since-war.png)
@@ -122,6 +120,8 @@ One caution. Producers on contracts paid less than export prices while prices we
 Producers have responded by making less. Mosaic said in August that its plant in Faustina, Louisiana had been completely idled and that its Bartow, Florida plant was running at 40% of its target rate. Mosaic has cited both the high price of sulfur and its limited availability, with sulfur shipments through the strait still far below normal.
 
 Sulfuric acid is a separate case. More than a quarter of the world’s supply is a byproduct of metal smelting, according to CRU, and it costs the same to make whatever sulfur costs. Much of the acid that is made from sulfur is used inside the fertilizer plant that made it and never has a market price.
+
+Acid from China also became harder to get. [Bloomberg reported](https://www.mining.com/web/china-moves-to-ban-sulfuric-acid-exports-as-iran-war-hits-supply/) in April that China would halt exports of sulfuric acid starting in May. We did not find a public announcement from China’s government, but SMM reported that China’s acid exports in August were down 99% from a year earlier. Chile, the world’s largest copper producer, buys more than 1 million tons of Chinese acid a year.
 
 ## What is in storage
 

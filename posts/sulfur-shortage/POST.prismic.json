@@ -598,23 +598,6 @@
           },
           {
             "type": "paragraph",
-            "text": "Sulfuric acid got harder to buy too. Bloomberg reported in April that China would halt exports of sulfuric acid starting in May. We did not find a public announcement from China\u2019s government, but SMM reported that China\u2019s acid exports in August were down 99% from a year earlier. Chile, the world\u2019s largest copper producer, buys more than 1 million tons of Chinese acid a year.",
-            "spans": [
-              {
-                "start": 37,
-                "end": 55,
-                "type": "hyperlink",
-                "data": {
-                  "link_type": "Web",
-                  "url": "https://www.mining.com/web/china-moves-to-ban-sulfuric-acid-exports-as-iran-war-hits-supply/",
-                  "target": "_blank"
-                }
-              }
-            ],
-            "direction": "ltr"
-          },
-          {
-            "type": "paragraph",
             "text": "The next chart shows what has happened to prices since February.",
             "spans": [],
             "direction": "ltr"
@@ -798,6 +781,23 @@
             "type": "paragraph",
             "text": "Sulfuric acid is a separate case. More than a quarter of the world\u2019s supply is a byproduct of metal smelting, according to CRU, and it costs the same to make whatever sulfur costs. Much of the acid that is made from sulfur is used inside the fertilizer plant that made it and never has a market price.",
             "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Acid from China also became harder to get. Bloomberg reported in April that China would halt exports of sulfuric acid starting in May. We did not find a public announcement from China\u2019s government, but SMM reported that China\u2019s acid exports in August were down 99% from a year earlier. Chile, the world\u2019s largest copper producer, buys more than 1 million tons of Chinese acid a year.",
+            "spans": [
+              {
+                "start": 43,
+                "end": 61,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.mining.com/web/china-moves-to-ban-sulfuric-acid-exports-as-iran-war-hits-supply/",
+                  "target": "_blank"
+                }
+              }
+            ],
             "direction": "ltr"
           }
         ]

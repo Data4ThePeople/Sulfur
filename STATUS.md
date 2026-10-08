@@ -65,3 +65,4 @@ None.
 - 2026-10-08 2f: dry run clean (96 blocks, 59 slices, 10 images). Pushed to Prismic as a draft: document asgIJhIAACoAR9ni in the Migration Release, tags and author empty. Section changed to Research at Eric's request and the draft updated. Date still blank.
 - 2026-10-08 2f: publish and update date set to October 8, 2026, 6:00 pm EDT at Eric's request. Draft updated.
 - 2026-10-08 2f: Eric replaced the "former boss" sentence in the intro (pasted text, applied verbatim). Review page rebuilt and Prismic draft updated.
+- 2026-10-08 2f: China acid paragraph moved from "Then the strait closed" to the end of "Why fertilizer has not kept up with sulfur" at Eric's request, with a new opening line. Review page rebuilt and Prismic draft updated.
