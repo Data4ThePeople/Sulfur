@@ -1,6 +1,6 @@
 ---
 title: Why you should care about sulfur
-subtitle: A leftover from oil refining is a key ingredient in fertilizer. Its price has risen more than 1,000% since 2024, and the war closed the route half the world's seaborne supply takes.
+subtitle: A leftover from oil refining is a key ingredient in fertilizer. Its price has risen more than 1,000% since 2024, and the war closed the route that close to half the world's seaborne supply takes.
 slug: sulfur-shortage
 date:
 section: Data 4 Thought
@@ -142,6 +142,8 @@ The sellers in the Gulf post a price each month. The chart below shows the one f
 Adnoc posted $530 a ton for February, $1,000 for July and August, $960 for September and $890 for October. Argus described the $1,000 price as a record. The October price is still 68% above February.
 
 CRU wrote in September that buyers were cutting back and putting off purchases, not paying the going price. That lines up with the idled fertilizer plants. In our view, it suggests prices are easing partly because less fertilizer is being made, which is more of a relief for the sulfur market than for the people who buy fertilizer.
+
+## Why this matters
 
 I now understand why my former boss urged me to face my fears and research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.
 

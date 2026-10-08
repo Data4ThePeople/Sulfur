@@ -1,6 +1,6 @@
 {
   "page_title": "Why you should care about sulfur",
-  "page_subtitle": "A leftover from oil refining is a key ingredient in fertilizer. Its price has risen more than 1,000% since 2024, and the war closed the route half the world's seaborne supply takes.",
+  "page_subtitle": "A leftover from oil refining is a key ingredient in fertilizer. Its price has risen more than 1,000% since 2024, and the war closed the route that close to half the world's seaborne supply takes.",
   "make_this_main_post": false,
   "slices": [
     {
@@ -903,6 +903,33 @@
           {
             "type": "paragraph",
             "text": "CRU wrote in September that buyers were cutting back and putting off purchases, not paying the going price. That lines up with the idled fertilizer plants. In our view, it suggests prices are easing partly because less fertilizer is being made, which is more of a relief for the sulfur market than for the people who buy fertilizer.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading2",
+            "text": "Why this matters",
             "spans": [],
             "direction": "ltr"
           },
