@@ -15,7 +15,7 @@ Since: 2026-10-08
 |---|---|---|---|
 | 1  | Exploration and analysis | 2026-10-08 | Nine charts, tracker, brief. Own tie-out 94 of 94; two independent tie-outs, no numeric differences. |
 | 2a | Draft with brackets resolved | 2026-10-08 | All six proposed edits accepted. Closing still to come from Eric. |
-| 2b | Eric's edit, Claude's look-over | | |
+| 2b | Eric's edit, Claude's look-over | 2026-10-08 | Reviewer comments in. Third independent check: no wrong numbers; 19 edits and 10 trims accepted. Date still blank. |
 | 2c | Slice markup | | |
 | 2d | Hero 1680x1080 + alt text | | |
 | 2e | SEO | | |
@@ -51,3 +51,4 @@ None.
 - 2026-10-08 2b: Eric accepted edit 1 to the dibenzothiophene paragraph (reviewer's "bigger hammer" correction). Review page rebuilt.
 - 2026-10-08 2b: third independent check at Eric's request (one data agent, one text agent). No wrong numbers. 19 proposed edits, all accepted by Eric and applied; chart 07 subtitle regenerated. Own tie-out 94 of 94. Review page rebuilt.
 - 2026-10-08 2b: ten trims to Claude's sections proposed for length, all accepted by Eric and applied (about 350 words). Review page rebuilt.
+- 2026-10-08 Step 2b confirmed by Eric. Next: 2c, slice markup, when Eric asks for it.
