@@ -129,7 +129,18 @@
           {
             "type": "paragraph",
             "text": "And so, we come full circle. The work refiners did in those years to pull more sulfur out of fuel is the same work that supplies the sulfur for fertilizer today. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my boss warned, the same issues facing refineries that are driving up crack spreads are having an immense impact on the global supply of sulfur.",
-            "spans": [],
+            "spans": [
+              {
+                "start": 335,
+                "end": 348,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.data4thepeople.com/p/crack-spread-chart/",
+                  "target": "_blank"
+                }
+              }
+            ],
             "direction": "ltr"
           },
           {
@@ -492,7 +503,7 @@
           },
           {
             "type": "paragraph",
-            "text": "The tracker below lets you measure all four prices from a different starting month: January 2024, February 2025, or February 2026, the last month before the war. It also has a table of the numbers behind each line.",
+            "text": "The tracker below lets you measure all four prices from a different starting month: January 2024, February 2025, or February 2026, the last month before the war. It also has a table of the numbers behind each line. The tracker is free to use.",
             "spans": [],
             "direction": "ltr"
           }
@@ -1045,7 +1056,18 @@
           {
             "type": "paragraph",
             "text": "I now understand why my former boss urged me to research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.",
-            "spans": [],
+            "spans": [
+              {
+                "start": 201,
+                "end": 207,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.data4thepeople.com/p/running-out-of-diesel/",
+                  "target": "_blank"
+                }
+              }
+            ],
             "direction": "ltr"
           },
           {
@@ -1156,6 +1178,165 @@
               }
             ],
             "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading2",
+            "text": "Common questions",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading3",
+            "text": "Why is there a sulfur shortage?",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Most sulfur is a leftover from refining oil and processing natural gas, so the supply depends on how much fuel is processed, not on the price of sulfur. The trade publisher CRU estimated that the world used about 1.9 million tons more sulfur than it made in 2025. In March 2026 the war closed the Strait of Hormuz, the route for close to half of the sulfur that moves by sea.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading3",
+            "text": "How much have sulfur prices gone up?",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "The average value of U.S. sulfur exports rose from $77 a metric ton in January 2024 to $956 in August 2026, a rise of 1,146%. It was already $503 in February 2026, the last full month before the war.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading3",
+            "text": "Why is fertilizer so expensive?",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Sulfur is used to make the sulfuric acid that turns phosphate rock into DAP and MAP, the two main phosphate fertilizers. At August 2026 export prices, the sulfur needed for a ton of DAP cost about $382, close to half of the $794 the fertilizer sold for. In January 2024 it was about $31.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading3",
+            "text": "What is sulfur used for?",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "About 90% of the sulfur used in the United States is turned into sulfuric acid, according to the U.S. Geological Survey. Most of that acid goes to phosphate fertilizer. It is also used to pull copper, nickel and cobalt out of ore.",
+            "spans": [],
+            "direction": "ltr"
           },
           {
             "type": "paragraph",
@@ -1173,5 +1354,5 @@
       }
     }
   ],
-  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Why you should care about sulfur\",\n  \"description\": \"Sulfur prices are up more than 1,000% since 2024 and the Hormuz closure cut supply. See how the sulfur shortage reaches fertilizer prices, with a free tracker.\",\n  \"articleSection\": \"Data 4 Thought\",\n  \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n  \"inLanguage\": \"en-US\",\n  \"isAccessibleForFree\": true,\n  \"keywords\": [\n    \"sulfur shortage\",\n    \"sulfur prices\",\n    \"why is fertilizer so expensive\",\n    \"fertilizer prices\",\n    \"DAP fertilizer price\",\n    \"sulfuric acid\",\n    \"phosphate fertilizer\",\n    \"Strait of Hormuz\"\n  ],\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric Pachman\",\n    \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Data 4 The People\",\n    \"url\": \"https://data4thepeople.com\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage\"\n  }\n}"
+  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Article\",\n      \"headline\": \"Why you should care about sulfur\",\n      \"description\": \"Sulfur prices are up more than 1,000% since 2024 and the Hormuz closure cut supply. See how the sulfur shortage reaches fertilizer prices, with a free tracker.\",\n      \"articleSection\": \"Data 4 Thought\",\n      \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n      \"inLanguage\": \"en-US\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": [\n        \"sulfur shortage\",\n        \"sulfur prices\",\n        \"why is fertilizer so expensive\",\n        \"fertilizer prices\",\n        \"DAP fertilizer price\",\n        \"sulfuric acid\",\n        \"phosphate fertilizer\",\n        \"Strait of Hormuz\"\n      ],\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Eric Pachman\",\n        \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n      },\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Data 4 The People\",\n        \"url\": \"https://data4thepeople.com\"\n      },\n      \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage\"\n      },\n      \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage#article\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why is there a sulfur shortage?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Most sulfur is a leftover from refining oil and processing natural gas, so the supply depends on how much fuel is processed, not on the price of sulfur. The trade publisher CRU estimated that the world used about 1.9 million tons more sulfur than it made in 2025. In March 2026 the war closed the Strait of Hormuz, the route for close to half of the sulfur that moves by sea.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much have sulfur prices gone up?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"The average value of U.S. sulfur exports rose from $77 a metric ton in January 2024 to $956 in August 2026, a rise of 1,146%. It was already $503 in February 2026, the last full month before the war.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why is fertilizer so expensive?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Sulfur is used to make the sulfuric acid that turns phosphate rock into DAP and MAP, the two main phosphate fertilizers. At August 2026 export prices, the sulfur needed for a ton of DAP cost about $382, close to half of the $794 the fertilizer sold for. In January 2024 it was about $31.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is sulfur used for?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"About 90% of the sulfur used in the United States is turned into sulfuric acid, according to the U.S. Geological Survey. Most of that acid goes to phosphate fertilizer. It is also used to pull copper, nickel and cobalt out of ore.\"\n          }\n        }\n      ]\n    }\n  ]\n}"
 }

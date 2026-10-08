@@ -59,3 +59,4 @@ None.
 - 2026-10-08 Step 2d confirmed by Eric (Vancouver photo kept over the Syncrude aerial).
 - 2026-10-08 Step 2e opened.
 - 2026-10-08 2e: Eric's target searches: sulfur shortage, sulfur prices, why is fertilizer so expensive. meta_title (56), description (159), 8 keywords written. Schema stays Article. FAQ section, tracker sentence and two internal links proposed, waiting on Eric.
+- 2026-10-08 2e: Eric accepted all four additions (Common questions section with four FAQ entries, free-tracker sentence, two internal links). Applied. Review page rebuilt.

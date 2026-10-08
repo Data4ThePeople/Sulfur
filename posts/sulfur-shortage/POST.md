@@ -35,7 +35,7 @@ No.
 
 I honestly haven't given sulfur a second thought in years. That is, until my former boss from those days when sulfur was my job came across Data 4 The People, called me, and recommended I take a look at what's going on with sulfur right now, as it’s a story about refining that few people know, but need to know… if they, you know, eat food.
 
-And so, we come full circle. The work refiners did in those years to pull more sulfur out of fuel is the same work that supplies the sulfur for fertilizer today. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my boss warned, the same issues facing refineries that are driving up crack spreads are having an immense impact on the global supply of sulfur.
+And so, we come full circle. The work refiners did in those years to pull more sulfur out of fuel is the same work that supplies the sulfur for fertilizer today. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my boss warned, the same issues facing refineries that are driving up [crack spreads](https://www.data4thepeople.com/p/crack-spread-chart/) are having an immense impact on the global supply of sulfur.
 
 I was intrigued by this connection. So, I brushed off the cobwebs of my knowledge of sulfur and started researching. Here is what I found.
 
@@ -82,7 +82,7 @@ Trade publishers point to several reasons. CRU estimated that the world used abo
 
 By February 2026 prices in the Gulf had started to slip. Argus reported that the Middle East price fell 7% in the four weeks before the strikes.
 
-The tracker below lets you measure all four prices from a different starting month: January 2024, February 2025, or February 2026, the last month before the war. It also has a table of the numbers behind each line.
+The tracker below lets you measure all four prices from a different starting month: January 2024, February 2025, or February 2026, the last month before the war. It also has a table of the numbers behind each line. The tracker is free to use.
 
 <iframe src="https://data4thepeople.github.io/Sulfur/#embed=1" width="100%" height="780" loading="lazy" style="border:0" title="Sulfur price tracker: sulfur, sulfuric acid, DAP fertilizer and diesel since 2024"></iframe>
 
@@ -157,7 +157,7 @@ CRU wrote in September that buyers were cutting back and putting off purchases, 
 
 ## Why this matters
 
-I now understand why my former boss urged me to research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.
+I now understand why my former boss urged me to research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like [diesel](https://www.data4thepeople.com/p/running-out-of-diesel/).
 
 Here we are, with prices finally declining, not because the situation has resolved itself – there is no putting the toothpaste back in the tube on this one – but rather, as far as I can tell, because companies like Mosaic are just throwing up their hands saying we’re not going to produce as much fertilizer at this price. If you are looking at the chart hoping for the pressure to ease, this may seem like a good development. If you are a person who eats food, not so much. But unlike refineries, which can catch fire quickly when something goes wrong (as one in Venezuela did this week), global supply chains take a very long time to turn into pain and suffering. Less fertilizer today can mean lower yields tomorrow. And lower yields can mean less food and higher prices for that food.
 
@@ -173,5 +173,23 @@ I’ve been told recently that I am a harbinger of bad news. I disagree. I just 
 - **U.S. sulfur stock data stops in March 2026**, one month into the war. The series used to run about two months behind and is now more than six months behind.
 - **The China port figures and Adnoc prices are compiled from trade press reports** on irregular dates. They are not a published dataset.
 - **Price series end in different months.** Sulfur and sulfuric acid run through August 2026, DAP and diesel through September.
+
+## Common questions
+
+### Why is there a sulfur shortage?
+
+Most sulfur is a leftover from refining oil and processing natural gas, so the supply depends on how much fuel is processed, not on the price of sulfur. The trade publisher CRU estimated that the world used about 1.9 million tons more sulfur than it made in 2025. In March 2026 the war closed the Strait of Hormuz, the route for close to half of the sulfur that moves by sea.
+
+### How much have sulfur prices gone up?
+
+The average value of U.S. sulfur exports rose from $77 a metric ton in January 2024 to $956 in August 2026, a rise of 1,146%. It was already $503 in February 2026, the last full month before the war.
+
+### Why is fertilizer so expensive?
+
+Sulfur is used to make the sulfuric acid that turns phosphate rock into DAP and MAP, the two main phosphate fertilizers. At August 2026 export prices, the sulfur needed for a ton of DAP cost about $382, close to half of the $794 the fertilizer sold for. In January 2024 it was about $31.
+
+### What is sulfur used for?
+
+About 90% of the sulfur used in the United States is turned into sulfuric acid, according to the U.S. Geological Survey. Most of that acid goes to phosphate fertilizer. It is also used to pull copper, nickel and cobalt out of ore.
 
 *Photo at top: a sulfur pile and ship loader in North Vancouver, British Columbia, in 2008. [Photo by KimonBerlin](https://commons.wikimedia.org/wiki/File:North_Vancouver_from_Stanley_park._The_yellow_pile_is_sulphur_from_Alberta._(2289533764).jpg), cropped, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).*
