@@ -69,3 +69,4 @@ None.
 - 2026-10-08 2f: Eric cut the final "harbinger of bad news" paragraph, doing it himself in the Prismic editor. POST.md and the review page were cut to match. No Prismic push from here.
 - 2026-10-08 Step 2f confirmed by Eric.
 - 2026-10-08 Step 2g opened.
+- 2026-10-08 2g: EMAIL.md drafted from the post text only; hero email JPG exported under 300KB. Waiting on Eric: approve or reject.
