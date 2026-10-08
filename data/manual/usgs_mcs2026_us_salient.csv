@@ -1,0 +1,14 @@
+# Hand-keyed from data/raw/usgs/mcs2026-sulfur.pdf page 1, "Salient Statistics-United States". Thousand metric tons sulfur content unless noted. 2025 is estimated.
+item,y2021,y2022,y2023,y2024,y2025
+production_recovered_elemental,7470,8010,8010,7790,7600
+production_other_forms,600,636,640,527,500
+production_total,8070,8640,8650,8320,8100
+shipments_all_forms,8080,8640,8660,8080,7900
+imports_elemental,3470,2910,2390,2260,2000
+imports_sulfuric_acid,1070,1060,1080,1150,1100
+exports_elemental,1900,1740,1920,2080,1800
+exports_sulfuric_acid,129,97,64,55,65
+apparent_consumption,10600,10800,10200,9360,9100
+price_fob_plant_usd_per_t,90.40,177.8,58.90,46.42,180
+stocks_producer_yearend,113,125,122,114,116
+net_import_reliance_pct,24,20,15,14,14

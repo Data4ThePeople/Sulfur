@@ -1,0 +1,53 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Natural gas liquids and sulphur products from processing plants, monthly supply","25100036","131-0002","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510003601",4,"CURRENT - a cube available to the public and that is current","Monthly","1989-01-01","2026-07-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Supply of processing plant products",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"1","Nova Scotia","[12]","6","1","",,
+"1","Ontario","[35]","7","1","",,
+"1","Manitoba","[46]","2","1","",,
+"1","Saskatchewan","[47]","3","1","",,
+"1","Alberta","[48]","4","1","",,
+"1","British Columbia","[59]","5","1","",,
+"2","Propane","","4","","",,
+"2","Butane","","5","","",,
+"2","Ethane","","6","","",,
+"2","Sulphur","","7","","",,
+"2","Gas use (reprocessing), shrinkage","","1","","t",1,
+"2","Gas use (reprocessing), flared","","2","","t",2,
+"2","Gas use (reprocessing), plant fuel","","3","","t",3,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"2198","Crude Oil and Natural Gas"
+
+"Subject Code","Subject Name"
+"25","Energy"
+
+"Note ID",Note
+1,"For Canada and Alberta, amounts for shrinkage shown here are included in total supply and disposition - less, shrinkage table 25-10-0047."
+2,"For Canada and Alberta, flared amounts shown here are included in total supply and disposition - less, plant use table 25-10-0047."
+3,"For Canada and Alberta, plant fuel amounts shown here are included in total supply and disposition - less, plant use table 25-10-0047."
+4,"Sulphur production includes volumes recovered as a byproduct of oil sands facility process in Alberta."
+
+"Correction ID","Correction Date","Correction Note"
