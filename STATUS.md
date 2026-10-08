@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: sulfur-shortage
-Step: 2f
+Step: 2g
 Since: 2026-10-08
 
 ## Steps
@@ -19,7 +19,7 @@ Since: 2026-10-08
 | 2c | Slice markup | 2026-10-08 | 86 blocks, no changes needed. All alt text under 500 characters. |
 | 2d | Hero 1680x1080 + alt text | 2026-10-08 | Commons photo, North Vancouver sulfur pile (KimonBerlin, 2008, CC BY-SA 2.0). Credit line at end of post. |
 | 2e | SEO | 2026-10-08 | Meta title, description, 8 keywords. Article schema plus four FAQ entries. Two internal links. |
-| 2f | Pushed to Prismic (draft) | | |
+| 2f | Pushed to Prismic (draft) | 2026-10-08 | Document asgIJhIAACoAR9ni, Migration Release, tags and author empty. Eric is editing in Prismic; do not push without asking. |
 | 2g | Mailchimp teaser | | |
 
 ## Stale
@@ -67,3 +67,5 @@ None.
 - 2026-10-08 2f: Eric replaced the "former boss" sentence in the intro (pasted text, applied verbatim). Review page rebuilt and Prismic draft updated.
 - 2026-10-08 2f: China acid paragraph moved from "Then the strait closed" to the end of "Why fertilizer has not kept up with sulfur" at Eric's request, with a new opening line. Review page rebuilt and Prismic draft updated.
 - 2026-10-08 2f: Eric cut the final "harbinger of bad news" paragraph, doing it himself in the Prismic editor. POST.md and the review page were cut to match. No Prismic push from here.
+- 2026-10-08 Step 2f confirmed by Eric.
+- 2026-10-08 Step 2g opened.
