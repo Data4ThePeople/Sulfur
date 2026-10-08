@@ -9,5 +9,7 @@ fi
 $PY process.py > /dev/null
 $PY charts.py > /dev/null
 $PY flow.py
+$PY molecule.py
+$PY post_images.py
 $PY build.py
 $PY tieout.py
