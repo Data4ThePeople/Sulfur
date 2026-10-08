@@ -1,5 +1,5 @@
 ---
-title:
+title: Why you should care about sulfur
 subtitle:
 slug: sulfur-shortage
 date:
@@ -16,7 +16,7 @@ caption_spacer: 20px
 dividers: false
 ---
 
-# Title
+# Why you should care about sulfur
 
 Twenty-five years ago, I stepped into my first job out of undergrad, building refinery optimization models for ExxonMobil. Very early on I learned about sulfur, and how important it is to remove it during the refining process. My timing was not a coincidence. A few weeks before I started, the EPA had finalized a rule that would cut the sulfur allowed in highway diesel to 15 parts per million by 2006. Less than a decade earlier, diesel could carry as much as 5,000. Every refiner in the country had five years to figure out how to get there, and that is what the models were for. The reason to care is what sulfur does when it burns. It leaves the tailpipe as a gas, reacts with water and oxygen in the air, and comes back down as sulfuric acid, which has the pesky side effect of being one of the main ingredients in acid rain.
 

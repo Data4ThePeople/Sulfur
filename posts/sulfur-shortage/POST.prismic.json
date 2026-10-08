@@ -1,4 +1,5 @@
 {
+  "page_title": "Why you should care about sulfur",
   "make_this_main_post": false,
   "slices": [
     {
@@ -906,19 +907,19 @@
           },
           {
             "type": "paragraph",
-            "text": "I now understand why my former boss urged I face my fears, and research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.",
+            "text": "I now understand why my former boss urged me to face my fears and research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "Here we are, with prices finally declining, not because the situation has resolved itself \u2013 there is no putting the toothpaste back in the tube on this one \u2013 but rather because companies like Mosaic are just throwing up their hands saying we\u2019re not going to produce as much fertilizer at this price. If you are looking at the chart hoping for the pressure to ease, this may seem like a good development. If you are a person that eats food, not so much. But unlike refineries, which blow up quickly when something goes wrong (as did one in Venezuela this week), global supply chains take a very long time to turn into pain and suffering. The decline of fertilizer today is lower yields tomorrow. And lower yields mean less food and higher prices for that food.",
+            "text": "Here we are, with prices finally declining, not because the situation has resolved itself \u2013 there is no putting the toothpaste back in the tube on this one \u2013 but rather, as far as I can tell, because companies like Mosaic are just throwing up their hands saying we\u2019re not going to produce as much fertilizer at this price. If you are looking at the chart hoping for the pressure to ease, this may seem like a good development. If you are a person who eats food, not so much. But unlike refineries, which can blow up quickly when something goes wrong (as did one in Venezuela this week), global supply chains take a very long time to turn into pain and suffering. Less fertilizer today can mean lower yields tomorrow. And lower yields mean less food and higher prices for that food.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "I\u2019ve been told recently that I am a harbinger of bad news. I disagree. I just consult the data, and my experience when I can, to understand how the world works. Not the fairy tale world that we want to believe. The real world driven by physics, chemistry, inordinately complex global supply chains, and people running it who apparently understand none of these things. I try to look these things straight in the eye, not to predict where they will go, but to help illustrate the risk of messing with complexity, and provide hope that if we all put in the work to understand this stuff, maybe we won\u2019t be so complacent next time?",
+            "text": "I\u2019ve been told recently that I am a harbinger of bad news. I disagree. I just consult the data, and my experience when I can, to understand how the world works. Not the fairy tale world that we want to believe. The real world driven by physics, chemistry, inordinately complex global supply chains, and decisions that too often get made without understanding any of these things. I try to look these things straight in the eye, not to predict where they will go, but to help illustrate the risk of messing with complexity, and provide hope that if we all put in the work to understand this stuff, maybe we won\u2019t be so complacent next time?",
             "spans": [],
             "direction": "ltr"
           }
@@ -1023,5 +1024,5 @@
       }
     }
   ],
-  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"\",\n  \"description\": \"\",\n  \"articleSection\": \"Data 4 Thought\",\n  \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n  \"inLanguage\": \"en-US\",\n  \"isAccessibleForFree\": true,\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric Pachman\",\n    \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Data 4 The People\",\n    \"url\": \"https://data4thepeople.com\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage\"\n  }\n}"
+  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Why you should care about sulfur\",\n  \"description\": \"\",\n  \"articleSection\": \"Data 4 Thought\",\n  \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n  \"inLanguage\": \"en-US\",\n  \"isAccessibleForFree\": true,\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric Pachman\",\n    \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Data 4 The People\",\n    \"url\": \"https://data4thepeople.com\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage\"\n  }\n}"
 }
