@@ -14,7 +14,7 @@ Since: 2026-10-08
 | Step | What | Confirmed | Notes |
 |---|---|---|---|
 | 1  | Exploration and analysis | 2026-10-08 | Nine charts, tracker, brief. Own tie-out 94 of 94; two independent tie-outs, no numeric differences. |
-| 2a | Draft with brackets resolved | | |
+| 2a | Draft with brackets resolved | 2026-10-08 | All six proposed edits accepted. Closing still to come from Eric. |
 | 2b | Eric's edit, Claude's look-over | | |
 | 2c | Slice markup | | |
 | 2d | Hero 1680x1080 + alt text | | |
@@ -36,3 +36,4 @@ None.
 - 2026-10-08 2a edits: Eric accepted 3, 4, 5, 6 (applied); rejected 1, 2 (his text stands).
 - 2026-10-08 2a edits: Eric reversed on 1 and 2 and accepted both (applied). All six edits now applied.
 - 2026-10-08 2a: storage section reordered at Eric's request to lead with the days-of-supply chart; images 07 and 08 swapped.
+- 2026-10-08 Step 2a confirmed by Eric. Next: 2b, when Eric has edited POST.md and written the closing.
