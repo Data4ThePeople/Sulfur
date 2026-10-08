@@ -43,3 +43,4 @@ None.
 - 2026-10-08 2b: title set by Eric: "Why you should care about sulfur". Seven look-over items still waiting on his answer.
 - 2026-10-08 2b: Eric removed his Canada commentary (resolves look-over item 1). Items 2 to 7 still waiting.
 - 2026-10-08 2b: Eric accepted look-over items 2 to 7 (applied) and the proposed subtitle. Date still blank.
+- 2026-10-08 2b: repo made public and Pages turned on (main, /docs) with Eric's approval. Review page for my former boss at https://data4thepeople.github.io/Sulfur/review/ (noindex). Rebuild with scripts/review_page.py. Waiting on my former boss's review; 2b not yet confirmed.
