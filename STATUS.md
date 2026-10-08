@@ -70,3 +70,4 @@ None.
 - 2026-10-08 Step 2f confirmed by Eric.
 - 2026-10-08 Step 2g opened.
 - 2026-10-08 2g: EMAIL.md drafted from the post text only; hero email JPG exported under 300KB. Waiting on Eric: approve or reject.
+- 2026-10-08 2g: Eric replaced the closing hook of the teaser with his own two sentences (applied verbatim).

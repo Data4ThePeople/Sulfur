@@ -95,7 +95,7 @@ U.S. sulfur exports averaged $77 a metric ton in January 2024. In August 2026 th
 
 Fertilizer has not kept up. DAP, one of the two main phosphate fertilizers, is up 34%. In January 2024, sulfur was about 5% of the price of a ton of DAP. By August 2026, at export prices, it was close to half. Producers have responded by making less.
 
-Now sulfur prices are easing. The report explains why that is more of a relief for the sulfur market than for the people who buy fertilizer.
+Now sulfur prices are easing. But the sulfur saga seems far from over. In fact, it could be a canary in the coal mine for the risks that are building in the broader global energy markets.
 ```
 
 ## 6. Call to action
