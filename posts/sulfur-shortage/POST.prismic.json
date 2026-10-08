@@ -13,7 +13,7 @@
         "drop_cap_text": [
           {
             "type": "paragraph",
-            "text": "Twenty-five years ago, I stepped into my first job out of undergrad, building refinery optimization models for ExxonMobil. Very early on I learned about sulfur, and how important it is to remove it during the refining process. My timing was not a coincidence. A few weeks before I started, the EPA had finalized a rule that would cut the sulfur allowed in highway diesel to 15 parts per million by 2006. Less than a decade earlier, diesel could carry as much as 5,000. Every refiner in the country had five years to figure out how to get there, and that is what the models were for. The reason to care is what sulfur does when it burns. It leaves the tailpipe as a gas, reacts with water and oxygen in the air, and comes back down as sulfuric acid, which has the pesky side effect of being one of the main ingredients in acid rain.",
+            "text": "Twenty-five years ago, I stepped into my first job out of undergrad, building refinery optimization models for ExxonMobil. Very early on I learned about sulfur, and how important it is to remove it during the refining process. My timing was not a coincidence. A few weeks before I started, the EPA had finalized a rule that would cut the sulfur allowed in highway diesel to 15 parts per million by 2006. Less than a decade earlier, diesel could carry as much as 5,000. Refiners had about five years to figure out how to get there, and that is what the models were for. One reason to care is what sulfur does when it burns. It leaves the tailpipe as a gas, reacts with water and oxygen in the air, and comes back down as sulfuric acid, which has the pesky side effect of being one of the main ingredients in acid rain.",
             "spans": [],
             "direction": "ltr"
           }
@@ -90,19 +90,36 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "You see, what I learned very quickly is this one class of hydrocarbons locked the sulfur up so tightly that no matter what the refinery did throughout processing, we could barely crack the sulfur out. And so, we had to measure the concentration of dibenzothiophenes in the crude oil we purchased to ensure that it was low enough for the diesel to meet spec after it worked its way through the refinery. I spent the better part of two years learning about and modeling dibenzothiophenes. Those were the days.",
+            "text": "You see, what I learned very quickly is this one class of hydrocarbons locked the sulfur up so tightly that the equipment refineries had at the time could barely crack it out. Refiners had to build a \u201cbigger hammer\u201d to do it. Until then, we had to measure the concentration of dibenzothiophenes in the crude oil we purchased to ensure that it was low enough for the diesel to meet spec after it worked its way through the refinery. I spent the better part of two years learning about and modeling dibenzothiophenes. Those were the days.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "Here\u2019s some more context you need for this story. After running our group, my boss at the time went on to a 36-year career with ExxonMobil, through roles that took him all over the company and to the bleeding edge of energy innovation.",
+            "text": "You may be wondering if this story has completely come out of left field. Have I been walking around for decades thinking about sulfur, the way I have been thinking about sterile water?",
+            "spans": [
+              {
+                "start": 171,
+                "end": 184,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.data4thepeople.com/p/sterile-water",
+                  "target": "_blank"
+                }
+              }
+            ],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "No.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "Last week, he found my work at Data 4 The People, reached out to me, and we chatted. He reminded me of my battle with sulfur, dredging up the trauma from those two years, and suggested I start looking into what\u2019s going on with sulfur right now, as it\u2019s a story about refining that few people know, but need to know\u2026 if they, you know, eat food.",
+            "text": "I honestly haven't given sulfur a second thought in years. That is, until my former boss from those days when sulfur was my job came across Data 4 The People, called me, and recommended I take a look at what's going on with sulfur right now, as it\u2019s a story about refining that few people know, but need to know\u2026 if they, you know, eat food.",
             "spans": [],
             "direction": "ltr"
           },
@@ -367,7 +384,7 @@
           },
           {
             "type": "paragraph",
-            "text": "The United States is in a different position. It makes about 8.1 million tons a year and relies on imports for only about 14% of what it uses, a little over half of that from Canada.",
+            "text": "The United States is in a different position. It makes about 8.1 million tons a year. After subtracting what it exports, it relies on imports for about 14% of what it uses, according to the USGS. Canada supplies a little over half of U.S. sulfur imports.",
             "spans": [],
             "direction": "ltr"
           }
@@ -400,7 +417,7 @@
           },
           {
             "type": "paragraph",
-            "text": "There is no free public price for sulfur, so we built one from customs records: the average value of a metric ton of sulfur exported from the United States each month. It tracks the benchmarks the trade press reports. The chart below compares it with sulfuric acid, DAP fertilizer and diesel since January 2024.",
+            "text": "There is no free, up-to-date public price for sulfur, so we built one from customs records: the average value of a metric ton of sulfur exported from the United States each month. It tracks the benchmarks the trade press reports. The chart below compares it with sulfuric acid, DAP fertilizer and diesel since January 2024.",
             "spans": [],
             "direction": "ltr"
           }
@@ -415,7 +432,7 @@
       "items": [],
       "primary": {
         "image": {
-          "alt": "Line chart titled Sulfur was already climbing before the war, showing percent change in price since January 2024. Sulfur ends at plus 1,146% in August 2026, with most of the rise before a dotted line marking the strikes on February 28, 2026. Diesel ends at plus 63%, sulfuric acid at plus 58% and DAP fertilizer at plus 34%. U.S. sulfur exports averaged $77 a metric ton in January 2024, $503 in February 2026 and $956 in August 2026.",
+          "alt": "Line chart titled Sulfur was already climbing before the war, showing percent change in price since January 2024. Sulfur ends at plus 1,146% in August 2026, with about half of the rise before a dotted line marking the strikes on February 28, 2026. Diesel ends at plus 63%, sulfuric acid at plus 58% and DAP fertilizer at plus 34%. U.S. sulfur exports averaged $77 a metric ton in January 2024, $503 in February 2026 and $956 in August 2026.",
           "copyright": null
         },
         "source_text": [
@@ -460,13 +477,13 @@
           },
           {
             "type": "paragraph",
-            "text": "Trade publishers point to several reasons. CRU estimated that the world used about 1.9 million tons more sulfur than it made in 2025. Nickel plants in Indonesia, which use sulfuric acid to pull nickel out of ore for batteries, were buying more. Kazakhstan had sold down its stockpile. And on November 1, 2025, Russia banned exports of sulfur.",
+            "text": "Trade publishers point to several reasons. CRU estimated that the world used about 1.9 million tons more sulfur than it made in 2025. Nickel plants in Indonesia, which use sulfuric acid to pull nickel out of ore for batteries, were buying more. Kazakhstan had sold down its stockpile. And at the start of November 2025, Russia put a temporary ban on exports of several kinds of sulfur.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "By February 2026 prices in the Gulf had started to slip. Argus reported that the Middle East price fell 7% that month and that a larger drop had been expected.",
+            "text": "By February 2026 prices in the Gulf had started to slip. Argus reported that the Middle East price fell 7% between late January and late February, to $495 a ton, and that a large cut in Qatar\u2019s posted price had been expected before the attacks.",
             "spans": [],
             "direction": "ltr"
           },
@@ -533,7 +550,7 @@
           },
           {
             "type": "paragraph",
-            "text": "The first strikes on Iran came on February 28, 2026. On March 2, Iran\u2019s Revolutionary Guard announced that the Strait of Hormuz was closed. The same week, QatarEnergy halted sulfur production after a drone attack on its Ras Laffan complex, and Kuwait\u2019s state oil company declared force majeure on its exports, which means it told customers it could not meet its contracts.",
+            "text": "The first strikes on Iran came on February 28, 2026. On March 2, Iran\u2019s Revolutionary Guard announced that the Strait of Hormuz was closed. The same week, QatarEnergy halted sulfur production after a drone attack on its Ras Laffan complex, and Kuwait\u2019s state oil company declared force majeure on its exports, which means it told customers it could not meet its contracts. Kuwait lifted those notices in June.",
             "spans": [],
             "direction": "ltr"
           },
@@ -545,7 +562,7 @@
           },
           {
             "type": "paragraph",
-            "text": "Sulfuric acid got harder to buy too. Bloomberg reported in April that China would halt exports of sulfuric acid starting in May, covering the acid made as a byproduct at its copper and zinc smelters. The report was based on notices sent to producers. We did not find a public announcement from China\u2019s government. Chile, the world\u2019s largest copper producer, buys more than 1 million tons of Chinese acid a year. We did not find a Chinese limit on exports of sulfur itself. China is a large buyer of sulfur.",
+            "text": "Sulfuric acid got harder to buy too. Bloomberg reported in April that China would halt exports of sulfuric acid starting in May, covering the acid made as a byproduct at its copper and zinc smelters. The report was based on notices sent to producers. We did not find a public announcement from China\u2019s government. CRU later described it as a halt on all exports through the end of 2026, and SMM reported that China\u2019s acid exports in August were down 99% from a year earlier. Chile, the world\u2019s largest copper producer, buys more than 1 million tons of Chinese acid a year. We did not find a Chinese limit on exports of sulfur itself.",
             "spans": [
               {
                 "start": 37,
@@ -649,7 +666,7 @@
           },
           {
             "type": "paragraph",
-            "text": "If sulfur has risen more than 1,000% since early 2024, why is DAP up only 34% over the same period? The chart below splits the price of a ton of DAP into two parts: the sulfur needed to make it, and everything else.",
+            "text": "If sulfur has risen more than 1,000% since early 2024, why is DAP up only 34%? The chart below splits the price of a ton of DAP into two parts: the sulfur needed to make it, and everything else.",
             "spans": [],
             "direction": "ltr"
           }
@@ -715,25 +732,25 @@
           },
           {
             "type": "paragraph",
-            "text": "The part left over after sulfur is what has to pay for the phosphate rock, the ammonia, the energy, the workers and the profit. It was about $693 a ton in August 2025. It was $425 in February 2026 and $411 in August. Most of that drop came before the war, during months when the price of DAP was falling and the price of sulfur was not.",
+            "text": "The part left over after sulfur is what has to pay for the phosphate rock, the ammonia, the energy, the workers and the profit. It was about $693 a ton in August 2025. It was $425 in February 2026 and $411 in August. Most of that drop came before the war, over a stretch when the price of DAP fell and the price of sulfur rose.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "Two cautions. Fertilizer makers buy most of their sulfur on quarterly contracts, and contract prices trailed the market on the way up. Mosaic reported an average sulfur cost of $522 a long ton in the second quarter of 2026, well below export prices at the time. So the real figures are very likely less severe than the chart. And the other costs in that upper band changed too, so it is not a measure of profit.",
+            "text": "Two cautions. Mosaic buys sulfur from Gulf Coast refiners on quarterly contracts, and contract prices trailed the market on the way up. It reported an average sulfur cost of $522 a long ton, about $514 a metric ton, in the second quarter of 2026, well below export prices at the time. So the real figures are very likely less severe than the chart. And the other costs in that upper band changed too, so it is not a measure of profit.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "Producers have responded by making less. Mosaic said in August that its plant in Faustina, Louisiana had been completely idled and that its Bartow, Florida plant was running at 40% of its target rate. Mosaic has cited both the high price of sulfur and its limited availability, with traffic through the strait still largely halted.",
+            "text": "Producers have responded by making less. Mosaic said in August that its plant in Faustina, Louisiana had been completely idled and that its Bartow, Florida plant was running at 40% of its target rate. Mosaic has cited both the high price of sulfur and its limited availability, with sulfur shipments through the strait still far below normal.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "Sulfuric acid is a separate case. Between a third and two-fifths of the world\u2019s sulfuric acid is not made from sulfur at all, according to researchers at the University of Technology Sydney. It is a byproduct of smelting copper and zinc, and it costs the same to make whatever sulfur costs. Much of the acid that is made from sulfur is used inside the fertilizer plant that made it and never has a market price.",
+            "text": "Sulfuric acid is a separate case. A large share of the world\u2019s sulfuric acid is not made by burning sulfur. CRU\u2019s figures for 2025 put acid from metal smelters at about 28% of world supply and acid made by burning sulfur at about 61%. Smelter acid is a byproduct, and it costs the same to make whatever sulfur costs. Much of the acid that is made from sulfur is used inside the fertilizer plant that made it and never has a market price.",
             "spans": [],
             "direction": "ltr"
           }
@@ -781,7 +798,7 @@
       "items": [],
       "primary": {
         "image": {
-          "alt": "Line chart titled U.S. sulfur producers hold about six days of stock, showing days of supply on hand from January 2024. Sulfur at refineries and gas plants stays between 5 and 7 days and ends in March 2026, where USGS data stops. Diesel and heating oil at refineries, pipelines and terminals ranges from 26 to 40 days and is near 28 days in October 2026.",
+          "alt": "Line chart titled U.S. sulfur producers hold about six days of stock, showing days of supply on hand from January 2024. Sulfur at refineries and gas plants stays between about 5 and 7 days and ends in March 2026, where USGS data stops. Diesel and heating oil at refineries, pipelines and terminals ranges from 26 to 40 days and is near 28 days in October 2026.",
           "copyright": null
         },
         "source_text": [
@@ -886,7 +903,7 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "China\u2019s port stocks fell the most. They were about 2.3 million tons in October 2025 and 0.73 million on July 3, 2026, which the trade publisher SMM called the lowest since 2017. They had recovered to 0.95 million by late August. For scale, China imported about 800,000 tons a month in 2025.",
+            "text": "China\u2019s port stocks fell the most. They were about 2.3 million tons in October 2025, the same as a year earlier, and 0.73 million on July 3, 2026, which the trade publisher SMM called the lowest since 2017. They had recovered to 0.95 million by late August. For scale, China imported about 800,000 tons a month in 2025.",
             "spans": [],
             "direction": "ltr"
           },
@@ -1030,13 +1047,13 @@
           },
           {
             "type": "paragraph",
-            "text": "I now understand why my boss urged me to face my fears and research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.",
+            "text": "I now understand why my former boss urged me to research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "Here we are, with prices finally declining, not because the situation has resolved itself \u2013 there is no putting the toothpaste back in the tube on this one \u2013 but rather, as far as I can tell, because companies like Mosaic are just throwing up their hands saying we\u2019re not going to produce as much fertilizer at this price. If you are looking at the chart hoping for the pressure to ease, this may seem like a good development. If you are a person who eats food, not so much. But unlike refineries, which can blow up quickly when something goes wrong (as did one in Venezuela this week), global supply chains take a very long time to turn into pain and suffering. Less fertilizer today can mean lower yields tomorrow. And lower yields mean less food and higher prices for that food.",
+            "text": "Here we are, with prices finally declining, not because the situation has resolved itself \u2013 there is no putting the toothpaste back in the tube on this one \u2013 but rather, as far as I can tell, because companies like Mosaic are just throwing up their hands saying we\u2019re not going to produce as much fertilizer at this price. If you are looking at the chart hoping for the pressure to ease, this may seem like a good development. If you are a person who eats food, not so much. But unlike refineries, which can catch fire quickly when something goes wrong (as one in Venezuela did this week), global supply chains take a very long time to turn into pain and suffering. Less fertilizer today can mean lower yields tomorrow. And lower yields can mean less food and higher prices for that food.",
             "spans": [],
             "direction": "ltr"
           },

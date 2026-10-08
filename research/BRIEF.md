@@ -502,3 +502,34 @@ the tracker. What they changed:
   the halt; SunSirs on tighter phosphate fertilizer exports March to August.
   This replaces the firmer wording in the section 7 timeline, which rested
   on CRU alone.
+
+## 13. Third independent check (October 8, 2026)
+
+Two fresh agents, neither shown the pipeline, the brief or the numbers.
+
+- **Data.** Every number in the post, alt text, captions, charts and tracker
+  reproduced from fresh pulls. No source has newer data than the post uses.
+  Wording fixes that followed: chart 4 alt text (48.5% of the dollar rise
+  came before the strikes, not "most"); sulfur days range is 4.8 to 6.6
+  ("about 5 to 7"); DAP +34% runs to September; 14% is net import reliance
+  (USGS also says 34% of consumption came from imports); China port stocks
+  were 2.31 (Oct 30, 2024) and 2.30 (Oct 29, 2025).
+- **Text.** Corrected: the University of Technology Sydney smelter-acid
+  share describes China, not the world. World figures, CRU Sulphur no. 426
+  Table 1, 2025, million tons: sulfur-burning 195.2, smelter 91, pyrite
+  23.3, other 9.9, total 319.4 (smelter 28%, sulfur-burning 61%). Read by
+  the checker. Argus 2794920: spot fell 7% from January 29 to February 26,
+  to $495; the "substantial downward correction" was about Qatar's March
+  posted price. Russia: "temporary ban ... certain types of sulfur"
+  (Interfax, November 1; Global Trade Alert says November 4). Kuwait lifted
+  its force majeure notices June 19 (OPIS). China acid halt: CRU, May 27,
+  "halted all exports from the beginning of May through to the end of
+  2026"; SMM, August acid exports down 99.43%. Cardon refinery, October 6:
+  fire "controlled quickly", no major damage (EFE). Crude through the strait
+  at 74% of prewar (The National, October 8); sulfur still far below normal.
+- **Re-opened by Claude.** Argus 2884718 (September 30): "The flow of
+  sulphur shipments through the strait has settled at around 1-3 vessels
+  crossing per week."
+- **Not checked by anyone.** 11 of 13 China port readings and 10 of 29
+  Adnoc rows (not opened by the data checker); any source for acid used
+  inside the plant that made it; official Chinese text on the acid halt.

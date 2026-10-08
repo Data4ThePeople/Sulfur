@@ -176,7 +176,7 @@ def chart_days():
     ax.annotate(f'USGS data stops\nin {mname(sd[-1][0])}', (mid(sd[-1][0]), sd[-1][1]), xytext=(14, 30), textcoords='offset points',
                 color=INK_DIM, fontsize=9.5, va='center', arrowprops=dict(arrowstyle='-', color=MUTED, lw=0.8))
     titleblock(fig, 'U.S. sulfur producers hold about six days of stock',
-               f'Days of supply on hand. Sulfur: {n["sulfur_days_min"]:.0f} to {n["sulfur_days_max"]:.0f} days since January 2024. '
+               f'Days of supply on hand. Sulfur: about {n["sulfur_days_min"]:.0f} to {n["sulfur_days_max"]:.0f} days since January 2024. '
                f'Diesel: {n["distillate_days_min"]:.0f} to {n["distillate_days_max"]:.0f} days.\n'
                'We found no public count of sulfur held by buyers, such as fertilizer plants.')
     credit(fig, 'Sulfur: U.S. Geological Survey, month-end producer stocks divided by that month’s daily shipments (our calculation).\nDiesel: EIA weekly days of supply of distillate fuel oil.')

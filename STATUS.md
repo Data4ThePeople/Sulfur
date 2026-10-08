@@ -49,3 +49,4 @@ None.
 - 2026-10-08 2b: sentence on the USGS publication delay added to the storage section and the limits list, at Eric's request. Review page rebuilt.
 - 2026-10-08 2b: reviewer comments in. Reviewer's name removed from the post at Eric's request ("my boss"). Three paragraphs added to Claude's sections: other uses of sulfuric acid (metals), the Frasch mining history, and China's halt on sulfuric acid exports. No Chinese limit on sulfur exports was found. Review page rebuilt. Wording waiting on Eric's read.
 - 2026-10-08 2b: Eric accepted edit 1 to the dibenzothiophene paragraph (reviewer's "bigger hammer" correction). Review page rebuilt.
+- 2026-10-08 2b: third independent check at Eric's request (one data agent, one text agent). No wrong numbers. 19 proposed edits, all accepted by Eric and applied; chart 07 subtitle regenerated. Own tie-out 94 of 94. Review page rebuilt.
