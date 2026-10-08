@@ -759,7 +759,7 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "U.S. sulfur producers held 122,000 tons at the end of March 2026, the latest month the Geological Survey has published. That is about six days of shipments. Sulfur comes out of a refinery every day and has to leave every day. Diesel and heating oil stocks, by comparison, have covered 26 to 40 days of demand since 2024 and stood at about 28 days in early October.",
+            "text": "U.S. sulfur producers held 122,000 tons at the end of March 2026, the latest month the Geological Survey has published. In early 2025 the agency posted these figures about two months after each month ended. The March 2026 figures were posted on October 7, more than six months later. That March stock is about six days of shipments. Sulfur comes out of a refinery every day and has to leave every day. Diesel and heating oil stocks, by comparison, have covered 26 to 40 days of demand since 2024 and stood at about 28 days in early October.",
             "spans": [],
             "direction": "ltr"
           },
@@ -1048,7 +1048,7 @@
           },
           {
             "type": "list-item",
-            "text": "U.S. sulfur stock data stops in March 2026, one month into the war.",
+            "text": "U.S. sulfur stock data stops in March 2026, one month into the war. The series used to run about two months behind and is now more than six months behind.",
             "spans": [
               {
                 "start": 0,

@@ -121,7 +121,7 @@ How much sulfur is on hand? In the United States, not much. The chart below comp
 ![Line chart titled U.S. sulfur producers hold about six days of stock, showing days of supply on hand from January 2024. Sulfur at refineries and gas plants stays between 5 and 7 days and ends in March 2026, where USGS data stops. Diesel and heating oil at refineries, pipelines and terminals ranges from 26 to 40 days and is near 28 days in October 2026.](images/07-days-of-supply.png)
 *Days of supply on hand. Sulfur is our calculation from USGS data. Diesel is EIA’s published figure.*
 
-U.S. sulfur producers held 122,000 tons at the end of March 2026, the latest month the Geological Survey has published. That is about six days of shipments. Sulfur comes out of a refinery every day and has to leave every day. Diesel and heating oil stocks, by comparison, have covered 26 to 40 days of demand since 2024 and stood at about 28 days in early October.
+U.S. sulfur producers held 122,000 tons at the end of March 2026, the latest month the Geological Survey has published. In early 2025 the agency posted these figures about two months after each month ended. The March 2026 figures were posted on October 7, more than six months later. That March stock is about six days of shipments. Sulfur comes out of a refinery every day and has to leave every day. Diesel and heating oil stocks, by comparison, have covered 26 to 40 days of demand since 2024 and stood at about 28 days in early October.
 
 The two figures do not measure quite the same thing. The sulfur number counts only what producers hold, not what is sitting at the fertilizer plants that buy it.
 
@@ -164,6 +164,6 @@ I’ve been told recently that I am a harbinger of bad news. I disagree. I just 
 - **Our sulfur price is an average from customs records, not a market quote.** It lags the market and moves when the mix of cargoes changes. Our January 2024 starting point is 12% above the Geological Survey’s figure for the same month, so the long-run rise could be closer to 1,300% than 1,146%.
 - **The sulfur cost inside a ton of DAP is priced at export values.** Producers on contracts paid less while prices were rising. We do not have their actual costs beyond what Mosaic has reported.
 - **Inventory data covers three stockpiles.** We found no public figure for sulfuric acid in storage, for sulfur held by fertilizer makers, or for fertilizer stocks.
-- **U.S. sulfur stock data stops in March 2026**, one month into the war.
+- **U.S. sulfur stock data stops in March 2026**, one month into the war. The series used to run about two months behind and is now more than six months behind.
 - **The China port figures and Adnoc prices are compiled from trade press reports** on irregular dates. They are not a published dataset.
 - **Price series end in different months.** Sulfur and sulfuric acid run through August 2026, DAP and diesel through September.
