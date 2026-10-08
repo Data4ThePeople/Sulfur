@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Free tracker: how the price of sulfur, sulfuric acid, DAP phosphate fertilizer and diesel has changed since 2024 and since the 2026 Iran war. Built by Data 4 The People.">
+<meta charset="utf-8">
+<title>Sulfur price tracker</title>
+<style>
+:root{
+  --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#8a8984; --grid:#e6e5e0; --chip:#f1f0ec;
+  --sulfur:#eda100; --diesel:#2a78d6; --dap:#e87ba4; --acid:#52514e;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --surface:#181A1B; --ink:#ffffff; --ink2:#BBBDC0; --muted:#8A9098; --grid:#2A2D2F; --chip:#242729;
+    --sulfur:#c98500; --diesel:#3987e5; --dap:#d55181; --acid:#BBBDC0;
+  }
+}
+:root[data-theme="dark"]{
+  --surface:#181A1B; --ink:#ffffff; --ink2:#BBBDC0; --muted:#8A9098; --grid:#2A2D2F; --chip:#242729;
+  --sulfur:#c98500; --diesel:#3987e5; --dap:#d55181; --acid:#BBBDC0;
+}
+html,body{margin:0;background:var(--surface);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+#app{container-type:inline-size;max-width:1100px;margin:0 auto;padding:20px 16px 16px;box-sizing:border-box;display:flex;flex-direction:column;gap:10px}
+body.is-embed #app{height:780px;overflow:hidden;padding:14px 16px}
+h1{font-size:22px;line-height:1.2;margin:0;text-wrap:balance}
+#sub{font-size:14px;line-height:1.45;color:var(--ink2);margin:0;max-width:78ch}
+#controls{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;font-size:13px;color:var(--ink2)}
+.seg{display:inline-flex;border:1px solid var(--grid);border-radius:8px;overflow:hidden}
+.seg button{font:inherit;color:var(--ink2);background:transparent;border:0;padding:7px 12px;cursor:pointer}
+.seg button+button{border-left:1px solid var(--grid)}
+.seg button[aria-pressed="true"]{background:var(--chip);color:var(--ink);font-weight:700}
+.seg button:focus-visible,#legend button:focus-visible{outline:2px solid var(--diesel);outline-offset:-2px}
+#legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px}
+#legend button{font:inherit;font-weight:700;background:none;border:0;padding:4px 0;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+#legend button[aria-pressed="false"]{opacity:.4;text-decoration:line-through}
+#legend i{display:inline-block;width:18px;height:0;border-top:3px solid currentColor}
+#legend i.dash{border-top-style:dashed}
+#plotwrap{position:relative;flex:1 1 auto;min-height:340px}
+body:not(.is-embed) #plotwrap{height:480px;flex:none}
+svg{display:block;width:100%;height:100%;overflow:visible}
+svg text{font-family:inherit;fill:var(--ink2);font-size:12px;font-variant-numeric:tabular-nums}
+#tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--grid);border-radius:8px;padding:8px 10px;font-size:12.5px;line-height:1.5;box-shadow:0 4px 14px rgba(0,0,0,.18);min-width:210px;display:none;font-variant-numeric:tabular-nums}
+#tip b{color:var(--ink)} #tip .row{display:flex;justify-content:space-between;gap:14px} #tip .row span:first-child{font-weight:700}
+#tablewrap{flex:1 1 auto;min-height:0;overflow:auto;display:none;border:1px solid var(--grid);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:12.5px;font-variant-numeric:tabular-nums}
+th,td{padding:5px 10px;text-align:right;border-bottom:1px solid var(--grid);white-space:nowrap}
+th:first-child,td:first-child{text-align:left} th{position:sticky;top:0;background:var(--surface);color:var(--ink2)}
+#foot{font-size:11.5px;line-height:1.45;color:var(--muted);display:flex;gap:16px;justify-content:space-between;align-items:flex-end}
+#foot a{color:inherit} #credit{white-space:nowrap;font-weight:700}
+@container (max-width:560px){ h1{font-size:18px} #sub{font-size:13px} #foot{flex-direction:column;align-items:flex-start;gap:4px} svg text{font-size:11px} }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <h1>Sulfur, sulfuric acid, fertilizer and diesel: price change since <span id="h1base"></span></h1>
+  <p id="sub"></p>
+  <div id="controls">
+    <span>Measure from</span>
+    <div class="seg" id="bases" role="group" aria-label="Starting month"></div>
+    <div class="seg" role="group" aria-label="View"><button id="vChart" aria-pressed="true">Chart</button><button id="vTable" aria-pressed="false">Table</button></div>
+  </div>
+  <div id="legend" role="group" aria-label="Series"></div>
+  <div id="plotwrap"><svg id="plot" role="img"></svg><div id="tip"></div></div>
+  <div id="tablewrap"><table id="table"></table></div>
+  <div id="foot">
+    <span>Sulfur: U.S. Census Bureau, average value per metric ton of sulfur exports (crude and refined together), a customs average and not a market quote. Sulfuric acid: BLS Producer Price Index. DAP: World Bank, U.S. Gulf. Diesel: EIA, U.S. retail, monthly average. Open circles mark months with under a third of the usual export tonnage. Each line ends at the latest full month its source has published. Free to use with credit.</span>
+    <span id="credit">Built by Data 4 The People</span>
+  </div>
+</div>
+<script>
+const DATA = {"warBase":"2026-02","thin":["2025-01","2025-12"],"series":{"sulfur":[["2024-01",76.6688],["2024-02",103.6856],["2024-03",81.77],["2024-04",100.6794],["2024-05",99.4832],["2024-06",114.9622],["2024-07",81.852],["2024-08",102.0342],["2024-09",105.7586],["2024-10",114.3839],["2024-11",114.6007],["2024-12",137.2366],["2025-01",174.4503],["2025-02",167.407],["2025-03",207.5636],["2025-04",234.9482],["2025-05",292.9905],["2025-06",283.4546],["2025-07",255.4287],["2025-08",256.437],["2025-09",264.606],["2025-10",271.4065],["2025-11",357.6142],["2025-12",444.7883],["2026-01",428.6189],["2026-02",502.6128],["2026-03",351.4769],["2026-04",536.379],["2026-05",689.1152],["2026-06",855.9644],["2026-07",1040.8558],["2026-08",955.5053]],"acid":[["2024-01",194.818],["2024-02",173.244],["2024-03",172.022],["2024-04",177.338],["2024-05",166.42],["2024-06",161.543],["2024-07",186.248],["2024-08",179.964],["2024-09",183.267],["2024-10",183.586],["2024-11",212.454],["2024-12",212.569],["2025-01",213.796],["2025-02",183.745],["2025-03",186.785],["2025-04",185.158],["2025-05",216.178],["2025-06",219.116],["2025-07",222.349],["2025-08",222.349],["2025-09",216.355],["2025-10",224.031],["2025-11",233.741],["2025-12",233.607],["2026-01",232.88],["2026-02",246.236],["2026-03",248.072],["2026-04",251.416],["2026-05",302.334],["2026-06",306.013],["2026-07",307.176],["2026-08",307.176]],"dap":[["2024-01",596.3],["2024-02",583.8],["2024-03",617.5],["2024-04",545.0],["2024-05",522.0],["2024-06",543.0],["2024-07",539.4],["2024-08",546.0],["2024-09",554.8],["2024-10",573.4],["2024-11",574.5],["2024-12",568.3],["2025-01",582.7],["2025-02",603.8],["2025-03",615.1],["2025-04",635.0],["2025-05",669.2],["2025-06",715.4],["2025-07",736.0],["2025-08",795.1],["2025-09",780.6],["2025-10",754.0],["2025-11",708.3],["2025-12",627.5],["2026-01",619.2],["2026-02",626.5],["2026-03",658.3],["2026-04",725.3],["2026-05",769.5],["2026-06",783.8],["2026-07",781.3],["2026-08",793.5],["2026-09",800.6]],"diesel":[["2024-01",3.8544],["2024-02",4.0437],["2024-03",4.022],["2024-04",4.0022],["2024-05",3.8223],["2024-06",3.722],["2024-07",3.8102],["2024-08",3.6995],["2024-09",3.5578],["2024-10",3.5853],["2024-11",3.5217],["2024-12",3.4942],["2025-01",3.6342],["2025-02",3.6748],["2025-03",3.585],["2025-04",3.5665],["2025-05",3.499],["2025-06",3.599],["2025-07",3.7785],["2025-08",3.7437],["2025-09",3.7484],["2025-10",3.6785],["2025-11",3.8222],["2025-12",3.6148],["2026-01",3.5225],["2026-02",3.7222],["2026-03",4.9206],["2026-04",5.5012],["2026-05",5.5995],["2026-06",5.0238],["2026-07",4.9553],["2026-08",5.462],["2026-09",6.2907]]}};
+const SERIES = [
+  {key:'sulfur', label:'Sulfur', color:'--sulfur', unit:v=>'$'+Math.round(v).toLocaleString('en-US')+' a metric ton'},
+  {key:'acid',   label:'Sulfuric acid', color:'--acid', dash:true, unit:v=>'index '+v.toFixed(1)},
+  {key:'dap',    label:'DAP fertilizer', color:'--dap', unit:v=>'$'+Math.round(v).toLocaleString('en-US')+' a metric ton'},
+  {key:'diesel', label:'Diesel', color:'--diesel', unit:v=>'$'+v.toFixed(2)+' a gallon'},
+];
+const BASES = [['2024-01','January 2024'],['2025-02','February 2025, a year earlier'],[DATA.warBase,'February 2026, before the war']];
+const MON = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const monthName = m => MON[+m.slice(5)-1]+' '+m.slice(0,4);
+const pctText = v => (v>0?'+':v<0?'−':'')+Math.abs(v).toLocaleString('en-US',{maximumFractionDigits:0})+'%';
+const EMBED = window.self !== window.top || location.hash.includes('embed=1');
+if(EMBED){ document.documentElement.setAttribute('data-theme','light'); document.body.classList.add('is-embed'); }
+
+const state = {base:'2024-01', on:Object.fromEntries(SERIES.map(s=>[s.key,true])), view:'chart'};
+const $ = id => document.getElementById(id);
+const el = (tag, attrs={}, text) => { const e=document.createElementNS('http://www.w3.org/2000/svg',tag); for(const k in attrs) e.setAttribute(k,attrs[k]); if(text!=null) e.textContent=text; return e; };
+const mIndex = m => (+m.slice(0,4))*12 + (+m.slice(5)-1);
+
+function lines(){   // percent change from the base month, recomputed on every render
+  return SERIES.filter(s=>state.on[s.key]).map(s=>{
+    const rows = DATA.series[s.key].filter(r=>r[0]>=state.base);
+    const b = rows[0][1];
+    return {...s, pts: rows.map(r=>({m:r[0], v:r[1], p:100*(r[1]/b-1)}))};
+  });
+}
+
+function niceStep(span, n){ const raw=span/n, p=Math.pow(10,Math.floor(Math.log10(raw))); return [1,2,2.5,5,10].map(k=>k*p).find(s=>s>=raw); }
+
+function render(){
+  const L = lines(), svg=$('plot'), wrap=$('plotwrap');
+  $('h1base').textContent = monthName(state.base);
+  const s0 = DATA.series.sulfur, sb = s0.find(r=>r[0]===state.base), sl = s0[s0.length-1];
+  $('sub').textContent = 'U.S. sulfur exports averaged $'+Math.round(sb[1]).toLocaleString('en-US')+' a metric ton in '+monthName(sb[0])+' and $'+Math.round(sl[1]).toLocaleString('en-US')+' in '+monthName(sl[0])+', a change of '+pctText(100*(sl[1]/sb[1]-1))+'. Strikes on Iran began February 28, 2026.';
+  $('tablewrap').style.display = state.view==='table' ? 'block':'none';
+  wrap.style.display = state.view==='chart' ? 'block':'none';
+  $('legend').style.display = state.view==='chart' ? 'flex':'none';
+  table();
+  if(state.view!=='chart') return;
+  const W = wrap.clientWidth, H = wrap.clientHeight, narrow = W<560;
+  const mg = {t:26, r: narrow?66:150, b:34, l:56};
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`); svg.replaceChildren();
+  svg.setAttribute('aria-label','Line chart of percent change in price since '+monthName(state.base)+' for sulfur, sulfuric acid, DAP fertilizer and diesel. A table view is available.');
+  if(!L.length) return;
+  const x0 = mIndex(state.base), x1 = Math.max(...Object.values(DATA.series).map(v=>mIndex(v[v.length-1][0])));
+  let lo = Math.min(0,...L.flatMap(l=>l.pts.map(p=>p.p))), hi = Math.max(10,...L.flatMap(l=>l.pts.map(p=>p.p)));
+  const step = niceStep(hi-lo, 6); lo = lo < -0.4*step ? Math.floor(lo/step)*step : lo*1.6; hi = Math.ceil(hi/step)*step;   // small dips get room, not a whole empty band
+  const X = i => mg.l + (W-mg.l-mg.r)*(i-x0)/(x1-x0), Y = v => mg.t + (H-mg.t-mg.b)*(1-(v-lo)/(hi-lo));
+  for(let v=Math.ceil(lo/step-1e-9)*step; v<=hi+1e-9; v+=step){
+    svg.append(el('line',{x1:mg.l,x2:W-mg.r,y1:Y(v),y2:Y(v),stroke:'var(--grid)','stroke-width':Math.abs(v)<1e-9?1.5:1}));
+    svg.append(el('text',{x:mg.l-8,y:Y(v)+4,'text-anchor':'end'},pctText(v)));
+  }
+  const every = (x1-x0)>20 ? 6 : (x1-x0)>9 ? 3 : 1;
+  for(let i=x0;i<=x1;i++){ const mo=i%12; if(mo%every) continue;
+    svg.append(el('text',{x:X(i),y:H-mg.b+16,'text-anchor':'middle'},MON[mo].slice(0,3)+(mo===0||i===x0?' '+Math.floor(i/12):'')));
+  }
+  const wx = X(mIndex(DATA.warBase)+27/28);   // February 28 sits at the end of February
+  if(wx>mg.l){ svg.append(el('line',{x1:wx,x2:wx,y1:mg.t-6,y2:H-mg.b,stroke:'var(--muted)','stroke-dasharray':'2 4'}));
+    svg.append(el('text',{x:wx-6,y:mg.t+4,'text-anchor':'end'},'Strikes begin')); }
+  const ends=[];
+  for(const l of L){
+    const d = l.pts.map((p,i)=>(i?'L':'M')+X(mIndex(p.m)).toFixed(1)+' '+Y(p.p).toFixed(1)).join('');
+    svg.append(el('path',{d,fill:'none',stroke:`var(${l.color})`,'stroke-width':2.2,'stroke-linejoin':'round','stroke-linecap':'round',...(l.dash?{'stroke-dasharray':'6 4'}:{})}));
+    if(l.key==='sulfur') for(const p of l.pts) if(DATA.thin.includes(p.m)) svg.append(el('circle',{cx:X(mIndex(p.m)),cy:Y(p.p),r:4.5,fill:'var(--surface)',stroke:`var(${l.color})`,'stroke-width':2}));
+    const e=l.pts[l.pts.length-1]; ends.push({l,e,y:Y(e.p)});
+  }
+  ends.sort((a,b)=>a.y-b.y); for(let i=1;i<ends.length;i++) ends[i].y=Math.max(ends[i].y,ends[i-1].y+15);
+  for(const {l,e,y} of ends){
+    svg.append(el('circle',{cx:X(mIndex(e.m)),cy:Y(e.p),r:4,fill:`var(${l.color})`,stroke:'var(--surface)','stroke-width':2}));
+    const t=el('text',{x:X(x1)+10,y:y+4,style:`fill:var(${l.color});font-weight:700`},(narrow?'':l.label+' ')+pctText(e.p)); svg.append(t);
+  }
+  // hover layer: crosshair and one tooltip for every series at that month
+  const cross = el('line',{y1:mg.t,y2:H-mg.b,stroke:'var(--muted)','stroke-width':1,visibility:'hidden'}); svg.append(cross);
+  const hit = el('rect',{x:mg.l,y:mg.t,width:W-mg.l-mg.r,height:H-mg.t-mg.b,fill:'transparent',tabindex:0,'aria-label':'Chart area. Use left and right arrow keys to read values by month.'}); svg.append(hit);
+  const tip=$('tip'); let cur=x1;
+  const show = i => { cur=Math.max(x0,Math.min(x1,i)); const m=Math.floor(cur/12)+'-'+String(cur%12+1).padStart(2,'0');
+    cross.setAttribute('x1',X(cur)); cross.setAttribute('x2',X(cur)); cross.setAttribute('visibility','visible');
+    tip.replaceChildren(); const h=document.createElement('b'); h.textContent=monthName(m); tip.append(h);
+    for(const l of L){ const p=l.pts.find(q=>q.m===m); const r=document.createElement('div'); r.className='row';
+      const a=document.createElement('span'); a.textContent=l.label; a.style.color=`var(${l.color})`;
+      const b=document.createElement('span'); b.textContent = p ? pctText(p.p)+' · '+l.unit(p.v)+(l.key==='sulfur'&&DATA.thin.includes(m)?' (few cargoes)':'') : 'not yet published'; r.append(a,b); tip.append(r); }
+    tip.style.display='block'; const tw=tip.offsetWidth; tip.style.left=Math.min(W-tw-4,Math.max(4,X(cur)+(X(cur)>W/2?-tw-12:12)))+'px'; tip.style.top=(mg.t+4)+'px'; };
+  const hide = () => { tip.style.display='none'; cross.setAttribute('visibility','hidden'); };
+  hit.addEventListener('pointermove',ev=>{ const r=svg.getBoundingClientRect(); show(Math.round(x0+(x1-x0)*((ev.clientX-r.left)*(W/r.width)-mg.l)/(W-mg.l-mg.r))); });
+  hit.addEventListener('pointerleave',hide); hit.addEventListener('blur',hide); hit.addEventListener('focus',()=>show(cur));
+  hit.addEventListener('keydown',ev=>{ if(ev.key==='ArrowLeft'){show(cur-1);ev.preventDefault();} if(ev.key==='ArrowRight'){show(cur+1);ev.preventDefault();} if(ev.key==='Escape')hide(); });
+}
+
+function table(){
+  const t=$('table'); t.replaceChildren(); if(state.view!=='table') return;
+  const months=[...new Set(SERIES.flatMap(s=>DATA.series[s.key].filter(r=>r[0]>=state.base).map(r=>r[0])))].sort().reverse();
+  const hr=t.insertRow(); ['Month',...SERIES.flatMap(s=>[s.label,'change'])].forEach(h=>{const th=document.createElement('th'); th.textContent=h; hr.append(th);});
+  for(const m of months){ const tr=t.insertRow(); tr.insertCell().textContent=monthName(m);
+    for(const s of SERIES){ const rows=DATA.series[s.key], b=rows.find(r=>r[0]===state.base), r=rows.find(q=>q[0]===m);
+      tr.insertCell().textContent = r ? s.unit(r[1]).replace(' a metric ton','/t').replace(' a gallon','/gal').replace('index ','') : '';
+      tr.insertCell().textContent = r ? pctText(100*(r[1]/b[1]-1)) : ''; } }
+}
+
+for(const [m,label] of BASES){ const b=document.createElement('button'); b.textContent=label; b.dataset.m=m; b.onclick=()=>{state.base=m; sync(); render();}; $('bases').append(b); }
+for(const s of SERIES){ const b=document.createElement('button'); b.dataset.k=s.key; b.style.color=`var(${s.color})`; const i=document.createElement('i'); if(s.dash) i.className='dash'; b.append(i,document.createTextNode(s.label));
+  b.onclick=()=>{state.on[s.key]=!state.on[s.key]; sync(); render();}; $('legend').append(b); }
+$('vChart').onclick=()=>{state.view='chart'; sync(); render();}; $('vTable').onclick=()=>{state.view='table'; sync(); render();};
+function sync(){ for(const b of $('bases').children) b.setAttribute('aria-pressed',b.dataset.m===state.base); for(const b of $('legend').children) b.setAttribute('aria-pressed',state.on[b.dataset.k]);
+  $('vChart').setAttribute('aria-pressed',state.view==='chart'); $('vTable').setAttribute('aria-pressed',state.view==='table'); }
+sync(); render();
+new ResizeObserver(()=>render()).observe($('app'));
+document.body.setAttribute('data-ready','1');
+</script>
+
+</body>
+</html>

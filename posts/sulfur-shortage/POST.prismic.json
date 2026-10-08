@@ -425,6 +425,12 @@
             "text": "By February 2026 prices in the Gulf had started to slip. Argus reported that the Middle East price fell 7% that month and that a larger drop had been expected.",
             "spans": [],
             "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "The tracker below lets you measure all four prices from a different starting month: January 2024, February 2025, or February 2026, the last month before the war. It also has a table of the numbers behind each line.",
+            "spans": [],
+            "direction": "ltr"
           }
         ]
       }
@@ -437,6 +443,34 @@
       "items": [],
       "primary": {
         "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "html_embed",
+      "slice_label": null,
+      "variation": "fullWidth",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "html_content": [
+          {
+            "type": "preformatted",
+            "text": "<style>html,body{margin:0;padding:0;overflow:hidden}iframe{display:block}</style><iframe src=\"https://data4thepeople.github.io/Sulfur/#embed=1\" width=\"100%\" height=\"780\" loading=\"lazy\" style=\"border:0\" title=\"Sulfur price tracker: sulfur, sulfuric acid, DAP fertilizer and diesel since 2024\"></iframe>",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ],
+        "embed_height": "780px"
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "40px"
       }
     },
     {

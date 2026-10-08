@@ -45,3 +45,4 @@ None.
 - 2026-10-08 2b: Eric accepted look-over items 2 to 7 (applied) and the proposed subtitle. Date still blank.
 - 2026-10-08 2b: repo made public and Pages turned on (main, /docs) with Eric's approval. Review page for my former boss at https://data4thepeople.github.io/Sulfur/review/ (noindex). Rebuild with scripts/review_page.py. Waiting on my former boss's review; 2b not yet confirmed.
 - 2026-10-08 2b: subtitle corrected to "close to half"; heading "Why this matters" added before Eric's closing at his request. Review page rebuilt.
+- 2026-10-08 2b: interactive tracker added to the post at Eric's request (iframe to https://data4thepeople.github.io/Sulfur/#embed=1, 780px), placed at the end of the price section. build.py now copies the tracker to docs/index.html for Pages.

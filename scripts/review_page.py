@@ -29,6 +29,10 @@ for b in blocks:
         m = re.match(r'!\[(.*?)\]\((.*?)\)', lines[0])
         cap = lines[1].strip().strip('*') if len(lines) > 1 else ''
         out.append(f'<figure><img src="{m.group(2)}" alt="{html.escape(m.group(1))}"><figcaption>{inline(cap)}</figcaption></figure>')
+    elif b.startswith('<iframe'):
+        out.append(f'<figure class="embed">{b}</figure>')
+    elif b.startswith('::: spacer'):
+        continue
     elif b.startswith('::: divider'):
         out.append('<hr>')
     elif b.startswith('- '):
@@ -64,6 +68,7 @@ h1 {{ font-size: clamp(2rem, 6vw, 2.9rem); line-height: 1.1; font-weight: 600; t
 h2 {{ font-size: 1.55rem; line-height: 1.2; font-weight: 600; text-wrap: balance; margin-top: 1.1em; }}
 figure {{ margin-block: .6em; }}
 figure img {{ display: block; width: 100%; max-width: 100%; height: auto; border-radius: 6px; }}
+figure.embed iframe {{ display: block; width: 100%; border-radius: 6px; background: #fcfcfb; }}
 figcaption {{ font-family: var(--label); font-size: .82rem; line-height: 1.45; color: var(--dim); margin-top: 8px; }}
 @media (min-width: 900px) {{ figure {{ margin-inline: -70px; }} figcaption {{ margin-inline: 70px; }} }}
 a {{ color: var(--accent); }} a:focus-visible {{ outline: 2px solid var(--accent); outline-offset: 2px; }}

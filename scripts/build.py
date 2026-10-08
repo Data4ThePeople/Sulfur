@@ -42,6 +42,9 @@ full = ('<!doctype html>\n<html lang="en">\n<head>\n<meta name="viewport" conten
         + t[:head_end] + '\n</head>\n<body>\n' + t[head_end:] + '\n</body>\n</html>\n')
 DIST.mkdir(exist_ok=True)
 (DIST / 'index.html').write_text(full)
+# GitHub Pages serves /docs, so the same file is copied there: https://data4thepeople.github.io/Sulfur/
+(DIST.parent / 'docs').mkdir(exist_ok=True)
+(DIST.parent / 'docs' / 'index.html').write_text(full)
 
 CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 if os.path.exists(CHROME):

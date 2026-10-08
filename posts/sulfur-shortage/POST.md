@@ -76,6 +76,12 @@ Trade publishers point to several reasons. CRU estimated that the world used abo
 
 By February 2026 prices in the Gulf had started to slip. Argus reported that the Middle East price fell 7% that month and that a larger drop had been expected.
 
+The tracker below lets you measure all four prices from a different starting month: January 2024, February 2025, or February 2026, the last month before the war. It also has a table of the numbers behind each line.
+
+<iframe src="https://data4thepeople.github.io/Sulfur/#embed=1" width="100%" height="780" loading="lazy" style="border:0" title="Sulfur price tracker: sulfur, sulfuric acid, DAP fertilizer and diesel since 2024"></iframe>
+
+::: spacer 40px
+
 ## Then the strait closed
 
 The first strikes on Iran came on February 28, 2026. On March 2, Iran’s Revolutionary Guard announced that the Strait of Hormuz was closed. The same week, QatarEnergy halted sulfur production after a drone attack on its Ras Laffan complex, and Kuwait’s state oil company declared force majeure on its exports, which means it told customers it could not meet its contracts.
