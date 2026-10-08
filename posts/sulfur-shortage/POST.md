@@ -29,11 +29,11 @@ This is when I met my arch-nemesis: dibenzothiophene.
 
 You see, what I learned very quickly is this one class of hydrocarbons locked the sulfur up so tightly that no matter what the refinery did throughout processing, we could barely crack the sulfur out. And so, we had to measure the concentration of dibenzothiophenes in the crude oil we purchased to ensure that it was low enough for the diesel to meet spec after it worked its way through the refinery. I spent the better part of two years learning about and modeling dibenzothiophenes. Those were the days.
 
-Here’s some more context you need for this story. My boss at the time was my former boss. After running our group, my former boss went on to a 36-year career with ExxonMobil, through roles that took him all over the company and to the bleeding edge of energy innovation.
+Here’s some more context you need for this story. After running our group, my boss at the time went on to a 36-year career with ExxonMobil, through roles that took him all over the company and to the bleeding edge of energy innovation.
 
-Last week, my former boss found my work at Data 4 The People, reached out to me, and we chatted. He reminded me of my battle with sulfur, dredging up the trauma from those two years, and suggested I start looking into what’s going on with sulfur right now, as it’s a story about refining that few people know, but need to know… if they, you know, eat food.
+Last week, he found my work at Data 4 The People, reached out to me, and we chatted. He reminded me of my battle with sulfur, dredging up the trauma from those two years, and suggested I start looking into what’s going on with sulfur right now, as it’s a story about refining that few people know, but need to know… if they, you know, eat food.
 
-And so, we come full circle. The work refiners did in those years to pull more sulfur out of fuel is the same work that supplies the sulfur for fertilizer today. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my former boss warned, the same issues facing refineries that are driving up crack spreads are having an immense impact on the global supply of sulfur.
+And so, we come full circle. The work refiners did in those years to pull more sulfur out of fuel is the same work that supplies the sulfur for fertilizer today. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my boss warned, the same issues facing refineries that are driving up crack spreads are having an immense impact on the global supply of sulfur.
 
 I was intrigued by this connection. So, I brushed off the cobwebs of my knowledge of sulfur and started researching. Here is what I found.
 
@@ -50,7 +50,11 @@ The U.S. Geological Survey says about 90% of the sulfur used in the United State
 
 The sulfur does not end up in the fertilizer. It leaves the plant as gypsum waste. It is a processing chemical that gets used once, so fertilizer makers need a steady supply of it.
 
+Fertilizer is not the only thing that needs this acid. Sulfuric acid is also used to pull metals out of ore. The [International Energy Agency](https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview) lists copper, nickel and cobalt, along with rare earths and the chemicals that go into batteries. The research firm Benchmark Mineral Intelligence says it takes more than 10 tons of sulfur to make one ton of nickel by the acid method used in Indonesia, and that the mines producing 22% of the world’s copper need large amounts of acid. In May, Benchmark estimated that more than half of this year’s lithium, cobalt and rare earth production was exposed to disruptions in sulfur and sulfuric acid, as [Mining.com reported](https://www.mining.com/charts-how-the-sulphuric-acid-crunch-is-driving-up-critical-minerals-costs/).
+
 One more thing sets sulfur apart from most raw materials. Because it is a leftover from cleaning up oil and gas, the amount produced depends on how much fuel is being processed. A higher sulfur price does not bring more of it out of a refinery. This is really important to keep in mind.
+
+It was not always a leftover. For most of the 1900s, the United States mined sulfur directly. Companies drilled wells into sulfur deposits deep under the Gulf Coast, pumped in superheated water to melt the sulfur, and lifted it to the surface with compressed air. This is called the Frasch process. U.S. output from these mines peaked at about 8 million metric tons in 1974, according to a [USGS history](https://pubs.usgs.gov/of/2002/of02-298/of02-298.pdf), close to the 8.1 million tons the country made in 2025. In 1982, sulfur recovered from oil and gas passed mined sulfur for the first time. The last U.S. mine, off the coast of Louisiana, closed in August 2000. The USGS cited low sulfur prices, high fuel costs and technical problems. It wrote that sulfur is still in the ground there and at other sites, but that reopening old mines or building new ones was “highly unlikely.”
 
 ## Where the world’s sulfur comes from
 
@@ -87,6 +91,8 @@ The tracker below lets you measure all four prices from a different starting mon
 The first strikes on Iran came on February 28, 2026. On March 2, Iran’s Revolutionary Guard announced that the Strait of Hormuz was closed. The same week, QatarEnergy halted sulfur production after a drone attack on its Ras Laffan complex, and Kuwait’s state oil company declared force majeure on its exports, which means it told customers it could not meet its contracts.
 
 Some sulfur got out during a pause in the fighting in June. By late September, Argus reported that sulfur traffic through the strait had settled at one to three ships a week. China’s sulfur imports for January through July were down 59% from a year earlier, the lowest since 2002, according to CRU.
+
+Sulfuric acid got harder to buy too. [Bloomberg reported](https://www.mining.com/web/china-moves-to-ban-sulfuric-acid-exports-as-iran-war-hits-supply/) in April that China would halt exports of sulfuric acid starting in May, covering the acid made as a byproduct at its copper and zinc smelters. The report was based on notices sent to producers. We did not find a public announcement from China’s government. Chile, the world’s largest copper producer, buys more than 1 million tons of Chinese acid a year. We did not find a Chinese limit on exports of sulfur itself. China is a large buyer of sulfur.
 
 The next chart shows what has happened to prices since February.
 
@@ -151,7 +157,7 @@ CRU wrote in September that buyers were cutting back and putting off purchases, 
 
 ## Why this matters
 
-I now understand why my former boss urged me to face my fears and research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.
+I now understand why my boss urged me to face my fears and research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.
 
 Here we are, with prices finally declining, not because the situation has resolved itself – there is no putting the toothpaste back in the tube on this one – but rather, as far as I can tell, because companies like Mosaic are just throwing up their hands saying we’re not going to produce as much fertilizer at this price. If you are looking at the chart hoping for the pressure to ease, this may seem like a good development. If you are a person who eats food, not so much. But unlike refineries, which can blow up quickly when something goes wrong (as did one in Venezuela this week), global supply chains take a very long time to turn into pain and suffering. Less fertilizer today can mean lower yields tomorrow. And lower yields mean less food and higher prices for that food.
 

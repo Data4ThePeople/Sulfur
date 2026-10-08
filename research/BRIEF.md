@@ -465,3 +465,40 @@ the tracker. What they changed:
   producer stocks moved once the war was under way.
 - Whether to chart Illinois retail DAP and farm diesel. The data is pulled.
 - The world share of sulfur going to phosphate, from a page we can open.
+
+## 12. Added after the reviewer's comments (October 8, 2026)
+
+- **Metals also need the acid.** IEA, Global Critical Minerals Outlook 2026:
+  sulfuric acid "is used in fertiliser production, the leaching of key
+  metals, such as copper, nickel and cobalt, and the production of rare
+  earths and battery chemicals." (Read.) Benchmark Mineral Intelligence, as
+  reported by Mining.com on May 28, 2026: "more than 10 tonnes of sulphur
+  are required to produce one tonne of nickel through HPAL processing";
+  solvent extraction and electrowinning operations "account for 22% of
+  global mined copper output"; "More than half of global lithium, cobalt,
+  rare earth and purified phosphoric acid production expected in 2026 is
+  exposed"; sulfur is 42% of HPAL nickel costs, up from 26%; acid is 11% of
+  hard-rock lithium chemical costs, up from 3%. (Read, Mining.com. The
+  Benchmark report itself was not opened.)
+- **Frasch mining.** USGS Open-File Report 02-298 (Ober, 2002), pages 12 to
+  14: first commercial success 1903 at Sulphur Mine, Louisiana; superheated
+  water at about 165 C, sulfur lifted with compressed air; U.S. Frasch
+  output "peaked at more than 8 Mt in 1974 when 12 mines were operating";
+  "In 1982, production of recovered sulfur surpassed that of Frasch for the
+  first time"; Main Pass 299, 51 km off Louisiana, closed August 31, 2000
+  "because of low sulfur prices, high fuel costs, and technical problems";
+  "reopening of previously closed operations or development of new Frasch
+  mines is highly unlikely." (Read.) Wikipedia says Frasch mines still run
+  in Mexico, Ukraine and Poland; the USGS report says the last Mexican mine
+  closed in 1993. Not used in the post.
+- **China.** Bloomberg, April 10, 2026 (read as republished by Mining.com):
+  China "has indicated it will halt exports of sulfuric acid from May"; "The
+  ban will cover sulfuric acid that's a by-product of copper and zinc
+  smelting"; Acuity said it "could last throughout 2026"; the Ministry of
+  Commerce did not comment; Chile "buys over 1 million tons of Chinese
+  sulfuric acid every year." No report of a Chinese restriction on
+  elemental sulfur exports was found. Snippet only, not opened: Bloomberg,
+  September 8, 2026, first acid cargo (32,000 tons, Nanjing to Chile) since
+  the halt; SunSirs on tighter phosphate fertilizer exports March to August.
+  This replaces the firmer wording in the section 7 timeline, which rested
+  on CRU alone.

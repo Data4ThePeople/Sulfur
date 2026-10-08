@@ -96,19 +96,19 @@
           },
           {
             "type": "paragraph",
-            "text": "Here\u2019s some more context you need for this story. My boss at the time was my former boss. After running our group, my former boss went on to a 36-year career with ExxonMobil, through roles that took him all over the company and to the bleeding edge of energy innovation.",
+            "text": "Here\u2019s some more context you need for this story. After running our group, my boss at the time went on to a 36-year career with ExxonMobil, through roles that took him all over the company and to the bleeding edge of energy innovation.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "Last week, my former boss found my work at Data 4 The People, reached out to me, and we chatted. He reminded me of my battle with sulfur, dredging up the trauma from those two years, and suggested I start looking into what\u2019s going on with sulfur right now, as it\u2019s a story about refining that few people know, but need to know\u2026 if they, you know, eat food.",
+            "text": "Last week, he found my work at Data 4 The People, reached out to me, and we chatted. He reminded me of my battle with sulfur, dredging up the trauma from those two years, and suggested I start looking into what\u2019s going on with sulfur right now, as it\u2019s a story about refining that few people know, but need to know\u2026 if they, you know, eat food.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "And so, we come full circle. The work refiners did in those years to pull more sulfur out of fuel is the same work that supplies the sulfur for fertilizer today. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my former boss warned, the same issues facing refineries that are driving up crack spreads are having an immense impact on the global supply of sulfur.",
+            "text": "And so, we come full circle. The work refiners did in those years to pull more sulfur out of fuel is the same work that supplies the sulfur for fertilizer today. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my boss warned, the same issues facing refineries that are driving up crack spreads are having an immense impact on the global supply of sulfur.",
             "spans": [],
             "direction": "ltr"
           },
@@ -219,8 +219,52 @@
           },
           {
             "type": "paragraph",
+            "text": "Fertilizer is not the only thing that needs this acid. Sulfuric acid is also used to pull metals out of ore. The International Energy Agency lists copper, nickel and cobalt, along with rare earths and the chemicals that go into batteries. The research firm Benchmark Mineral Intelligence says it takes more than 10 tons of sulfur to make one ton of nickel by the acid method used in Indonesia, and that the mines producing 22% of the world\u2019s copper need large amounts of acid. In May, Benchmark estimated that more than half of this year\u2019s lithium, cobalt and rare earth production was exposed to disruptions in sulfur and sulfuric acid, as Mining.com reported.",
+            "spans": [
+              {
+                "start": 113,
+                "end": 140,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview",
+                  "target": "_blank"
+                }
+              },
+              {
+                "start": 641,
+                "end": 660,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.mining.com/charts-how-the-sulphuric-acid-crunch-is-driving-up-critical-minerals-costs/",
+                  "target": "_blank"
+                }
+              }
+            ],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
             "text": "One more thing sets sulfur apart from most raw materials. Because it is a leftover from cleaning up oil and gas, the amount produced depends on how much fuel is being processed. A higher sulfur price does not bring more of it out of a refinery. This is really important to keep in mind.",
             "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "It was not always a leftover. For most of the 1900s, the United States mined sulfur directly. Companies drilled wells into sulfur deposits deep under the Gulf Coast, pumped in superheated water to melt the sulfur, and lifted it to the surface with compressed air. This is called the Frasch process. U.S. output from these mines peaked at about 8 million metric tons in 1974, according to a USGS history, close to the 8.1 million tons the country made in 2025. In 1982, sulfur recovered from oil and gas passed mined sulfur for the first time. The last U.S. mine, off the coast of Louisiana, closed in August 2000. The USGS cited low sulfur prices, high fuel costs and technical problems. It wrote that sulfur is still in the ground there and at other sites, but that reopening old mines or building new ones was \u201chighly unlikely.\u201d",
+            "spans": [
+              {
+                "start": 390,
+                "end": 402,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://pubs.usgs.gov/of/2002/of02-298/of02-298.pdf",
+                  "target": "_blank"
+                }
+              }
+            ],
             "direction": "ltr"
           }
         ]
@@ -497,6 +541,23 @@
             "type": "paragraph",
             "text": "Some sulfur got out during a pause in the fighting in June. By late September, Argus reported that sulfur traffic through the strait had settled at one to three ships a week. China\u2019s sulfur imports for January through July were down 59% from a year earlier, the lowest since 2002, according to CRU.",
             "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Sulfuric acid got harder to buy too. Bloomberg reported in April that China would halt exports of sulfuric acid starting in May, covering the acid made as a byproduct at its copper and zinc smelters. The report was based on notices sent to producers. We did not find a public announcement from China\u2019s government. Chile, the world\u2019s largest copper producer, buys more than 1 million tons of Chinese acid a year. We did not find a Chinese limit on exports of sulfur itself. China is a large buyer of sulfur.",
+            "spans": [
+              {
+                "start": 37,
+                "end": 55,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.mining.com/web/china-moves-to-ban-sulfuric-acid-exports-as-iran-war-hits-supply/",
+                  "target": "_blank"
+                }
+              }
+            ],
             "direction": "ltr"
           },
           {
@@ -969,7 +1030,7 @@
           },
           {
             "type": "paragraph",
-            "text": "I now understand why my former boss urged me to face my fears and research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.",
+            "text": "I now understand why my boss urged me to face my fears and research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.",
             "spans": [],
             "direction": "ltr"
           },
