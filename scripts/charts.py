@@ -274,9 +274,42 @@ def chart_stockpiles():
     fig.savefig(OUT / '08-stockpiles.png'); plt.close(fig)
 
 
+def chart_squeeze():
+    months = [m for m, _ in complete('sulfur_export_uv') if m >= BASE_LONG and m in M['wb_dap']]
+    x = [mid(m) for m in months]
+    s = [S_PER_DAP * M['sulfur_export_uv'][m] for m in months]
+    d = [M['wb_dap'][m] for m in months]
+    rest = {m: b - a for m, a, b in zip(months, s, d)}
+    hi = max(rest, key=rest.get); lo = min(rest, key=rest.get); last = months[-1]
+    NUM['squeeze'] = {'high_month': hi, 'high': rest[hi], 'low_month': lo, 'low': rest[lo], 'last_month': last, 'last': rest[last],
+                      'first_month': months[0], 'first': rest[months[0]], 'pct_high_to_last': 100 * (rest[last] / rest[hi] - 1),
+                      'dap_high_month': M['wb_dap'][hi], 'sulfur_cost_high_month': S_PER_DAP * M['sulfur_export_uv'][hi]}
+    fig, ax = frame(6.2, 0.77)
+    ax.fill_between(x, 0, s, color=SULFUR, lw=0)
+    ax.fill_between(x, s, d, color=DAP, lw=0, alpha=0.85)
+    ax.plot(x, s, color=SURFACE, lw=2)            # surface gap between the two fills
+    war_line(ax)
+    ax.set_ylim(0, 950); ax.yaxis.set_major_formatter(lambda v, _: f'${v:,.0f}')
+    ax.xaxis.set_major_locator(mdates.MonthLocator(bymonth=(1, 7))); ax.xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
+    ax.text(x[2], 330, 'Everything else: phosphate rock, ammonia,\nenergy, labor, shipping and profit', color=SURFACE, fontsize=11, fontweight='bold', linespacing=1.35)
+    ax.annotate('Sulfur', (x[-3], 70), color=SURFACE, fontsize=11, fontweight='bold', ha='center')
+    for m in dict.fromkeys((hi, last)):
+        i = months.index(m)
+        ax.annotate(f'${rest[m]:,.0f} left\nafter sulfur', (x[i], d[i]), xytext=(0, 12), textcoords='offset points', color=INK, fontsize=10.5,
+                    fontweight='bold', ha='center', va='bottom', linespacing=1.3, annotation_clip=False)
+        ax.plot([x[i], x[i]], [s[i], d[i]], color=SURFACE, lw=1.2, ls=(0, (2, 2)))
+    n = NUM['squeeze']
+    titleblock(fig, 'Sulfur has taken a growing part of what fertilizer sells for',
+               f'The price of a metric ton of DAP, split into the sulfur needed to make it and everything else. After sulfur,\n'
+               f'about ${n["high"]:,.0f} was left in {mname(hi)} and about ${n["last"]:,.0f} in {mname(last)}, a drop of {abs(n["pct_high_to_last"]):.0f}%.')
+    credit(fig, f'Our calculation: DAP price (World Bank, U.S. Gulf) minus {S_PER_DAP} metric tons of sulfur at the average value of U.S. sulfur exports (Census Bureau).\n'
+                'Fertilizer makers on quarterly contracts paid less for sulfur than this while prices were rising, so the real squeeze is very likely smaller.')
+    fig.savefig(OUT / '09-margin-squeeze.png'); plt.close(fig)
+
+
 if __name__ == '__main__':
     use_house_style()
     OUT.mkdir(exist_ok=True)
-    chart_world(); chart_run_up(); chart_since_war(); chart_days(); chart_dap_cost(); chart_posted(); chart_stockpiles()
+    chart_world(); chart_run_up(); chart_since_war(); chart_days(); chart_dap_cost(); chart_posted(); chart_stockpiles(); chart_squeeze()
     write_json(OUT / 'numbers.json', NUM)
     print(json.dumps(NUM, indent=1))

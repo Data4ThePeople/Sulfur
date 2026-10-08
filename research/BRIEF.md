@@ -217,8 +217,9 @@ publishers have said.
    August 2025 to $619 in January 2026 while the sulfur in it went from about
    $103 to $171. What was left over for everything else (rock, ammonia,
    energy, labor, profit) dropped from about $693 a ton to $448, and was $411
-   in August 2026. The gap came out of producers' margins. (Ours, using the
-   export average, which overstates a contract buyer's cost.)
+   in August 2026 ($365 in July, the low). The gap came out of producers'
+   margins. (Ours, chart 09, using the export average, which overstates a
+   contract buyer's cost.)
 4. **Producers pay contract prices, which trail spot.** The Tampa contract
    was $496 a long ton in the first quarter of 2026 and $705 in the third,
    when export spot was $1,100 to $1,150. Mosaic's average cost in the second

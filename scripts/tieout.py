@@ -125,6 +125,17 @@ for label, mm, a, b, c in [('first', '2024-01', 'sulfur_cost_first', 'dap_first'
     check('Sulfur in a ton of DAP', f'DAP price {mm}, $ per t', dap[mm], n[b])
     check('Sulfur in a ton of DAP', f'Sulfur share of DAP price {mm}, percent', 100 * k * sulfur[mm] / dap[mm], n[c])
 
+# what is left of the DAP price after sulfur
+n = NUM['squeeze']
+rest = {mm: dap[mm] - k * sulfur[mm] for mm in sulfur if '2024-01' <= mm <= dm and mm in dap}
+hi = max(rest, key=rest.get); lo = min(rest, key=rest.get)
+assert (hi, lo, dm) == (n['high_month'], n['low_month'], n['last_month']), (hi, lo, dm)
+check('DAP price less sulfur', f'Highest month {hi}, $ per t', rest[hi], n['high'])
+check('DAP price less sulfur', f'Lowest month {lo}, $ per t', rest[lo], n['low'])
+check('DAP price less sulfur', f'Latest month {dm}, $ per t', rest[dm], n['last'])
+check('DAP price less sulfur', 'January 2024, $ per t', rest['2024-01'], n['first'])
+check('DAP price less sulfur', f'Percent change {hi} to {dm}', 100 * (rest[dm] / rest[hi] - 1), n['pct_high_to_last'])
+
 # posted prices (hand-compiled table; the independent tie-out re-opens the sources)
 ad = {r['month']: float(r['price']) for r in csv.DictReader(l for l in open(R / 'data' / 'manual' / 'adnoc_osp.csv') if not l.startswith('#'))}
 n = NUM['posted']; lastm = max(ad); peak = max(ad.values())

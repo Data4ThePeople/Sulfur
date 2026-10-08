@@ -1,9 +1,9 @@
 # Tie-out
 
-Run October 08, 2026 07:50. Every number below is recomputed from the raw files in `data/raw/` by
+Run October 08, 2026 07:53. Every number below is recomputed from the raw files in `data/raw/` by
 `scripts/tieout.py`, which shares no code with the pipeline, and compared with the number the chart or page used.
 
-**85 of 85 match.**
+**90 of 90 match.**
 
 
 ## Prices since January 2024
@@ -96,6 +96,16 @@ Run October 08, 2026 07:50. Every number below is recomputed from the raw files 
 | Sulfur cost 2026-08, $ per t DAP | 382.2021 | 382.2021 | ok |
 | DAP price 2026-08, $ per t | 793.5000 | 793.5000 | ok |
 | Sulfur share of DAP price 2026-08, percent | 48.1666 | 48.1666 | ok |
+
+## DAP price less sulfur
+
+| Item | Recomputed from raw | Used on chart or page | |
+|---|---:|---:|---|
+| Highest month 2025-08, $ per t | 692.5252 | 692.5252 | ok |
+| Lowest month 2026-07, $ per t | 364.9577 | 364.9577 | ok |
+| Latest month 2026-08, $ per t | 411.2979 | 411.2979 | ok |
+| January 2024, $ per t | 565.6325 | 565.6325 | ok |
+| Percent change 2025-08 to 2026-08 | -40.6090 | -40.6090 | ok |
 
 ## Posted prices
 
