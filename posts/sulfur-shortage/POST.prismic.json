@@ -54,8 +54,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "FcRILMXbsazNdCAo",
           "alt": "Skeletal drawing of the dibenzothiophene molecule. Two six-sided rings of carbon atoms sit on either side of a five-sided ring. The bottom corner of the five-sided ring is a sulfur atom, marked with a yellow letter S. A label reads: the sulfur atom is locked into a ring between two rings of carbon.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1680,
+            "height": 960
+          }
         },
         "source_text": [
           {
@@ -193,8 +198,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "AiGGz6uTqblRQ5tx",
           "alt": "Flow diagram titled How sulfur gets from an oil refinery to a farm field. Six boxes in a row: sour oil and gas, refinery or gas plant, sulfur, sulfuric acid plant, phosphoric acid plant, and DAP and MAP fertilizer. Below them, storage figures: U.S. producers 122,000 tons, about 6 days of shipments; Alberta stockpile 11.0 million tons; China's ports 0.95 million tons in late August 2026. For the acid and fertilizer steps the boxes read: we found no public figure.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1680,
+            "height": 900
+          }
         },
         "source_text": [
           {
@@ -353,8 +363,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "Yt-N1WT5PagZl0Ny",
           "alt": "Bar chart titled Who makes the world's sulfur, 2025, in million metric tons. China 19.0, United States 8.1, Russia 7.5, Saudi Arabia 7.2, United Arab Emirates 6.3, Canada 5.0, Kazakhstan 4.8, India 3.7, Qatar 3.1, South Korea 3.1, Japan 2.7, Iran 2.1, Chile 1.4, Kuwait 1.3, Poland 1.1, Australia 0.9, Turkmenistan 0.9. Five Persian Gulf producers are highlighted: together they made 20 million metric tons, 24% of the world total.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1680,
+            "height": 1152
+          }
         },
         "source_text": [
           {
@@ -446,8 +461,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "ubf5gxcSLTkbGnfI",
           "alt": "Line chart titled Sulfur was already climbing before the war, showing percent change in price since January 2024. Sulfur ends at plus 1,146% in August 2026, with about half of the rise before a dotted line marking the strikes on February 28, 2026. Diesel ends at plus 63%, sulfuric acid at plus 58% and DAP fertilizer at plus 34%. U.S. sulfur exports averaged $77 a metric ton in January 2024, $503 in February 2026 and $956 in August 2026.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1680,
+            "height": 1024
+          }
         },
         "source_text": [
           {
@@ -608,8 +628,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "LxFNhups9NI7bRQ2",
           "alt": "Bar chart titled Since the war began: sulfur up 90%, diesel up 69%, fertilizer up 28%. Percent change in price from February 2026 to the latest full month each source has published. Sulfur plus 90% to August. Diesel wholesale index plus 73% to August. Diesel retail plus 69% to September. Brent crude oil plus 64% to September. DAP fertilizer plus 28% to September. Sulfuric acid plus 25% to August.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1680,
+            "height": 832
+          }
         },
         "source_text": [
           {
@@ -695,8 +720,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "6CG0tRz8N2e4oDK_",
           "alt": "Stacked area chart titled Sulfur has taken a growing part of what fertilizer sells for. The price of a metric ton of DAP from January 2024 to August 2026 is split into a lower band for sulfur at export prices and an upper band for everything else: phosphate rock, ammonia, energy, labor, shipping and profit. After sulfur, about $693 was left in August 2025, $425 in February 2026 before the strikes, and $411 in August 2026.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1680,
+            "height": 992
+          }
         },
         "source_text": [
           {
@@ -812,8 +842,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "BFS0ok-DywzzmEHe",
           "alt": "Line chart titled U.S. sulfur producers hold about six days of stock, showing days of supply on hand from January 2024. Sulfur at refineries and gas plants stays between about 5 and 7 days and ends in March 2026, where USGS data stops. Diesel and heating oil at refineries, pipelines and terminals ranges from 26 to 40 days and is near 28 days in October 2026.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1680,
+            "height": 960
+          }
         },
         "source_text": [
           {
@@ -878,8 +913,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "StegP8PU9VklRH9I",
           "alt": "Three small line charts titled Three sulfur stockpiles the public can see. China's ports: 2.3 million metric tons in October 2024, a dip to 1.9 million in early 2025, then a fall to 0.73 million on July 3, 2026 and a rise to 0.95 million in late August. Alberta's stockpile: a slow decline from 12.1 million metric tons in January 2024 to 11.0 million in August 2026. U.S. producers: between about 100 and 132 thousand metric tons, ending at 122 thousand in March 2026.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1680,
+            "height": 1056
+          }
         },
         "source_text": [
           {
@@ -977,8 +1017,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "ash1Dbn_sSJvaADs",
           "alt": "Line chart titled Abu Dhabi's posted sulfur price has fallen for two months, in dollars per metric ton from June 2024. Adnoc's posted monthly price steps up from $80 in June 2024 to $530 in February 2026, then to $1,000 in July and August 2026, before falling to $960 in September and $890 in October. A dashed line for the average value of U.S. sulfur exports follows a similar path and ends in August 2026.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1680,
+            "height": 960
+          }
         },
         "source_text": [
           {
@@ -1354,5 +1399,23 @@
       }
     }
   ],
-  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Article\",\n      \"headline\": \"Why you should care about sulfur\",\n      \"description\": \"Sulfur prices are up more than 1,000% since 2024 and the Hormuz closure cut supply. See how the sulfur shortage reaches fertilizer prices, with a free tracker.\",\n      \"articleSection\": \"Data 4 Thought\",\n      \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n      \"inLanguage\": \"en-US\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": [\n        \"sulfur shortage\",\n        \"sulfur prices\",\n        \"why is fertilizer so expensive\",\n        \"fertilizer prices\",\n        \"DAP fertilizer price\",\n        \"sulfuric acid\",\n        \"phosphate fertilizer\",\n        \"Strait of Hormuz\"\n      ],\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Eric Pachman\",\n        \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n      },\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Data 4 The People\",\n        \"url\": \"https://data4thepeople.com\"\n      },\n      \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage\"\n      },\n      \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage#article\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why is there a sulfur shortage?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Most sulfur is a leftover from refining oil and processing natural gas, so the supply depends on how much fuel is processed, not on the price of sulfur. The trade publisher CRU estimated that the world used about 1.9 million tons more sulfur than it made in 2025. In March 2026 the war closed the Strait of Hormuz, the route for close to half of the sulfur that moves by sea.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much have sulfur prices gone up?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"The average value of U.S. sulfur exports rose from $77 a metric ton in January 2024 to $956 in August 2026, a rise of 1,146%. It was already $503 in February 2026, the last full month before the war.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why is fertilizer so expensive?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Sulfur is used to make the sulfuric acid that turns phosphate rock into DAP and MAP, the two main phosphate fertilizers. At August 2026 export prices, the sulfur needed for a ton of DAP cost about $382, close to half of the $794 the fertilizer sold for. In January 2024 it was about $31.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is sulfur used for?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"About 90% of the sulfur used in the United States is turned into sulfuric acid, according to the U.S. Geological Survey. Most of that acid goes to phosphate fertilizer. It is also used to pull copper, nickel and cobalt out of ore.\"\n          }\n        }\n      ]\n    }\n  ]\n}"
+  "featured_image": {
+    "id": "8SQQmK_w_7qGfBD-",
+    "alt": "Photo of a bright yellow cone of sulfur on a dock in North Vancouver, British Columbia, in 2008. Conveyors run from the pile to a blue and red cargo ship being loaded on the left. Snow-capped mountains rise behind the port, and dark blue water fills the foreground.",
+    "copyright": null,
+    "dimensions": {
+      "width": 1680,
+      "height": 1080
+    }
+  },
+  "meta_image": {
+    "id": "8SQQmK_w_7qGfBD-",
+    "alt": "Photo of a bright yellow cone of sulfur on a dock in North Vancouver, British Columbia, in 2008. Conveyors run from the pile to a blue and red cargo ship being loaded on the left. Snow-capped mountains rise behind the port, and dark blue water fills the foreground.",
+    "copyright": null,
+    "dimensions": {
+      "width": 1680,
+      "height": 1080
+    }
+  },
+  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Article\",\n      \"headline\": \"Why you should care about sulfur\",\n      \"description\": \"Sulfur prices are up more than 1,000% since 2024 and the Hormuz closure cut supply. See how the sulfur shortage reaches fertilizer prices, with a free tracker.\",\n      \"image\": \"https://images.prismic.io/data4thepeople/8SQQmK_w_7qGfBD-_sulfur-shortage-hero-1680x1080.png?auto=format,compress\",\n      \"articleSection\": \"Research\",\n      \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n      \"inLanguage\": \"en-US\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": [\n        \"sulfur shortage\",\n        \"sulfur prices\",\n        \"why is fertilizer so expensive\",\n        \"fertilizer prices\",\n        \"DAP fertilizer price\",\n        \"sulfuric acid\",\n        \"phosphate fertilizer\",\n        \"Strait of Hormuz\"\n      ],\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Eric Pachman\",\n        \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n      },\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Data 4 The People\",\n        \"url\": \"https://data4thepeople.com\"\n      },\n      \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage\"\n      },\n      \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage#article\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why is there a sulfur shortage?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Most sulfur is a leftover from refining oil and processing natural gas, so the supply depends on how much fuel is processed, not on the price of sulfur. The trade publisher CRU estimated that the world used about 1.9 million tons more sulfur than it made in 2025. In March 2026 the war closed the Strait of Hormuz, the route for close to half of the sulfur that moves by sea.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much have sulfur prices gone up?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"The average value of U.S. sulfur exports rose from $77 a metric ton in January 2024 to $956 in August 2026, a rise of 1,146%. It was already $503 in February 2026, the last full month before the war.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why is fertilizer so expensive?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Sulfur is used to make the sulfuric acid that turns phosphate rock into DAP and MAP, the two main phosphate fertilizers. At August 2026 export prices, the sulfur needed for a ton of DAP cost about $382, close to half of the $794 the fertilizer sold for. In January 2024 it was about $31.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is sulfur used for?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"About 90% of the sulfur used in the United States is turned into sulfuric acid, according to the U.S. Geological Survey. Most of that acid goes to phosphate fertilizer. It is also used to pull copper, nickel and cobalt out of ore.\"\n          }\n        }\n      ]\n    }\n  ]\n}"
 }

@@ -1,0 +1,72 @@
+{
+  "images/01-dibenzothiophene.png": {
+    "id": "FcRILMXbsazNdCAo",
+    "width": 1680,
+    "height": 960,
+    "url": "https://images.prismic.io/data4thepeople/FcRILMXbsazNdCAo_01-dibenzothiophene.png?auto=format,compress",
+    "stamp": "92848:1791492634"
+  },
+  "images/02-flow.png": {
+    "id": "AiGGz6uTqblRQ5tx",
+    "width": 1680,
+    "height": 900,
+    "url": "https://images.prismic.io/data4thepeople/AiGGz6uTqblRQ5tx_02-flow.png?auto=format,compress",
+    "stamp": "182018:1791492634"
+  },
+  "images/03-world-production.png": {
+    "id": "Yt-N1WT5PagZl0Ny",
+    "width": 1680,
+    "height": 1152,
+    "url": "https://images.prismic.io/data4thepeople/Yt-N1WT5PagZl0Ny_03-world-production.png?auto=format,compress",
+    "stamp": "121253:1791492634"
+  },
+  "images/04-prices-since-2024.png": {
+    "id": "ubf5gxcSLTkbGnfI",
+    "width": 1680,
+    "height": 1024,
+    "url": "https://images.prismic.io/data4thepeople/ubf5gxcSLTkbGnfI_04-prices-since-2024.png?auto=format,compress",
+    "stamp": "147069:1791492634"
+  },
+  "images/05-prices-since-war.png": {
+    "id": "LxFNhups9NI7bRQ2",
+    "width": 1680,
+    "height": 832,
+    "url": "https://images.prismic.io/data4thepeople/LxFNhups9NI7bRQ2_05-prices-since-war.png?auto=format,compress",
+    "stamp": "113569:1791492634"
+  },
+  "images/06-dap-price-less-sulfur.png": {
+    "id": "6CG0tRz8N2e4oDK_",
+    "width": 1680,
+    "height": 992,
+    "url": "https://images.prismic.io/data4thepeople/6CG0tRz8N2e4oDK__06-dap-price-less-sulfur.png?auto=format,compress",
+    "stamp": "152951:1791492634"
+  },
+  "images/07-days-of-supply.png": {
+    "id": "BFS0ok-DywzzmEHe",
+    "width": 1680,
+    "height": 960,
+    "url": "https://images.prismic.io/data4thepeople/BFS0ok-DywzzmEHe_07-days-of-supply.png?auto=format,compress",
+    "stamp": "166793:1791492634"
+  },
+  "images/08-stockpiles.png": {
+    "id": "StegP8PU9VklRH9I",
+    "width": 1680,
+    "height": 1056,
+    "url": "https://images.prismic.io/data4thepeople/StegP8PU9VklRH9I_08-stockpiles.png?auto=format,compress",
+    "stamp": "151839:1791492634"
+  },
+  "images/09-posted-prices.png": {
+    "id": "ash1Dbn_sSJvaADs",
+    "width": 1680,
+    "height": 960,
+    "url": "https://images.prismic.io/data4thepeople/ash1Dbn_sSJvaADs_09-posted-prices.png?auto=format,compress",
+    "stamp": "143429:1791492634"
+  },
+  "images/sulfur-shortage-hero-1680x1080.png": {
+    "id": "8SQQmK_w_7qGfBD-",
+    "width": 1680,
+    "height": 1080,
+    "url": "https://images.prismic.io/data4thepeople/8SQQmK_w_7qGfBD-_sulfur-shortage-hero-1680x1080.png?auto=format,compress",
+    "stamp": "2963017:1791493942"
+  }
+}

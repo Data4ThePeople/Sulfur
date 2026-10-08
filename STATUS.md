@@ -62,3 +62,4 @@ None.
 - 2026-10-08 2e: Eric accepted all four additions (Common questions section with four FAQ entries, free-tracker sentence, two internal links). Applied. Review page rebuilt.
 - 2026-10-08 Step 2e confirmed by Eric.
 - 2026-10-08 Step 2f opened.
+- 2026-10-08 2f: dry run clean (96 blocks, 59 slices, 10 images). Pushed to Prismic as a draft: document asgIJhIAACoAR9ni in the Migration Release, tags and author empty. Section changed to Research at Eric's request and the draft updated. Date still blank.
