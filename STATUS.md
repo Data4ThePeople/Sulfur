@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: sulfur-shortage
-Step: 2c
+Step: 2d
 Since: 2026-10-08
 
 ## Steps
@@ -16,7 +16,7 @@ Since: 2026-10-08
 | 1  | Exploration and analysis | 2026-10-08 | Nine charts, tracker, brief. Own tie-out 94 of 94; two independent tie-outs, no numeric differences. |
 | 2a | Draft with brackets resolved | 2026-10-08 | All six proposed edits accepted. Closing still to come from Eric. |
 | 2b | Eric's edit, Claude's look-over | 2026-10-08 | Reviewer comments in. Third independent check: no wrong numbers; 19 edits and 10 trims accepted. Date still blank. |
-| 2c | Slice markup | | |
+| 2c | Slice markup | 2026-10-08 | 86 blocks, no changes needed. All alt text under 500 characters. |
 | 2d | Hero 1680x1080 + alt text | | |
 | 2e | SEO | | |
 | 2f | Pushed to Prismic (draft) | | |
@@ -53,3 +53,5 @@ None.
 - 2026-10-08 2b: ten trims to Claude's sections proposed for length, all accepted by Eric and applied (about 350 words). Review page rebuilt.
 - 2026-10-08 Step 2b confirmed by Eric. Next: 2c, slice markup, when Eric asks for it.
 - 2026-10-08 Step 2c opened.
+- 2026-10-08 Step 2c confirmed by Eric.
+- 2026-10-08 Step 2d opened.
