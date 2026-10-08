@@ -34,7 +34,7 @@ You may be wondering if this story has completely come out of left field. Have I
 
 No.
 
-I honestly haven't given sulfur a second thought in years. That is, until my former boss from those days when sulfur was my job came across Data 4 The People, called me, and recommended I take a look at what's going on with sulfur right now, as it’s a story about refining that few people know, but need to know… if they, you know, eat food.
+I honestly haven't given sulfur a second thought in years. That is, until my former boss from ExxonMobil came across Data 4 The People, called me, and recommended I take a look at what's going on with sulfur right now, as it’s a story about refining that few people know, but need to know… if they, you know, eat food.
 
 And so, we come full circle. The work refiners did in those years to pull more sulfur out of fuel is the same work that supplies the sulfur for fertilizer today. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my boss warned, the same issues facing refineries that are driving up [crack spreads](https://www.data4thepeople.com/p/crack-spread-chart/) are having an immense impact on the global supply of sulfur.
 
