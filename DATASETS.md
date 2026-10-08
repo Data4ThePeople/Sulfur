@@ -124,7 +124,12 @@ irregular (February 2026 is `mis-202602-sulfu_1.xlsx`).
 
 **Version and vintage.** Fifteen workbooks, January 2025 to March 2026. The
 March 2026 workbook "includes data available through June 1, 2026" and was
-posted in October 2026. The lag is about six months.
+posted in October 2026. The lag is about six months, which is not the norm:
+by the files' posting dates, the January to May 2025 workbooks appeared 58 to
+73 days after month end, June to December 2025 took 91 to 138 days, and the
+January, February and March 2026 workbooks were all posted on October 7,
+2026 (189 to 248 days). Posting dates are the server's Last-Modified stamps,
+which would also change if USGS re-uploaded a file. USGS gives no reason.
 
 **Coverage.** United States. Each workbook restates the prior months back to
 the same month a year earlier, so the set gives January 2024 to March 2026, 27
