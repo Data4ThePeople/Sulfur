@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: sulfur-shortage
-Step: 2b
+Step: 2c
 Since: 2026-10-08
 
 ## Steps
@@ -52,3 +52,4 @@ None.
 - 2026-10-08 2b: third independent check at Eric's request (one data agent, one text agent). No wrong numbers. 19 proposed edits, all accepted by Eric and applied; chart 07 subtitle regenerated. Own tie-out 94 of 94. Review page rebuilt.
 - 2026-10-08 2b: ten trims to Claude's sections proposed for length, all accepted by Eric and applied (about 350 words). Review page rebuilt.
 - 2026-10-08 Step 2b confirmed by Eric. Next: 2c, slice markup, when Eric asks for it.
+- 2026-10-08 Step 2c opened.
