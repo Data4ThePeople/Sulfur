@@ -1153,6 +1153,18 @@
               }
             ],
             "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Photo at top: a sulfur pile and ship loader in North Vancouver, British Columbia, in 2008. [Photo by KimonBerlin](https://commons.wikimedia.org/wiki/File:North_Vancouver_from_Stanley_park._The_yellow_pile_is_sulphur_from_Alberta._(2289533764).jpg), cropped, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).",
+            "spans": [
+              {
+                "start": 0,
+                "end": 321,
+                "type": "em"
+              }
+            ],
+            "direction": "ltr"
           }
         ]
       }

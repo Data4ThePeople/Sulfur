@@ -5,7 +5,7 @@ slug: sulfur-shortage
 date:
 section: Data 4 Thought
 hero: images/sulfur-shortage-hero-1680x1080.png
-hero_alt:
+hero_alt: "Photo of a bright yellow cone of sulfur on a dock in North Vancouver, British Columbia, in 2008. Conveyors run from the pile to a blue and red cargo ship being loaded on the left. Snow-capped mountains rise behind the port, and dark blue water fills the foreground."
 meta_title:
 description:
 keywords:
@@ -173,3 +173,5 @@ I’ve been told recently that I am a harbinger of bad news. I disagree. I just 
 - **U.S. sulfur stock data stops in March 2026**, one month into the war. The series used to run about two months behind and is now more than six months behind.
 - **The China port figures and Adnoc prices are compiled from trade press reports** on irregular dates. They are not a published dataset.
 - **Price series end in different months.** Sulfur and sulfuric acid run through August 2026, DAP and diesel through September.
+
+*Photo at top: a sulfur pile and ship loader in North Vancouver, British Columbia, in 2008. [Photo by KimonBerlin](https://commons.wikimedia.org/wiki/File:North_Vancouver_from_Stanley_park._The_yellow_pile_is_sulphur_from_Alberta._(2289533764).jpg), cropped, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).*

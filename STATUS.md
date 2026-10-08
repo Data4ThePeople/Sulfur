@@ -55,3 +55,4 @@ None.
 - 2026-10-08 Step 2c opened.
 - 2026-10-08 Step 2c confirmed by Eric.
 - 2026-10-08 Step 2d opened.
+- 2026-10-08 2d: Eric asked for a real photo. Hero built from a Wikimedia Commons photo of the sulfur pile at North Vancouver (KimonBerlin, 2008, CC BY-SA 2.0), center crop to 1680x1080. Source kept as sulfur-shortage-hero-source.jpg. hero_alt set. Credit line added at the end of the post because the license requires attribution. Waiting on Eric.
