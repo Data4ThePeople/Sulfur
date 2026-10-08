@@ -170,6 +170,10 @@ World total rounded to three digits.
   metallurgy, and the sulfur content of sulfuric acid from pyrite." So the
   world total is not all oil and gas byproduct, and USGS gives no world split
   by source.
+- **The rows do not add to the printed world total.** The 2025 rows sum to
+  83,870 against a printed 84,000, and the 2024 rows to 83,250 against 83,900.
+  USGS says totals are rounded and "may not add". We use the printed total, so
+  the Gulf share is 20,000 of 84,000, or 23.8%; on the row sum it is 23.8% too.
 - The table is production, not exports. A country's share of production says
   nothing about its share of trade.
 - The U.S. price ($180 per ton in 2025, $46.42 in 2024) is an average value
