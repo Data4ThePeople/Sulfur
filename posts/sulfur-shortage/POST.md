@@ -61,7 +61,7 @@ The world made about 84 million metric tons of sulfur in 2025, according to the 
 
 Saudi Arabia, the United Arab Emirates, Qatar, Iran and Kuwait made about 20 million tons between them, or 24% of the world total. That share understates how much the rest of the world leans on them. China, the largest producer, uses its own sulfur and still imported 9.6 million tons in 2025. The Gulf countries make far more than they use, so they export it. The trade publishers Argus, CRU and SMM put the Gulf’s share at 45% to almost 50% of all the sulfur that moves by sea, and those cargoes leave through the Strait of Hormuz.
 
-The United States is in a different position. It makes about 8.1 million tons a year and relies on imports for only about 14% of what it uses, most of that from Canada (my commentary: yet another reason a trade war with Canada is a bad idea).
+The United States is in a different position. It makes about 8.1 million tons a year and relies on imports for only about 14% of what it uses, most of that from Canada.
 
 ## The price was climbing long before the war
 
