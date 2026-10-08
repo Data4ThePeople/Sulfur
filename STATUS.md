@@ -5,8 +5,8 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 
 ## Current
 
-Post: none yet
-Step: 1
+Post: sulfur-shortage
+Step: 2a
 Since: 2026-10-08
 
 ## Steps
@@ -31,3 +31,4 @@ None.
 - 2026-10-08 Step 1 opened. Topic: how the sulfur market works. Sulfur as a refining and gas-processing byproduct, the disruption from the Iran war, inventories along the chain (sulfur, sulfuric acid, phosphate fertilizer), fertilizer prices, and a comparison with diesel.
 - 2026-10-08 Step 1 work so far: DATASETS.md, eight fetch scripts, eight charts in charts/, interactive tracker in dist/index.html, research/BRIEF.md, TIEOUT.md (85 of 85). Independent tie-out running. Not yet closed.
 - 2026-10-08 Step 1 confirmed by Eric. Sulfur price uses crude plus refined export codes (Eric's decision). Next: 2a, waiting on slug and draft.
+- 2026-10-08 Step 2a opened. Slug: sulfur-shortage. Waiting on Eric's draft.
