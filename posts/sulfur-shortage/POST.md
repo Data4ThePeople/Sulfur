@@ -2,7 +2,8 @@
 title: Why you should care about sulfur
 subtitle: A leftover from oil refining is a key ingredient in fertilizer. Its price has risen more than 1,000% since 2024, and the war closed the route that close to half the world's seaborne supply takes.
 slug: sulfur-shortage
-date:
+date: 2026-10-08
+time: "18:00:00-04:00"
 section: Research
 hero: images/sulfur-shortage-hero-1680x1080.png
 hero_alt: "Photo of a bright yellow cone of sulfur on a dock in North Vancouver, British Columbia, in 2008. Conveyors run from the pile to a blue and red cargo ship being loaded on the left. Snow-capped mountains rise behind the port, and dark blue water fills the foreground."
