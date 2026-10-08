@@ -10,8 +10,8 @@ ORDER = [   # (built chart, name in the post)
     ('03-prices-since-2024.png', '04-prices-since-2024.png'),
     ('04-prices-since-war.png', '05-prices-since-war.png'),
     ('09-margin-squeeze.png', '06-dap-price-less-sulfur.png'),
-    ('08-stockpiles.png', '07-stockpiles.png'),
-    ('05-days-of-supply.png', '08-days-of-supply.png'),
+    ('05-days-of-supply.png', '07-days-of-supply.png'),
+    ('08-stockpiles.png', '08-stockpiles.png'),
     ('07-posted-prices.png', '09-posted-prices.png'),
 ]
 if __name__ == '__main__':

@@ -29,13 +29,13 @@ This is when I met my arch-nemesis: dibenzothiophene.
 
 You see, what I learned very quickly is this one class of hydrocarbons locked the sulfur up so tightly that no matter what the refinery did throughout processing, we could barely crack the sulfur out. And so, we had to measure the concentration of dibenzothiophenes in the crude oil we purchased to ensure that it was low enough for the diesel to meet spec after it worked its way through the refinery. I spent the better part of two years learning about and modeling dibenzothiophenes. Those were the days.
 
-Here’s some more context you need for this story. My boss at the time was my former boss. my former boss went on after his role running our group to a 36-year career with ExxonMobil, through roles that took him all over the company and to the bleeding edge of energy innovation.
+Here’s some more context you need for this story. My boss at the time was my former boss. After running our group, my former boss went on to a 36-year career with ExxonMobil, through roles that took him all over the company and to the bleeding edge of energy innovation.
 
-Last week, my former boss found my work at Data 4 The People, and we chatted. He reminded me of my fight with sulfur, dredging up the trauma from those two years, and suggested I start looking into what’s going on with sulfur right now, as it’s a story about refining that few people know, but need to know… if they, you know, eat food.
+Last week, my former boss found my work at Data 4 The People, reached out to me, and we chatted. He reminded me of my battle with sulfur, dredging up the trauma from those two years, and suggested I start looking into what’s going on with sulfur right now, as it’s a story about refining that few people know, but need to know… if they, you know, eat food.
 
 And so, we come full circle. The work refiners did in those years to pull more sulfur out of fuel is the same work that supplies the sulfur for fertilizer today. This is a good thing, because sulfur is a key input to the fertilizers that help grow our food. But as my former boss warned, the same issues facing refineries that are driving up crack spreads are having an immense impact on the global supply of sulfur.
 
-I brushed off the cobwebs of my knowledge of sulfur and started researching. Here is what I found.
+I was intrigued by this connection. So, I brushed off the cobwebs of my knowledge of sulfur and started researching. Here is what I found.
 
 ## From a refinery to a farm field
 
@@ -50,7 +50,7 @@ The U.S. Geological Survey says about 90% of the sulfur used in the United State
 
 The sulfur does not end up in the fertilizer. It leaves the plant as gypsum waste. It is a processing chemical that gets used once, so fertilizer makers need a steady supply of it.
 
-One more thing sets sulfur apart from most raw materials. Because it is a leftover from cleaning up oil and gas, the amount produced depends on how much fuel is being processed. A higher sulfur price does not bring more of it out of a refinery.
+One more thing sets sulfur apart from most raw materials. Because it is a leftover from cleaning up oil and gas, the amount produced depends on how much fuel is being processed. A higher sulfur price does not bring more of it out of a refinery. This is really important to keep in mind.
 
 ## Where the world’s sulfur comes from
 
@@ -61,7 +61,7 @@ The world made about 84 million metric tons of sulfur in 2025, according to the 
 
 Saudi Arabia, the United Arab Emirates, Qatar, Iran and Kuwait made about 20 million tons between them, or 24% of the world total. That share understates how much the rest of the world leans on them. China, the largest producer, uses its own sulfur and still imported 9.6 million tons in 2025. The Gulf countries make far more than they use, so they export it. The trade publishers Argus, CRU and SMM put the Gulf’s share at 45% to almost 50% of all the sulfur that moves by sea, and those cargoes leave through the Strait of Hormuz.
 
-The United States is in a different position. It makes about 8.1 million tons a year and relies on imports for only about 14% of what it uses, most of that from Canada.
+The United States is in a different position. It makes about 8.1 million tons a year and relies on imports for only about 14% of what it uses, most of that from Canada (my commentary: yet another reason a trade war with Canada is a bad idea).
 
 ## The price was climbing long before the war
 
@@ -110,23 +110,27 @@ Sulfuric acid is a separate case. Between a third and two-fifths of the world’
 
 ## What is in storage
 
-The public record on sulfur inventories is thin. We found three stockpiles with numbers attached. The next chart shows all three.
+How much sulfur is on hand? In the United States, not much. The chart below compares the stock held by U.S. sulfur producers with the stock of diesel and heating oil, both measured in days of supply.
 
-![Three small line charts titled Three sulfur stockpiles the public can see. China's ports: 2.3 million metric tons in October 2024, a dip to 1.9 million in early 2025, then a fall to 0.73 million on July 3, 2026 and a rise to 0.95 million in late August. Alberta's stockpile: a slow decline from 12.1 million metric tons in January 2024 to 11.0 million in August 2026. U.S. producers: between about 100 and 132 thousand metric tons, ending at 122 thousand in March 2026.](images/07-stockpiles.png)
+![Line chart titled U.S. sulfur producers hold about six days of stock, showing days of supply on hand from January 2024. Sulfur at refineries and gas plants stays between 5 and 7 days and ends in March 2026, where USGS data stops. Diesel and heating oil at refineries, pipelines and terminals ranges from 26 to 40 days and is near 28 days in October 2026.](images/07-days-of-supply.png)
+*Days of supply on hand. Sulfur is our calculation from USGS data. Diesel is EIA’s published figure.*
+
+U.S. sulfur producers held 122,000 tons at the end of March 2026, the latest month the Geological Survey has published. That is about six days of shipments. Sulfur comes out of a refinery every day and has to leave every day. Diesel and heating oil stocks, by comparison, have covered 26 to 40 days of demand since 2024 and stood at about 28 days in early October.
+
+The two figures do not measure quite the same thing. The sulfur number counts only what producers hold, not what is sitting at the fertilizer plants that buy it.
+
+The public record beyond that is thin. We found three sulfur stockpiles with numbers attached, and the next chart shows all three.
+
+![Three small line charts titled Three sulfur stockpiles the public can see. China's ports: 2.3 million metric tons in October 2024, a dip to 1.9 million in early 2025, then a fall to 0.73 million on July 3, 2026 and a rise to 0.95 million in late August. Alberta's stockpile: a slow decline from 12.1 million metric tons in January 2024 to 11.0 million in August 2026. U.S. producers: between about 100 and 132 thousand metric tons, ending at 122 thousand in March 2026.](images/08-stockpiles.png)
 *Sulfur held at China’s ports, in Alberta, and by U.S. producers. Each panel has its own scale. Sources: CRU, SunSirs, SMM, Mysteel, Alberta Energy Regulator, USGS.*
 
 China’s port stocks fell the most. They were about 2.3 million tons in late 2025 and 0.73 million on July 3, 2026, which the trade publisher SMM called the lowest since 2017. They had recovered to 0.95 million by late August. For scale, China imported about 800,000 tons a month in 2025.
 
 Alberta holds the largest pile we could find: 11.0 million tons at the end of August, built up over decades at gas plants and oil sands sites. It has been shrinking slowly since 2024, and it did not shrink faster after the war began. Sulfur in a block has to be melted and moved by rail to Vancouver before it can be shipped, and CRU put the cost of that at $180 to $200 a ton.
 
-U.S. producers held 122,000 tons at the end of March 2026, the latest month the Geological Survey has published. The last chart in this section puts that next to diesel.
+The U.S. producer stock, the third panel, is the same 122,000 tons shown in days in the chart above. It moved little through March 2026.
 
-![Line chart titled U.S. sulfur producers hold about six days of stock, showing days of supply on hand from January 2024. Sulfur at refineries and gas plants stays between 5 and 7 days and ends in March 2026, where USGS data stops. Diesel and heating oil at refineries, pipelines and terminals ranges from 26 to 40 days and is near 28 days in October 2026.](images/08-days-of-supply.png)
-*Days of supply on hand. Sulfur is our calculation from USGS data. Diesel is EIA’s published figure.*
-
-U.S. sulfur producers hold about six days of shipments. Sulfur comes out of a refinery every day and has to leave every day. Diesel and heating oil stocks, by comparison, have covered 26 to 40 days of demand since 2024 and stood at about 28 days in early October.
-
-The two figures do not measure quite the same thing. The sulfur number counts only what producers hold. We found no public count of the sulfur sitting at fertilizer plants, no figure for sulfuric acid in storage anywhere, and no figure for fertilizer stocks.
+That is all we could find. We found no public count of the sulfur held at fertilizer plants, no figure for sulfuric acid in storage, and no figure for fertilizer stocks.
 
 ## Where things stand
 

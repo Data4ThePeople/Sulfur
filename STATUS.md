@@ -35,3 +35,4 @@ None.
 - 2026-10-08 2a: Eric's draft placed verbatim in POST.md, both brackets resolved (molecule image; data sections with nine images). Closing left for Eric. Proposed edits sent as a numbered list, none applied.
 - 2026-10-08 2a edits: Eric accepted 3, 4, 5, 6 (applied); rejected 1, 2 (his text stands).
 - 2026-10-08 2a edits: Eric reversed on 1 and 2 and accepted both (applied). All six edits now applied.
+- 2026-10-08 2a: storage section reordered at Eric's request to lead with the days-of-supply chart; images 07 and 08 swapped.
