@@ -6,9 +6,9 @@ date:
 section: Data 4 Thought
 hero: images/sulfur-shortage-hero-1680x1080.png
 hero_alt: "Photo of a bright yellow cone of sulfur on a dock in North Vancouver, British Columbia, in 2008. Conveyors run from the pile to a blue and red cargo ship being loaded on the left. Snow-capped mountains rise behind the port, and dark blue water fills the foreground."
-meta_title:
-description:
-keywords:
+meta_title: "Sulfur shortage: sulfur prices up over 1,000% since 2024"
+description: "Sulfur prices are up more than 1,000% since 2024 and the Hormuz closure cut supply. See how the sulfur shortage reaches fertilizer prices, with a free tracker."
+keywords: sulfur shortage, sulfur prices, why is fertilizer so expensive, fertilizer prices, DAP fertilizer price, sulfuric acid, phosphate fertilizer, Strait of Hormuz
 schema_type: article
 drop_cap: true
 heading_spacer: 20px

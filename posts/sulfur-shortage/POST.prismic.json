@@ -1,6 +1,9 @@
 {
   "page_title": "Why you should care about sulfur",
   "page_subtitle": "A leftover from oil refining is a key ingredient in fertilizer. Its price has risen more than 1,000% since 2024, and the war closed the route that close to half the world's seaborne supply takes.",
+  "meta_title": "Sulfur shortage: sulfur prices up over 1,000% since 2024",
+  "meta_description": "Sulfur prices are up more than 1,000% since 2024 and the Hormuz closure cut supply. See how the sulfur shortage reaches fertilizer prices, with a free tracker.",
+  "meta_keywords": "sulfur shortage, sulfur prices, why is fertilizer so expensive, fertilizer prices, DAP fertilizer price, sulfuric acid, phosphate fertilizer, Strait of Hormuz",
   "make_this_main_post": false,
   "slices": [
     {
@@ -1170,5 +1173,5 @@
       }
     }
   ],
-  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Why you should care about sulfur\",\n  \"description\": \"\",\n  \"articleSection\": \"Data 4 Thought\",\n  \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n  \"inLanguage\": \"en-US\",\n  \"isAccessibleForFree\": true,\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric Pachman\",\n    \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Data 4 The People\",\n    \"url\": \"https://data4thepeople.com\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage\"\n  }\n}"
+  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Why you should care about sulfur\",\n  \"description\": \"Sulfur prices are up more than 1,000% since 2024 and the Hormuz closure cut supply. See how the sulfur shortage reaches fertilizer prices, with a free tracker.\",\n  \"articleSection\": \"Data 4 Thought\",\n  \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n  \"inLanguage\": \"en-US\",\n  \"isAccessibleForFree\": true,\n  \"keywords\": [\n    \"sulfur shortage\",\n    \"sulfur prices\",\n    \"why is fertilizer so expensive\",\n    \"fertilizer prices\",\n    \"DAP fertilizer price\",\n    \"sulfuric acid\",\n    \"phosphate fertilizer\",\n    \"Strait of Hormuz\"\n  ],\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric Pachman\",\n    \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Data 4 The People\",\n    \"url\": \"https://data4thepeople.com\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.data4thepeople.com/p/sulfur-shortage\"\n  }\n}"
 }
