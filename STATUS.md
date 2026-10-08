@@ -29,3 +29,4 @@ None.
 ## Log
 
 - 2026-10-08 Step 1 opened. Topic: how the sulfur market works. Sulfur as a refining and gas-processing byproduct, the disruption from the Iran war, inventories along the chain (sulfur, sulfuric acid, phosphate fertilizer), fertilizer prices, and a comparison with diesel.
+- 2026-10-08 Step 1 work so far: DATASETS.md, eight fetch scripts, eight charts in charts/, interactive tracker in dist/index.html, research/BRIEF.md, TIEOUT.md (85 of 85). Independent tie-out running. Not yet closed.
