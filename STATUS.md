@@ -38,3 +38,4 @@ None.
 - 2026-10-08 2a: storage section reordered at Eric's request to lead with the days-of-supply chart; images 07 and 08 swapped.
 - 2026-10-08 Step 2a confirmed by Eric. Next: 2b, when Eric has edited POST.md and written the closing.
 - 2026-10-08 Eric's closing placed verbatim in POST.md. Look-over items sent as a numbered list, none applied.
+- 2026-10-08 Closing edits: Eric accepted all. 1 to 6 applied; 7 not needed because 1 replaced that phrase.
