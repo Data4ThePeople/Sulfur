@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: sulfur-shortage
-Step: 2e
+Step: 2f
 Since: 2026-10-08
 
 ## Steps
@@ -18,7 +18,7 @@ Since: 2026-10-08
 | 2b | Eric's edit, Claude's look-over | 2026-10-08 | Reviewer comments in. Third independent check: no wrong numbers; 19 edits and 10 trims accepted. Date still blank. |
 | 2c | Slice markup | 2026-10-08 | 86 blocks, no changes needed. All alt text under 500 characters. |
 | 2d | Hero 1680x1080 + alt text | 2026-10-08 | Commons photo, North Vancouver sulfur pile (KimonBerlin, 2008, CC BY-SA 2.0). Credit line at end of post. |
-| 2e | SEO | | |
+| 2e | SEO | 2026-10-08 | Meta title, description, 8 keywords. Article schema plus four FAQ entries. Two internal links. |
 | 2f | Pushed to Prismic (draft) | | |
 | 2g | Mailchimp teaser | | |
 
@@ -60,3 +60,5 @@ None.
 - 2026-10-08 Step 2e opened.
 - 2026-10-08 2e: Eric's target searches: sulfur shortage, sulfur prices, why is fertilizer so expensive. meta_title (56), description (159), 8 keywords written. Schema stays Article. FAQ section, tracker sentence and two internal links proposed, waiting on Eric.
 - 2026-10-08 2e: Eric accepted all four additions (Common questions section with four FAQ entries, free-tracker sentence, two internal links). Applied. Review page rebuilt.
+- 2026-10-08 Step 2e confirmed by Eric.
+- 2026-10-08 Step 2f opened.
