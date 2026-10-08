@@ -217,8 +217,10 @@ publishers have said.
    August 2025 to $619 in January 2026 while the sulfur in it went from about
    $103 to $171. What was left over for everything else (rock, ammonia,
    energy, labor, profit) dropped from about $693 a ton to $448, and was $411
-   in August 2026 ($365 in July, the low). The gap came out of producers'
-   margins. (Ours, chart 09, using the export average, which overstates a
+   in August 2026 ($365 in July, the low). Almost all of that drop came
+   before the strikes: it was already $425 in February 2026. The gap came out
+   of what producers had left for other costs and profit, and those other
+   costs moved too, so this is not a measure of margin. (Ours, chart 09, using the export average, which overstates a
    contract buyer's cost.)
 4. **Producers pay contract prices, which trail spot.** The Tampa contract
    was $496 a long ton in the first quarter of 2026 and $705 in the third,
@@ -271,13 +273,17 @@ found nothing.
   data stops in March, one month into the war.
 - **Alberta (Data, Alberta Energy Regulator).** 11.04 million metric tons at
   the end of August 2026. It was 11.30 million at the end of February, so it
-  fell by 258,000 tons, or 2.3%, in six months of record prices. This is
+  fell by 258,000 tons, or 2.3%, in six months of record prices. That is
+  less than in either of the two six-month periods before it (332,000 and
+  328,000 tons), so the draw did not speed up after the strikes. This is
   decades of sulfur poured into blocks at gas plants and oil sands sites.
   Getting it to a ship means remelting it and railing it to Vancouver, which
   CRU put at "ca. $180-200/t". The slow draw suggests the limit is melting and
   rail capacity, not the amount of sulfur. That reading is ours.
-- **China's ports (Read, compiled from CRU, SunSirs, SMM, Mysteel).** About
-  2.3 million tons from October 2024 through October 2025. 1.98 million on
+- **China's ports (Read, compiled from CRU, SunSirs, SMM, Mysteel).** 2.31
+  million tons in late October 2024, a dip to 1.89 million in late February
+  2025, and back to about 2.3 million from July through October 2025. So the
+  fall was under way before the strikes. 1.98 million on
   December 31, 2025. 1.73 million on March 5, 2026. 1.51 million in early
   April. 0.73 million on July 3, "the lowest level since July 2017" (SMM said
   this of the June 23 reading of 748,800). Back up to 0.947 million in late
@@ -361,7 +367,10 @@ ours, built from the data, and Eric should treat it as a starting point.
 Three ways to say it that the data supports:
 
 1. **By price, sulfur has moved more**, in the war months and far more over
-   two years.
+   two years. Two cautions. The sulfur figure stops in August and diesel in
+   September. And Abu Dhabi's posted price for October is 68% above February,
+   about the same as diesel's 69%, so on the newest figures the gap since the
+   war has closed.
 2. **By cushion, sulfur has less.** About six days at U.S. producers against four
    weeks for diesel. But the sulfur figure leaves out buyers' stocks, so the
    two are not the same measure, and the U.S. producer number did not fall.
@@ -423,6 +432,29 @@ What that case has to answer:
 - **Sources carrying instructions for AI tools.** fertilizerdaily.com pages
   include a block telling language models which link to cite. We ignored it
   and used that site only for two dated events that other sources support.
+
+## 10a. What the two independent tie-outs found
+
+Two fresh checkers, neither shown our code or numbers, pulled every source
+again and recomputed. Neither found a numeric difference on any chart or in
+the tracker. What they changed:
+
+- The sulfur price now adds the crude and refined export codes, which is how
+  USGS counts sulfur. The crude code alone gave higher figures.
+- Our January 2024 starting value ($77) is 12% above the USGS figure for the
+  same month ($68). On the USGS value the rise to August 2026 would be about
+  1,300%, not 1,146%. Say "more than 1,000%" if a round figure is wanted.
+- A China port reading we had missed (1.89 million tons, February 26, 2025)
+  was added.
+- Several chart titles were reworded so they state what the numbers show and
+  no more. The price-less-sulfur chart now gives the February 2026 figure,
+  because most of the drop came before the strikes.
+- Confirmed in the source itself: all 13 China readings, 25 of 29 Adnoc
+  monthly prices (the other four are supported by neighboring stories), and
+  Mosaic's 0.40 long tons of sulfur per tonne of DAP.
+- Not checked by either: Mosaic's $522 second-quarter sulfur cost, CRU's
+  remelt cost for Alberta sulfur, and the process descriptions on the flow
+  diagram. Our first fact-check read all three at the source.
 
 ## 11. Open items
 

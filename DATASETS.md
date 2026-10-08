@@ -82,6 +82,15 @@ annual revision. We refresh the whole series on every pull.
   changes. On both codes, March 2026 shows $351 per ton on 259,000 tons
   between $503 in February and $536 in April, and July 2026 ($1,041) is above
   August ($956).
+- **January 2024, the base for the long-run figures, is 12% above USGS** ($77
+  against $68). On the USGS value the rise to August 2026 would be about
+  1,300%, not 1,146%. The worst months against USGS are March 2025 (+48%),
+  June 2024 (+47%) and December 2025 (+41%); from August 2025 every month but
+  two is within 0.4%.
+- **Mix changes move the average as much as thin months do.** March 2026 was
+  97% crude at $343 and reads $351 between $503 and $536. The open-circle
+  rule does not catch this. Thin tonnage also does not reliably mean a bad
+  value: January 2025 is flagged but agrees with USGS within 2%.
 - **Thin months are noisy.** On the crude code alone December 2025 was 5,965
   tons and January 2025 17,402. On both codes they are 50,733 and 38,484,
   still the two thinnest months. They are marked on the line charts and the
@@ -465,7 +474,7 @@ the current year on every pull.
 news stories and magazine tables: `data/manual/adnoc_osp.csv` (Abu Dhabi
 National Oil Company's monthly official selling price for sulfur, dollars per
 metric ton, free on board Ruwais, June 2024 to October 2026) and
-`data/manual/china_port_stocks.csv` (sulfur held at Chinese ports, 12 dated
+`data/manual/china_port_stocks.csv` (sulfur held at Chinese ports, 13 dated
 readings from October 2024 to late August 2026).
 
 **Where it comes from.** Argus news stories, the price table and market notes
@@ -477,8 +486,9 @@ and Mysteel. Each row names its source; URLs and the quoted sentences are in
 **Version and vintage.** Compiled October 8, 2026. Not automated.
 
 **Coverage.** Adnoc: every month from June 2024, 29 months, no gaps. China:
-irregular. There is no reading between October 30, 2024 and July 2, 2025, and
-none after late August 2026. The chart draws straight lines between readings,
+irregular, 13 readings. Between October 30, 2024 and July 2, 2025 we have one
+reading (1.89 million on February 26, 2025, added after the second independent
+tie-out found it), and there is none after late August 2026. The chart draws straight lines between readings,
 which says nothing about what happened in between.
 
 **Changes over time.** China stocks come from three tallies (CRU's unnamed
@@ -549,4 +559,9 @@ its chart.
   contract paid while prices were rising: Mosaic reported an average sulfur
   cost of $522 a long ton for the second quarter of 2026.
 - **Alberta change.** August 2026 closing inventory minus February 2026
-  closing inventory.
+  closing inventory (258,000 tonnes). The two six-month periods before it fell
+  by more (332,000 and 328,000), so the draw did not speed up after the
+  strikes. Charts label January 2024 and August 2026.
+- **DAP price less sulfur.** World Bank DAP minus 0.4 times the sulfur price,
+  same month. It is what is left for every other cost and for profit, not a
+  margin. It runs to August 2026 because the sulfur series stops there.

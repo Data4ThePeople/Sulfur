@@ -1,9 +1,9 @@
 # Tie-out
 
-Run October 08, 2026 07:53. Every number below is recomputed from the raw files in `data/raw/` by
+Run October 08, 2026 08:05. Every number below is recomputed from the raw files in `data/raw/` by
 `scripts/tieout.py`, which shares no code with the pipeline, and compared with the number the chart or page used.
 
-**90 of 90 match.**
+**94 of 94 match.**
 
 
 ## Prices since January 2024
@@ -105,6 +105,9 @@ Run October 08, 2026 07:53. Every number below is recomputed from the raw files 
 | Lowest month 2026-07, $ per t | 364.9577 | 364.9577 | ok |
 | Latest month 2026-08, $ per t | 411.2979 | 411.2979 | ok |
 | January 2024, $ per t | 565.6325 | 565.6325 | ok |
+| February 2026, $ per t | 425.4549 | 425.4549 | ok |
+| Percent change 2025-08 to February 2026 | -38.5647 | -38.5647 | ok |
+| Percent change February 2026 to 2026-08 | -3.3275 | -3.3275 | ok |
 | Percent change 2025-08 to 2026-08 | -40.6090 | -40.6090 | ok |
 
 ## Posted prices
@@ -126,6 +129,7 @@ Run October 08, 2026 07:53. Every number below is recomputed from the raw files 
 | China ports, lowest reading, million t | 0.7279 | 0.7279 | ok |
 | China ports, latest reading, million t | 0.9470 | 0.9470 | ok |
 | China ports, percent change first to lowest | -68.4892 | -68.4892 | ok |
+| Alberta closing inventory January 2024, million t | 12.0888 | 12.0888 | ok |
 | Alberta closing inventory February 2026, million t | 11.3005 | 11.3005 | ok |
 | Alberta closing inventory 2026-08, million t | 11.0429 | 11.0429 | ok |
 | Alberta change February 2026 to 2026-08, t | -257,627.6000 | -257,627.6000 | ok |

@@ -80,7 +80,7 @@ for i, items in enumerate(STOCKS):
     for j, it in enumerate(items):
         yy = para(x + 18, yy, it, 25, 16, (SULFUR if known else INK_DIM) if j == 0 or known else MUTED, 1.38, 'bold' if known else 'normal') + 16
 text(X0, H - 58, 'Sources: U.S. Environmental Protection Agency (process steps), Chemical Engineering (acid storage), Mosaic annual report (sulfur per ton of DAP), U.S. Geological Survey,', 14, MUTED)
-text(X0, H - 36, 'Alberta Energy Regulator, and China port stocks as reported by CRU and SMM. The acid figure is the chemical maximum. Acid is also used to process copper and nickel.', 14, MUTED)
+text(X0, H - 36, 'Alberta Energy Regulator, and China port stocks as reported by CRU and SMM. Tons are metric tons. The acid figure is the chemical maximum. Acid is also used to process copper and nickel.', 14, MUTED)
 text(W - X0, H - 36, CREDIT, 14, MUTED, 'bold', 'end')
 o.append('</svg>')
 svg = ROOT / 'charts' / '01-flow.svg'

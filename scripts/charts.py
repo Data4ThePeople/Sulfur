@@ -123,8 +123,9 @@ def chart_since_war():
     ax.set_yticks([]); ax.spines['left'].set_visible(False); ax.axvline(0, color=MUTED, lw=0.8)
     ax.xaxis.set_major_formatter(lambda v, _: f'{v:+.0f}%' if v else '0%')
     ax.set_xlim(0, max(r[1] for r in rows) * 1.12)
-    titleblock(fig, 'Since the war began, sulfur has risen more than diesel',
-               f'Percent change in price from {mname(BASE_WAR)}, the last full month before the strikes,\nto the latest full month each source has published.')
+    by = {k: v for _, v, _, _, k in rows}
+    titleblock(fig, f'Since the war began: sulfur up {by["sulfur_export_uv"]:.0f}%, diesel up {by["diesel_retail"]:.0f}%, fertilizer up {by["wb_dap"]:.0f}%',
+               f'Percent change in price from {mname(BASE_WAR)}, the last full month before the strikes,\nto the latest full month each source has published. End months differ; sulfur stops in August.')
     credit(fig, 'Sources: U.S. Census Bureau (sulfur export value per ton), BLS (sulfuric acid and wholesale diesel indexes),\nWorld Bank (DAP, Brent), EIA (retail diesel).')
     fig.savefig(OUT / '04-prices-since-war.png'); plt.close(fig)
 
@@ -203,7 +204,7 @@ def chart_dap_cost():
     ax.text(x[3], 120, 'Cost of the sulfur\nneeded to make it', color=SULFUR, fontsize=11, fontweight='bold', linespacing=1.3)
     ax.annotate(f'${s[-1]:,.0f}', (x[-1], s[-1]), xytext=(8, 0), textcoords='offset points', color=SULFUR, fontsize=11, fontweight='bold', va='center', annotation_clip=False)
     ax.annotate(f'${d[-1]:,.0f}', (x[-1], d[-1]), xytext=(8, 0), textcoords='offset points', color=DAP, fontsize=11, fontweight='bold', va='center', annotation_clip=False)
-    titleblock(fig, 'The sulfur in a ton of fertilizer now costs about half the fertilizer’s price',
+    titleblock(fig, 'At export prices, the sulfur in a ton of fertilizer costs about half the fertilizer’s price',
                f'Sulfur needed for one metric ton of DAP cost about ${s[0]:,.0f} in {mname(months[0])}, {n["share_first_pct"]:.0f}% of the DAP price.\n'
                f'In {mname(months[-1])} it cost about ${s[-1]:,.0f}, {n["share_last_pct"]:.0f}% of the DAP price.')
     credit(fig, f'Our calculation: {S_PER_DAP} metric tons of sulfur per metric ton of DAP, times the average value of U.S. sulfur exports\n(Census Bureau). DAP price: World Bank, U.S. Gulf. Fertilizer makers on contracts pay less than this when prices are rising.')
@@ -230,10 +231,10 @@ def chart_posted():
     ax.text(dt.date(2024, 7, 1), 455, 'Average value of U.S. sulfur exports', color=ACID, fontsize=11, fontweight='bold')
     ax.annotate(f'${a[-1][1]:,.0f}\nOctober', (dt.date(2026, 11, 1), a[-1][1]), xytext=(8, 0), textcoords='offset points', color=SULFUR,
                 fontsize=11, fontweight='bold', va='center', annotation_clip=False, linespacing=1.3)
-    titleblock(fig, 'Posted sulfur prices have fallen for two months',
+    titleblock(fig, 'Abu Dhabi’s posted sulfur price has fallen for two months',
                f'Dollars per metric ton. Abu Dhabi’s state oil company posted ${n["adnoc_war_base"]:,.0f} for {mname(BASE_WAR)}, ${peak:,.0f} for {mname(peak_m[0])}\n'
                f'and {mname(peak_m[-1])}, and ${n["adnoc_last"]:,.0f} for {mname(a[-1][0])}. U.S. export data stops in {mname(e[-1][0])}.')
-    credit(fig, 'Posted price: Adnoc official selling price, free on board Ruwais, as reported by Argus, CRU and World Fertilizer (our compilation).\nU.S. exports: Census Bureau, crude and refined sulfur together. ' + THIN_NOTE + '')
+    credit(fig, 'Posted price: Adnoc official selling price for the Indian subcontinent, free on board Ruwais, as reported by Argus, CRU and World Fertilizer (our compilation).\nU.S. exports: Census Bureau, crude and refined sulfur together. ' + THIN_NOTE + '')
     fig.savefig(OUT / '07-posted-prices.png'); plt.close(fig)
 
 
@@ -246,6 +247,7 @@ def chart_stockpiles():
     NUM['stockpiles'] = {'china_first_date': cn[0][0], 'china_first': cn[0][1], 'china_low_date': lowd, 'china_low': low,
                          'china_last_date': cn[-1][0], 'china_last': cn[-1][1], 'china_pct_first_to_low': 100 * (low / cn[0][1] - 1),
                          'alberta_first_month': ab[0][0], 'alberta_first': ab[0][1], 'alberta_war_base': abd[BASE_WAR],
+                         'alberta_pct_first_to_last': 100 * (ab[-1][1] / ab[0][1] - 1),
                          'alberta_last_month': ab[-1][0], 'alberta_last': ab[-1][1],
                          'alberta_change_since_war_base_t': 1e6 * (ab[-1][1] - abd[BASE_WAR]),
                          'alberta_pct_since_war_base': 100 * (ab[-1][1] / abd[BASE_WAR] - 1),
@@ -255,7 +257,7 @@ def chart_stockpiles():
     panels = [('China’s ports', 'million metric tons', [(dt.date.fromisoformat(d), v) for d, v in cn], 3.0, True,
                f'{cn[0][1]:.1f} million in {mname(cn[0][0][:7])}\n{low:.2f} million on July 3, 2026\n{cn[-1][1]:.2f} million in late August'),
               ('Alberta’s stockpile', 'million metric tons', [(mid(m), v) for m, v in ab], 15.0, False,
-               f'{abd[BASE_WAR]:.1f} million in {mname(BASE_WAR)}\n{ab[-1][1]:.1f} million in {mname(ab[-1][0])}'),
+               f'{ab[0][1]:.1f} million in {mname(ab[0][0])}\n{ab[-1][1]:.1f} million in {mname(ab[-1][0])}'),
               ('U.S. producers', 'thousand metric tons', [(mid(m), v) for m, v in us], 160.0, False,
                f'{us[-1][1]:.0f} thousand in {mname(us[-1][0])},\nthe latest USGS has published')]
     for i, (name, unit, pts, top, dots, note) in enumerate(panels):
@@ -283,27 +285,30 @@ def chart_squeeze():
     hi = max(rest, key=rest.get); lo = min(rest, key=rest.get); last = months[-1]
     NUM['squeeze'] = {'high_month': hi, 'high': rest[hi], 'low_month': lo, 'low': rest[lo], 'last_month': last, 'last': rest[last],
                       'first_month': months[0], 'first': rest[months[0]], 'pct_high_to_last': 100 * (rest[last] / rest[hi] - 1),
+                      'war_base': rest[BASE_WAR], 'pct_high_to_war_base': 100 * (rest[BASE_WAR] / rest[hi] - 1),
+                      'pct_war_base_to_last': 100 * (rest[last] / rest[BASE_WAR] - 1),
                       'dap_high_month': M['wb_dap'][hi], 'sulfur_cost_high_month': S_PER_DAP * M['sulfur_export_uv'][hi]}
     fig, ax = frame(6.2, 0.77)
     ax.fill_between(x, 0, s, color=SULFUR, lw=0)
     ax.fill_between(x, s, d, color=DAP, lw=0, alpha=0.85)
     ax.plot(x, s, color=SURFACE, lw=2)            # surface gap between the two fills
-    war_line(ax)
+    war_line(ax, label=False)
+    ax.text(WAR, 20, ' Strikes begin', color=SURFACE, fontsize=9)
     ax.set_ylim(0, 950); ax.yaxis.set_major_formatter(lambda v, _: f'${v:,.0f}')
     ax.xaxis.set_major_locator(mdates.MonthLocator(bymonth=(1, 7))); ax.xaxis.set_major_formatter(mdates.DateFormatter('%b\n%Y'))
     ax.text(x[2], 330, 'Everything else: phosphate rock, ammonia,\nenergy, labor, shipping and profit', color=SURFACE, fontsize=11, fontweight='bold', linespacing=1.35)
-    ax.annotate('Sulfur', (x[-3], 70), color=SURFACE, fontsize=11, fontweight='bold', ha='center')
-    for m in dict.fromkeys((hi, last)):
+    ax.annotate('Sulfur', (x[-3], 120), color=SURFACE, fontsize=11, fontweight='bold', ha='center')
+    for m in dict.fromkeys((hi, BASE_WAR, last)):
         i = months.index(m)
-        ax.annotate(f'${rest[m]:,.0f} left\nafter sulfur', (x[i], d[i]), xytext=(0, 12), textcoords='offset points', color=INK, fontsize=10.5,
+        ax.annotate(f'${rest[m]:,.0f} left\nafter sulfur', (x[i], d[i]), xytext=(-34 if m == BASE_WAR else 0, 44 if m == BASE_WAR else 12), textcoords='offset points', color=INK, fontsize=10.5,
                     fontweight='bold', ha='center', va='bottom', linespacing=1.3, annotation_clip=False)
         ax.plot([x[i], x[i]], [s[i], d[i]], color=SURFACE, lw=1.2, ls=(0, (2, 2)))
     n = NUM['squeeze']
     titleblock(fig, 'Sulfur has taken a growing part of what fertilizer sells for',
-               f'The price of a metric ton of DAP, split into the sulfur needed to make it and everything else. After sulfur,\n'
-               f'about ${n["high"]:,.0f} was left in {mname(hi)} and about ${n["last"]:,.0f} in {mname(last)}, a drop of {abs(n["pct_high_to_last"]):.0f}%.')
+               f'The price of a metric ton of DAP, split into sulfur at export prices and everything else. After sulfur, about ${n["high"]:,.0f}\n'
+               f'was left in {mname(hi)}, the high. It was ${n["war_base"]:,.0f} in {mname(BASE_WAR)}, before the strikes, and ${n["last"]:,.0f} in {mname(last)}.')
     credit(fig, f'Our calculation: DAP price (World Bank, U.S. Gulf) minus {S_PER_DAP} metric tons of sulfur at the average value of U.S. sulfur exports (Census Bureau).\n'
-                'Fertilizer makers on quarterly contracts paid less for sulfur than this while prices were rising, so the real squeeze is very likely smaller.')
+                'Makers on quarterly contracts paid less for sulfur than this while prices rose, so more was very likely left. The other costs also changed.')
     fig.savefig(OUT / '09-margin-squeeze.png'); plt.close(fig)
 
 

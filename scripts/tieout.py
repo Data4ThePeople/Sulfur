@@ -134,6 +134,9 @@ check('DAP price less sulfur', f'Highest month {hi}, $ per t', rest[hi], n['high
 check('DAP price less sulfur', f'Lowest month {lo}, $ per t', rest[lo], n['low'])
 check('DAP price less sulfur', f'Latest month {dm}, $ per t', rest[dm], n['last'])
 check('DAP price less sulfur', 'January 2024, $ per t', rest['2024-01'], n['first'])
+check('DAP price less sulfur', 'February 2026, $ per t', rest['2026-02'], n['war_base'])
+check('DAP price less sulfur', f'Percent change {hi} to February 2026', 100 * (rest['2026-02'] / rest[hi] - 1), n['pct_high_to_war_base'])
+check('DAP price less sulfur', f'Percent change February 2026 to {dm}', 100 * (rest[dm] / rest['2026-02'] - 1), n['pct_war_base_to_last'])
 check('DAP price less sulfur', f'Percent change {hi} to {dm}', 100 * (rest[dm] / rest[hi] - 1), n['pct_high_to_last'])
 
 # posted prices (hand-compiled table; the independent tie-out re-opens the sources)
@@ -162,6 +165,7 @@ for f in sorted((RAW / 'aer').glob('st3_sulphur_*.xlsx')):
                     ab[f'{f.stem[-4:]}-{i + 1:02d}'] = float(v)
 am = max(ab)
 assert am == n['alberta_last_month']
+check('Stockpiles', 'Alberta closing inventory January 2024, million t', ab['2024-01'] / 1e6, n['alberta_first'])
 check('Stockpiles', 'Alberta closing inventory February 2026, million t', ab['2026-02'] / 1e6, n['alberta_war_base'])
 check('Stockpiles', f'Alberta closing inventory {am}, million t', ab[am] / 1e6, n['alberta_last'])
 check('Stockpiles', f'Alberta change February 2026 to {am}, t', ab[am] - ab['2026-02'], n['alberta_change_since_war_base_t'])
