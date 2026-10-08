@@ -48,3 +48,4 @@ None.
 - 2026-10-08 2b: interactive tracker added to the post at Eric's request (iframe to https://data4thepeople.github.io/Sulfur/#embed=1, 780px), placed at the end of the price section. build.py now copies the tracker to docs/index.html for Pages.
 - 2026-10-08 2b: sentence on the USGS publication delay added to the storage section and the limits list, at Eric's request. Review page rebuilt.
 - 2026-10-08 2b: reviewer comments in. Reviewer's name removed from the post at Eric's request ("my boss"). Three paragraphs added to Claude's sections: other uses of sulfuric acid (metals), the Frasch mining history, and China's halt on sulfuric acid exports. No Chinese limit on sulfur exports was found. Review page rebuilt. Wording waiting on Eric's read.
+- 2026-10-08 2b: Eric accepted edit 1 to the dibenzothiophene paragraph (reviewer's "bigger hammer" correction). Review page rebuilt.

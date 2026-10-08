@@ -27,7 +27,7 @@ This is when I met my arch-nemesis: dibenzothiophene.
 ![Skeletal drawing of the dibenzothiophene molecule. Two six-sided rings of carbon atoms sit on either side of a five-sided ring. The bottom corner of the five-sided ring is a sulfur atom, marked with a yellow letter S. A label reads: the sulfur atom is locked into a ring between two rings of carbon.](images/01-dibenzothiophene.png)
 *Dibenzothiophene. The sulfur atom, marked S, is part of a ring fused between two rings of carbon.*
 
-You see, what I learned very quickly is this one class of hydrocarbons locked the sulfur up so tightly that no matter what the refinery did throughout processing, we could barely crack the sulfur out. And so, we had to measure the concentration of dibenzothiophenes in the crude oil we purchased to ensure that it was low enough for the diesel to meet spec after it worked its way through the refinery. I spent the better part of two years learning about and modeling dibenzothiophenes. Those were the days.
+You see, what I learned very quickly is this one class of hydrocarbons locked the sulfur up so tightly that the equipment refineries had at the time could barely crack it out. Refiners had to build a “bigger hammer” to do it. Until then, we had to measure the concentration of dibenzothiophenes in the crude oil we purchased to ensure that it was low enough for the diesel to meet spec after it worked its way through the refinery. I spent the better part of two years learning about and modeling dibenzothiophenes. Those were the days.
 
 Here’s some more context you need for this story. After running our group, my boss at the time went on to a 36-year career with ExxonMobil, through roles that took him all over the company and to the bleeding edge of energy innovation.
 
