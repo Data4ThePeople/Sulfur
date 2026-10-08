@@ -729,7 +729,7 @@
           },
           {
             "type": "paragraph",
-            "text": "The two figures do not measure quite the same thing. The sulfur number counts only what producers hold. We found no public count of the sulfur sitting at fertilizer plants, no figure for sulfuric acid in storage anywhere, and no figure for fertilizer stocks.",
+            "text": "The two figures do not measure quite the same thing. The sulfur number counts only what producers hold, not what is sitting at the fertilizer plants that buy it.",
             "spans": [],
             "direction": "ltr"
           },
@@ -802,6 +802,12 @@
           {
             "type": "paragraph",
             "text": "The U.S. producer stock, the third panel, is the same 122,000 tons shown in days in the chart above. It moved little through March 2026.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "That is all we could find. We found no public count of the sulfur held at fertilizer plants, no figure for sulfuric acid in storage, and no figure for fertilizer stocks.",
             "spans": [],
             "direction": "ltr"
           }
@@ -900,7 +906,19 @@
           },
           {
             "type": "paragraph",
-            "text": "[Eric: your closing goes here.]",
+            "text": "I now understand why my former boss urged I face my fears, and research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Here we are, with prices finally declining, not because the situation has resolved itself \u2013 there is no putting the toothpaste back in the tube on this one \u2013 but rather because companies like Mosaic are just throwing up their hands saying we\u2019re not going to produce as much fertilizer at this price. If you are looking at the chart hoping for the pressure to ease, this may seem like a good development. If you are a person that eats food, not so much. But unlike refineries, which blow up quickly when something goes wrong (as did one in Venezuela this week), global supply chains take a very long time to turn into pain and suffering. The decline of fertilizer today is lower yields tomorrow. And lower yields mean less food and higher prices for that food.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "I\u2019ve been told recently that I am a harbinger of bad news. I disagree. I just consult the data, and my experience when I can, to understand how the world works. Not the fairy tale world that we want to believe. The real world driven by physics, chemistry, inordinately complex global supply chains, and people running it who apparently understand none of these things. I try to look these things straight in the eye, not to predict where they will go, but to help illustrate the risk of messing with complexity, and provide hope that if we all put in the work to understand this stuff, maybe we won\u2019t be so complacent next time?",
             "spans": [],
             "direction": "ltr"
           }

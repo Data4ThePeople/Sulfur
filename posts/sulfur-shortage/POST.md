@@ -143,7 +143,11 @@ Adnoc posted $530 a ton for February, $1,000 for July and August, $960 for Septe
 
 CRU wrote in September that buyers were cutting back and putting off purchases, not paying the going price. That lines up with the idled fertilizer plants. In our view, it suggests prices are easing partly because less fertilizer is being made, which is more of a relief for the sulfur market than for the people who buy fertilizer.
 
-[Eric: your closing goes here.]
+I now understand why my former boss urged I face my fears, and research sulfur. It feels to me that it could be the canary in the coal mine for the risks that could come to pass in more widely followed markets, like diesel.
+
+Here we are, with prices finally declining, not because the situation has resolved itself – there is no putting the toothpaste back in the tube on this one – but rather because companies like Mosaic are just throwing up their hands saying we’re not going to produce as much fertilizer at this price. If you are looking at the chart hoping for the pressure to ease, this may seem like a good development. If you are a person that eats food, not so much. But unlike refineries, which blow up quickly when something goes wrong (as did one in Venezuela this week), global supply chains take a very long time to turn into pain and suffering. The decline of fertilizer today is lower yields tomorrow. And lower yields mean less food and higher prices for that food.
+
+I’ve been told recently that I am a harbinger of bad news. I disagree. I just consult the data, and my experience when I can, to understand how the world works. Not the fairy tale world that we want to believe. The real world driven by physics, chemistry, inordinately complex global supply chains, and people running it who apparently understand none of these things. I try to look these things straight in the eye, not to predict where they will go, but to help illustrate the risk of messing with complexity, and provide hope that if we all put in the work to understand this stuff, maybe we won’t be so complacent next time?
 
 ::: divider
 
