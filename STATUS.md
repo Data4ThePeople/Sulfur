@@ -42,3 +42,4 @@ None.
 - 2026-10-08 Step 2b opened at Eric's request.
 - 2026-10-08 2b: title set by Eric: "Why you should care about sulfur". Seven look-over items still waiting on his answer.
 - 2026-10-08 2b: Eric removed his Canada commentary (resolves look-over item 1). Items 2 to 7 still waiting.
+- 2026-10-08 2b: Eric accepted look-over items 2 to 7 (applied) and the proposed subtitle. Date still blank.
