@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: sulfur-shortage
-Step: 2d
+Step: 2e
 Since: 2026-10-08
 
 ## Steps
@@ -17,7 +17,7 @@ Since: 2026-10-08
 | 2a | Draft with brackets resolved | 2026-10-08 | All six proposed edits accepted. Closing still to come from Eric. |
 | 2b | Eric's edit, Claude's look-over | 2026-10-08 | Reviewer comments in. Third independent check: no wrong numbers; 19 edits and 10 trims accepted. Date still blank. |
 | 2c | Slice markup | 2026-10-08 | 86 blocks, no changes needed. All alt text under 500 characters. |
-| 2d | Hero 1680x1080 + alt text | | |
+| 2d | Hero 1680x1080 + alt text | 2026-10-08 | Commons photo, North Vancouver sulfur pile (KimonBerlin, 2008, CC BY-SA 2.0). Credit line at end of post. |
 | 2e | SEO | | |
 | 2f | Pushed to Prismic (draft) | | |
 | 2g | Mailchimp teaser | | |
@@ -56,3 +56,5 @@ None.
 - 2026-10-08 Step 2c confirmed by Eric.
 - 2026-10-08 Step 2d opened.
 - 2026-10-08 2d: Eric asked for a real photo. Hero built from a Wikimedia Commons photo of the sulfur pile at North Vancouver (KimonBerlin, 2008, CC BY-SA 2.0), center crop to 1680x1080. Source kept as sulfur-shortage-hero-source.jpg. hero_alt set. Credit line added at the end of the post because the license requires attribution. Waiting on Eric.
+- 2026-10-08 Step 2d confirmed by Eric (Vancouver photo kept over the Syncrude aerial).
+- 2026-10-08 Step 2e opened.
