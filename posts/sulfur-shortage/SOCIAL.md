@@ -69,7 +69,12 @@ Fertilizer has not kept up. DAP, one of the two main phosphate fertilizers, is u
 
 Now sulfur prices are easing. But the sulfur saga seems far from over. In fact, it could be a canary in the coal mine for the risks that are building in the broader global energy markets.
 
-The full report, with seven charts and a free price tracker: https://www.data4thepeople.com/p/sulfur-shortage
+The full report, with seven charts and a free price tracker, is linked in the first comment.
+```
+
+First comment (the link goes here, not in the post):
+```
+The full report: https://www.data4thepeople.com/p/sulfur-shortage
 ```
 
 ## Alt text
