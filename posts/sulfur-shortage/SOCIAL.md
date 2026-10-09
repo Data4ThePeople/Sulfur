@@ -54,7 +54,7 @@ https://www.data4thepeople.com/p/sulfur-shortage
 
 ## LinkedIn
 
-Media: the hero and `images/04-prices-since-2024.png`.
+Media: `social/04-prices-since-2024.gif`, the price chart drawing itself in over 10 seconds, then holding for 4 (1200x731, 0.6 MB, loops). Rebuild with `python scripts/animate.py`. Use the price chart's alt text below. Still-image fallback: the hero and `images/04-prices-since-2024.png`. LinkedIn takes one kind of media per post.
 
 ```
 Twenty-five years ago, I stepped into my first job out of undergrad, building refinery optimization models for ExxonMobil. Very early on I learned about sulfur, and how important it is to remove it during the refining process.

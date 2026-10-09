@@ -75,3 +75,4 @@ None.
 - 2026-10-09 Social posts drafted in posts/sulfur-shortage/SOCIAL.md (X single, X thread of four, LinkedIn, alt text). Waiting on Eric's read.
 - 2026-10-09 Review page taken down at Eric's request (docs/review removed). The tracker at docs/index.html stays.
 - 2026-10-09 Repo history rewritten at Eric's request to remove the reviewer's name from every commit (54 commits, all four affected files). Force-pushed to main. Old commits may stay reachable on GitHub by their hash until GitHub clears them; only GitHub Support can force that. Local backup of the old history: ~/PycharmProjects/Sulfur-before-rewrite.bundle (contains the name; not public).
+- 2026-10-09 Animated GIF of the price chart built for LinkedIn (scripts/animate.py, posts/sulfur-shortage/social/). LinkedIn link moved to a first-comment block at Eric's request.
