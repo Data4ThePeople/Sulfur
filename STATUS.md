@@ -73,3 +73,4 @@ None.
 - 2026-10-08 2g: Eric replaced the closing hook of the teaser with his own two sentences (applied verbatim).
 - 2026-10-09 Step 2g confirmed by Eric. Post sulfur-shortage is complete: every step from 1 through 2g is confirmed. The Prismic draft is in the Migration Release; Eric publishes it himself.
 - 2026-10-09 Social posts drafted in posts/sulfur-shortage/SOCIAL.md (X single, X thread of four, LinkedIn, alt text). Waiting on Eric's read.
+- 2026-10-09 Review page taken down at Eric's request (docs/review removed). The tracker at docs/index.html stays.
