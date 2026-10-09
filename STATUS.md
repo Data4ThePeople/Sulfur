@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: sulfur-shortage
-Step: 2g
+Step: complete
 Since: 2026-10-08
 
 ## Steps
@@ -20,7 +20,7 @@ Since: 2026-10-08
 | 2d | Hero 1680x1080 + alt text | 2026-10-08 | Commons photo, North Vancouver sulfur pile (KimonBerlin, 2008, CC BY-SA 2.0). Credit line at end of post. |
 | 2e | SEO | 2026-10-08 | Meta title, description, 8 keywords. Article schema plus four FAQ entries. Two internal links. |
 | 2f | Pushed to Prismic (draft) | 2026-10-08 | Document asgIJhIAACoAR9ni, Migration Release, tags and author empty. Eric is editing in Prismic; do not push without asking. |
-| 2g | Mailchimp teaser | | |
+| 2g | Mailchimp teaser | 2026-10-09 | EMAIL.md approved with Eric's closing hook. Hero email JPG 297 KB. |
 
 ## Stale
 
@@ -71,3 +71,4 @@ None.
 - 2026-10-08 Step 2g opened.
 - 2026-10-08 2g: EMAIL.md drafted from the post text only; hero email JPG exported under 300KB. Waiting on Eric: approve or reject.
 - 2026-10-08 2g: Eric replaced the closing hook of the teaser with his own two sentences (applied verbatim).
+- 2026-10-09 Step 2g confirmed by Eric. Post sulfur-shortage is complete: every step from 1 through 2g is confirmed. The Prismic draft is in the Migration Release; Eric publishes it himself.
